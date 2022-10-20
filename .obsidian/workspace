@@ -1,0 +1,136 @@
+{
+  "main": {
+    "id": "edac140770e77cff",
+    "type": "split",
+    "children": [
+      {
+        "id": "f6bdb474fd9e8b3d",
+        "type": "leaf",
+        "state": {
+          "type": "graph",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4816b2254f142941",
+    "type": "split",
+    "children": [
+      {
+        "id": "401467a5c8eaa5d5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bd8c2fc44659f929",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "f95a7e683d3f4253",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f7f0873579fa3b21",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 213.51218795776367
+  },
+  "right": {
+    "id": "1f8adcce93b82cf9",
+    "type": "split",
+    "children": [
+      {
+        "id": "eba2acc9fa0367f6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aebc49c8faafccab",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6c7eb1ef2d6956b5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cff9009b8b24a60e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "71c569f27ea9791e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "f6bdb474fd9e8b3d",
+  "lastOpenFiles": [
+    "Linux/Create cert.pem-key.pem.md",
+    "Linux/Linux.md",
+    "Linux/Bash at start up.md",
+    "Linux/Df-h-command.md",
+    "Linux/Grep-command.md",
+    "Ansible-books/Mysql-db-ansible-playbook.md",
+    "Ansible-books/Ansible-books.md",
+    "Terraform/Terraform.md",
+    "Ansible-books/Shadowsocks-rust-docker-version-ansible-playbook.md",
+    "Terraform/Terraform-mongo-db.md"
+  ]
+}

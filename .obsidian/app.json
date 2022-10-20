@@ -1,0 +1,16 @@
+{
+  "readableLineLength": false,
+  "rightToLeft": false,
+  "lineWrap": true,
+  "showIndentGuide": true,
+  "foldIndent": true,
+  "foldHeading": true,
+  "showFrontmatter": false,
+  "strictLineBreaks": true,
+  "fileSortOrder": "byCreatedTimeReverse",
+  "showLineNumber": false,
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "legacyEditor": false,
+  "livePreview": true
+}

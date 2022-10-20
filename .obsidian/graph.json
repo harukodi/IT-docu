@@ -1,0 +1,51 @@
+{
+  "collapse-filter": true,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "path:Docker-installations",
+      "color": {
+        "a": 1,
+        "rgb": 6591981
+      }
+    },
+    {
+      "query": "path:Terraform",
+      "color": {
+        "a": 1,
+        "rgb": 4718674
+      }
+    },
+    {
+      "query": "path:Ansible-books",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
+    },
+    {
+      "query": "path:Linux",
+      "color": {
+        "a": 1,
+        "rgb": 16753973
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": -3,
+  "nodeSizeMultiplier": 1.1109526235354,
+  "lineSizeMultiplier": 2.46719824433065,
+  "collapse-forces": false,
+  "centerStrength": 0.571118644067797,
+  "repelStrength": 20,
+  "linkStrength": 0.896542372881356,
+  "linkDistance": 209,
+  "scale": 0.450508117675789,
+  "close": true
+}
