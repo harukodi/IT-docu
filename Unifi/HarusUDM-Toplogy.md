@@ -1,0 +1,12 @@
+| UDM-Ports      | Assignments                                  | Network/VLAN                                           |
+| -------------- | -------------------------------------------- | ------------------------------------------------------ |
+| Port-1         | STATE=OFF                                    | None                                                   |
+| Port-2         | AP-dot                                       | GUEST/Native-LAN-Wireless                              |
+| Port-3         | STATE=OFF                                    | None                                                   |
+| Port-4         | TV-box                                       | IoT                                                    |
+| Port-5         | HarusNas                                     | Native                                                 |
+| port-6         | HarukoPC                                     | Native                                                 |
+| Port-7         | STATE=OFF                                    | None                                                   |
+| Port-8         | Server-emby                                  | Native                                                 |
+| Port-9         | WAN                                          | Internet                                               |
+| -------------- | -------------------------------------------- | ------------------------------------------------------ |

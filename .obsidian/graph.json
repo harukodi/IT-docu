@@ -1,11 +1,11 @@
 {
-  "collapse-filter": true,
+  "collapse-filter": false,
   "search": "",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
-  "showOrphans": true,
-  "collapse-color-groups": true,
+  "showOrphans": false,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "path:Docker-installations",
@@ -34,6 +34,13 @@
         "a": 1,
         "rgb": 16753973
       }
+    },
+    {
+      "query": "path:Unifi",
+      "color": {
+        "a": 1,
+        "rgb": 16777215
+      }
     }
   ],
   "collapse-display": false,
@@ -46,6 +53,6 @@
   "repelStrength": 20,
   "linkStrength": 0.896542372881356,
   "linkDistance": 209,
-  "scale": 0.450508117675789,
+  "scale": 0.3213363860503642,
   "close": true
 }
