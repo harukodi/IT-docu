@@ -4,67 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "3339188e20709b6a",
+        "id": "48daceffa7e1cae6",
         "type": "tabs",
         "children": [
           {
-            "id": "3cc7741b95ce39d1",
+            "id": "957262a3c1f03389",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Add cifs mount.md",
+                "file": "Linux/Enable unattended-upgrades.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "079fe2306dedbb6a",
+            "id": "c3ca87696f9b1337",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes/Kubernetes.md",
+                "file": "Terraform/Terraform.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "ad0305ebd86c877a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kubernetes/Deployment.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4f0d0ba2885c09d8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kubernetes/Kubernetes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5f503afeeed5fa15",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -130,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Terraform/Terraform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Terraform/Terraform.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,6 +131,16 @@
                 "useHierarchy": true
               }
             }
+          },
+          {
+            "id": "dd5abeb4dea98ba9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Terraform/Terraform.md"
+              }
+            }
           }
         ],
         "currentTab": 2
@@ -170,17 +150,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "5f503afeeed5fa15",
+  "active": "c3ca87696f9b1337",
   "lastOpenFiles": [
+    "Terraform/Terraform-DigitalOcean-kubernetes-engine.md",
+    "Linux/Enable unattended-upgrades.md",
+    "Linux/Add cifs mount.md",
     "Kubernetes/Kubernetes.md",
     "Kubernetes/Deployment.md",
     "Kubernetes/Kubectl useful commands.md",
-    "Docker-installations/Nginx-proxy-manager-installation.md",
     "Kubernetes/Service types.md",
+    "Docker-installations/Nginx-proxy-manager-installation.md",
     "Unifi/HarusUDM-Toplogy.md",
-    "Docker-installations/Docker-installations.md",
-    "Linux/Add cifs mount.md",
-    "Unifi/Unifi.md",
-    "Linux/Bash at start up.md"
+    "Docker-installations/Docker-installations.md"
   ]
 }
