@@ -11,11 +11,52 @@
             "id": "3cc7741b95ce39d1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Add cifs mount.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "079fe2306dedbb6a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kubernetes/Kubernetes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ad0305ebd86c877a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kubernetes/Deployment.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4f0d0ba2885c09d8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kubernetes/Service types.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -81,6 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Kubernetes/Service types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Kubernetes/Service types.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -112,36 +155,26 @@
                 "useHierarchy": true
               }
             }
-          },
-          {
-            "id": "71c569f27ea9791e",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {}
-            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "bd8c2fc44659f929",
+  "active": "4f0d0ba2885c09d8",
   "lastOpenFiles": [
-    "Unifi/Unifi.md",
-    "Terraform/Terraform.md",
-    "Terraform/Terraform-kubernetes-master-init.md",
     "Unifi/HarusUDM-Toplogy.md",
-    "Pasted image 20221022020838.png",
-    "Linux/Grep-command.md",
-    "Linux/Linux.md",
+    "Kubernetes/Kubernetes.md",
+    "Kubernetes/Service types.md",
+    "Kubernetes/Deployment.md",
+    "Docker-installations/Docker-installations.md",
     "Linux/Add cifs mount.md",
+    "Unifi/Unifi.md",
     "Linux/Bash at start up.md",
-    "Linux/Enable unattended-upgrades.md"
+    "Linux/Create cert.pem-key.pem.md",
+    "Docker-installations/Dockerbuild-nginx-example.md"
   ]
 }
