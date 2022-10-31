@@ -1,7 +1,7 @@
 # Installation of nginx-proxy-manager
 
 
-## Make a directory for the nginx-proxy-manager container
+## Make a directory for the nginx-proxy-manager installation
 ```bash
 mkdir nginx-proxy-manager
 ```

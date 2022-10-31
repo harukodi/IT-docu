@@ -1,7 +1,7 @@
 # Installation of nextcloud
 
 
-## Create the folder for the nextcloud instance
+## Create the folders for the nextcloud installation
 ```bash
 mkdir -p nextcloud/{appdata,data}
 ```
