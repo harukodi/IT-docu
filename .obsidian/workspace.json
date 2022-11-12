@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Enable unattended-upgrades.md",
+                "file": "Docker-installations/Rancher-installation.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2def93b56df090de",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Linux.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,14 +49,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker-installations/Rancher-installation.md",
+                "file": "Linux/Create cert.pem-key.pem.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "9b07adcbf36b791d",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker-installations/Rancher-installation.md",
+                "file": "Linux/Linux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker-installations/Rancher-installation.md",
+                "file": "Linux/Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker-installations/Rancher-installation.md"
+                "file": "Linux/Linux.md"
               }
             }
           }
@@ -162,17 +182,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "71966d44f6481c87",
+  "active": "2def93b56df090de",
   "lastOpenFiles": [
-    "Docker-installations/Docker-installations.md",
+    "Linux/Ubuntu server with only 100gb fix.md",
+    "Linux/Df-h-command.md",
+    "Linux/Grep-command.md",
+    "Linux/Linux.md",
+    "Untitled.md",
     "Docker-installations/Rancher-installation.md",
-    "Docker-installations/Dockerbuild-nginx-example.md",
-    "Docker-installations/Nextcloud-installation.md",
     "Docker-installations/Nginx-proxy-manager-installation.md",
-    "Kubernetes/Kubectl useful commands.md",
-    "Kubernetes/Deployment.md",
-    "Terraform/Terraform-DigitalOcean-kubernetes-engine.md",
-    "Terraform/Terraform.md",
-    "Linux/Enable unattended-upgrades.md"
+    "Docker-installations/Nextcloud-installation.md",
+    "Ansible-books/ad-guard-docker-version-ansible-playbook.md",
+    "Linux/Bash at start up.md"
   ]
 }

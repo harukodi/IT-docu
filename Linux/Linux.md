@@ -5,3 +5,4 @@
 [[Create cert.pem-key.pem]]
 [[Enable unattended-upgrades]]
 [[Add cifs mount]]
+[[Ubuntu server with only 100gb fix]]
