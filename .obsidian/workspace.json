@@ -35,9 +35,11 @@
             "id": "82ff7d3d05accc61",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Pasted image 20221205024732.png"
+                "file": "Terraform/Terraform-gcp-k3s-cluster-with-tailscale.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -140,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pasted image 20221205024732.png",
+                "file": "Terraform/Terraform-gcp-k3s-cluster-with-tailscale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pasted image 20221205024732.png",
+                "file": "Terraform/Terraform-gcp-k3s-cluster-with-tailscale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pasted image 20221205024732.png"
+                "file": "Terraform/Terraform-gcp-k3s-cluster-with-tailscale.md"
               }
             }
           }
@@ -194,6 +196,7 @@
   },
   "active": "82ff7d3d05accc61",
   "lastOpenFiles": [
+    "Pasted image 20221205024732.png",
     "Terraform/Terraform-gcp-k3s-cluster-with-tailscale.md",
     "Terraform/Terraform.md",
     "Linux/Create cert.pem-key.pem.md",
@@ -202,7 +205,6 @@
     "Terraform/Terraform-tailscale.md",
     "Terraform/Terraform-DigitalOcean-kubernetes-engine.md",
     "Docker-installations/Rancher-installation.md",
-    "Docker-installations/Nginx-proxy-manager-installation.md",
-    "Docker-installations/Dockerbuild-nginx-example.md"
+    "Docker-installations/Nginx-proxy-manager-installation.md"
   ]
 }
