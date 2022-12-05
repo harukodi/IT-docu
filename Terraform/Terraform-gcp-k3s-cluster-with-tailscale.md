@@ -172,4 +172,4 @@ ssh-pub-key = "gcp-ssh-key.pub" # Do not change this variable
 
 ## File structure should be as stated below in your project/folder
 
-![[Pasted image 20221205024732.png]]
+![[![image](https://user-images.githubusercontent.com/48220443/205532367-3821498c-86fe-43d9-b3eb-dfaf27adfb23.png)]]
