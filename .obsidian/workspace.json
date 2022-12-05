@@ -25,9 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Linux.md",
+                "file": "Terraform/Terraform-DigitalOcean-kubernetes-engine.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "82ff7d3d05accc61",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Pasted image 20221205024732.png"
               }
             }
           },
@@ -64,7 +74,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -130,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Linux.md",
+                "file": "Pasted image 20221205024732.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Linux.md",
+                "file": "Pasted image 20221205024732.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Linux.md"
+                "file": "Pasted image 20221205024732.png"
               }
             }
           }
@@ -182,17 +192,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "2def93b56df090de",
+  "active": "82ff7d3d05accc61",
   "lastOpenFiles": [
-    "Linux/Ubuntu server with only 100gb fix.md",
-    "Linux/Df-h-command.md",
-    "Linux/Grep-command.md",
-    "Linux/Linux.md",
-    "Untitled.md",
+    "Terraform/Terraform-gcp-k3s-cluster-with-tailscale.md",
+    "Terraform/Terraform.md",
+    "Linux/Create cert.pem-key.pem.md",
+    "Terraform/Terraform-kubernetes-master-init.md",
+    "Terraform/Terraform-mongo-db.md",
+    "Terraform/Terraform-tailscale.md",
+    "Terraform/Terraform-DigitalOcean-kubernetes-engine.md",
     "Docker-installations/Rancher-installation.md",
     "Docker-installations/Nginx-proxy-manager-installation.md",
-    "Docker-installations/Nextcloud-installation.md",
-    "Ansible-books/ad-guard-docker-version-ansible-playbook.md",
-    "Linux/Bash at start up.md"
+    "Docker-installations/Dockerbuild-nginx-example.md"
   ]
 }

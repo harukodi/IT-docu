@@ -1,6 +1,4 @@
 ## main.tf
-
-
 ```HCL
 terraform {
   required_providers {

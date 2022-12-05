@@ -4,3 +4,4 @@
 [[Terraform-mongo-db]]
 [[Terraform-tailscale]]
 [[Terraform-DigitalOcean-kubernetes-engine]]
+[[Terraform-gcp-k3s-cluster-with-tailscale]]
