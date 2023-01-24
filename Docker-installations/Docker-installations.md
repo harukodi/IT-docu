@@ -5,3 +5,4 @@
 [[Nginx-proxy-manager-installation]]
 [[Dockerbuild-nginx-example]]
 [[Rancher-installation]]
+[[Caddy-server installation]]
