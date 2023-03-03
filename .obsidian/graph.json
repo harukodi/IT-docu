@@ -48,6 +48,13 @@
         "a": 1,
         "rgb": 2183861
       }
+    },
+    {
+      "query": "path:Övrigt",
+      "color": {
+        "a": 1,
+        "rgb": 2442607
+      }
     }
   ],
   "collapse-display": false,
@@ -60,6 +67,6 @@
   "repelStrength": 20,
   "linkStrength": 0.896542372881356,
   "linkDistance": 30,
-  "scale": 0.3518288830177596,
+  "scale": 0.35182888301775983,
   "close": true
 }
