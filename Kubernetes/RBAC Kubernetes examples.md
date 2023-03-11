@@ -30,7 +30,7 @@ roleRef:
 &nbsp;
 
 ## RBAC Role example file
->**NOTE** This example file gives access to all resources in the k8s cluster **BE CAUTIOUS**
+>**NOTE** This example file gives access to all resources in a specific namespace on the k8s cluster **BE CAUTIOUS**
 ```yaml
 apiVersion: rbac.authorization.k8s.io/v1
 kind: Role
