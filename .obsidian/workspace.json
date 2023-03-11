@@ -31,12 +31,38 @@
             "id": "f36185179cf6d319",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Kubernetes/Kubectl useful commands.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5ca81ca4907a606b",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.16"
+              }
+            }
+          },
+          {
+            "id": "b0f4523ec337f32f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kubernetes/RBAC Kubernetes examples.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -86,7 +112,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 213.51218795776367
+    "width": 240.5
   },
   "right": {
     "id": "1f8adcce93b82cf9",
@@ -102,6 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Kubernetes/RBAC Kubernetes examples.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,6 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Kubernetes/RBAC Kubernetes examples.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +167,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Kubernetes/RBAC Kubernetes examples.md"
+              }
             }
           }
         ],
@@ -161,17 +191,31 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f36185179cf6d319",
+  "active": "b0f4523ec337f32f",
   "lastOpenFiles": [
-    "Övrigt/Övrigt.md",
-    "Övrigt/Create a python venv on windows.md",
-    "Linux/Linux.md",
-    "Untitled.md",
+    "Kubernetes/Kubernetes.md",
+    "Kubernetes/RBAC Kubernetes examples.md",
+    "Kubernetes/Install nginx-ingress-controller on Kubernetes with helm chart.md",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "Kubernetes/Kubectl useful commands.md",
+    "Kubernetes/Deployment.md",
+    "Ansible-books/Unifi-APs-update-ansible-playbook.md",
+    "Linux/Bash at start up.md",
+    "Linux/Add cifs mount.md",
+    "Kubernetes/Service types.md",
+    "Docker-installations/Caddy-server installation.md",
+    "Docker-installations/Rancher-installation.md",
     "Docker-installations/Nginx-proxy-manager-installation.md",
-    "Docker-installations/Docker-installations.md",
     "Docker-installations/Nextcloud-installation.md",
     "Docker-installations/Dockerbuild-nginx-example.md",
-    "Linux/Bash at start up.md",
-    "Linux/Grep-command.md"
+    "Docker-installations/Docker-installations.md",
+    "Ansible-books/Ansible-books.md",
+    "Ansible-books/Mysql-db-ansible-playbook.md",
+    "Ansible-books/ad-guard-docker-version-ansible-playbook.md",
+    "Övrigt/Create a python venv on windows.md",
+    "Övrigt/Övrigt.md",
+    "Linux/Linux.md",
+    "Untitled.md"
   ]
 }
