@@ -8,23 +8,27 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2b16965e38285153",
+            "id": "6452112740e326f3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker-installations/Nginx-proxy-manager-installation.md",
-                "mode": "preview",
+                "file": "Övrigt/Create a python venv on windows.md",
+                "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "6452112740e326f3",
+            "id": "9d182d86a90b7f90",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Övrigt/SSH notification for discord webhook example script.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           },
           {
@@ -48,21 +52,9 @@
                 "currentVersion": "1.1.16"
               }
             }
-          },
-          {
-            "id": "b0f4523ec337f32f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kubernetes/RBAC Kubernetes examples.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -128,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kubernetes/RBAC Kubernetes examples.md",
+                "file": "Övrigt/SSH notification for discord webhook example script.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kubernetes/RBAC Kubernetes examples.md",
+                "file": "Övrigt/SSH notification for discord webhook example script.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kubernetes/RBAC Kubernetes examples.md"
+                "file": "Övrigt/SSH notification for discord webhook example script.md"
               }
             }
           }
@@ -191,19 +183,24 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b0f4523ec337f32f",
+  "active": "9d182d86a90b7f90",
   "lastOpenFiles": [
-    "Kubernetes/Kubernetes.md",
-    "Kubernetes/RBAC Kubernetes examples.md",
-    "Kubernetes/Install nginx-ingress-controller on Kubernetes with helm chart.md",
-    "Untitled 1.canvas",
+    "Övrigt/Övrigt.md",
+    "Övrigt/SSH notification for discord webhook example script.md",
+    "Övrigt/Create a python venv on windows.md",
+    "Övrigt/Untitled.canvas",
     "Untitled.canvas",
-    "Kubernetes/Kubectl useful commands.md",
+    "Pasted image 20221205024732.png",
+    "Untitled 1.canvas",
+    "Kubernetes/Service types.md",
     "Kubernetes/Deployment.md",
+    "Kubernetes/Kubernetes.md",
+    "Kubernetes/Kubectl useful commands.md",
+    "Kubernetes/Install nginx-ingress-controller on Kubernetes with helm chart.md",
+    "Kubernetes/RBAC Kubernetes examples.md",
     "Ansible-books/Unifi-APs-update-ansible-playbook.md",
     "Linux/Bash at start up.md",
     "Linux/Add cifs mount.md",
-    "Kubernetes/Service types.md",
     "Docker-installations/Caddy-server installation.md",
     "Docker-installations/Rancher-installation.md",
     "Docker-installations/Nginx-proxy-manager-installation.md",
@@ -213,8 +210,6 @@
     "Ansible-books/Ansible-books.md",
     "Ansible-books/Mysql-db-ansible-playbook.md",
     "Ansible-books/ad-guard-docker-version-ansible-playbook.md",
-    "Övrigt/Create a python venv on windows.md",
-    "Övrigt/Övrigt.md",
     "Linux/Linux.md",
     "Untitled.md"
   ]
