@@ -157,7 +157,7 @@ depends_on = [google_compute_instance.default]
 
 
 ## terraform.tfvars
-```
+```HCL
 project_id = "project-id-goes-here"
 region = "region-goes-here"
 zone = "zone-in-the-region-goes-here"

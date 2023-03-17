@@ -25,10 +25,18 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Övrigt/SSH notification for discord webhook example script.md",
-                "mode": "preview",
+                "file": "Kubernetes/Kubectl useful commands.md",
+                "mode": "source",
                 "source": false
               }
+            }
+          },
+          {
+            "id": "f3fa25c03acb6d8f",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
             }
           },
           {
@@ -54,7 +62,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -120,7 +128,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Övrigt/SSH notification for discord webhook example script.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +144,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Övrigt/SSH notification for discord webhook example script.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,9 +165,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Övrigt/SSH notification for discord webhook example script.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -183,10 +187,22 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9d182d86a90b7f90",
+  "active": "f3fa25c03acb6d8f",
   "lastOpenFiles": [
-    "Övrigt/Övrigt.md",
+    "Terraform/Terraform.md",
+    "Terraform/Terraform-kubernetes-master-init.md",
+    "Terraform/Terraform-K8s-GKE-cluster.md",
+    "Terraform/Terraform-gcp-k3s-cluster-with-tailscale.md",
+    "Terraform/Terraform-DigitalOcean-kubernetes-engine.md",
+    "Terraform/Terraform-tailscale.md",
+    "Terraform/Terraform-mongo-db.md",
+    "Kubernetes/Kubectl useful commands.md",
+    "Unifi/Untitled.canvas",
+    "Unifi/Untitled.md",
+    "Unifi/HarusUDM-Toplogy.md",
+    "Unifi/Unifi.md",
     "Övrigt/SSH notification for discord webhook example script.md",
+    "Övrigt/Övrigt.md",
     "Övrigt/Create a python venv on windows.md",
     "Övrigt/Untitled.canvas",
     "Untitled.canvas",
@@ -195,7 +211,6 @@
     "Kubernetes/Service types.md",
     "Kubernetes/Deployment.md",
     "Kubernetes/Kubernetes.md",
-    "Kubernetes/Kubectl useful commands.md",
     "Kubernetes/Install nginx-ingress-controller on Kubernetes with helm chart.md",
     "Kubernetes/RBAC Kubernetes examples.md",
     "Ansible-books/Unifi-APs-update-ansible-playbook.md",
@@ -204,13 +219,6 @@
     "Docker-installations/Caddy-server installation.md",
     "Docker-installations/Rancher-installation.md",
     "Docker-installations/Nginx-proxy-manager-installation.md",
-    "Docker-installations/Nextcloud-installation.md",
-    "Docker-installations/Dockerbuild-nginx-example.md",
-    "Docker-installations/Docker-installations.md",
-    "Ansible-books/Ansible-books.md",
-    "Ansible-books/Mysql-db-ansible-playbook.md",
-    "Ansible-books/ad-guard-docker-version-ansible-playbook.md",
-    "Linux/Linux.md",
-    "Untitled.md"
+    "Docker-installations/Nextcloud-installation.md"
   ]
 }

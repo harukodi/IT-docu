@@ -151,7 +151,7 @@ resource "digitalocean_firewall" "droplet-kube-master-naster" {
 
 
 ## Create a tfvars file example terraform.tfvars
-```yml
+```HCL
 do_token = "token-for-digitalocean-goes-here"
 
 pvt_key = "path-to-private-ssh-key-goes-here"

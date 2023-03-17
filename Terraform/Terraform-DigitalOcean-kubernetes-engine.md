@@ -98,7 +98,7 @@ resource "digitalocean_firewall" "demo-kubernetes-cluster-firewall" {
 
 
 ## terraform.tfvars
-```
+```HCL
 do_token = "digital-ocean-api-token-here"
 cluster_name = "demo-kubernetes-cluster"
 cluster_size = "s-1vcpu-2gb"

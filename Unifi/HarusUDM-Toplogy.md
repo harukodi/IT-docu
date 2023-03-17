@@ -7,6 +7,6 @@
 | Port-5         | HarusNas                                     | Native                                                 |
 | port-6         | HarukoPC                                     | Native                                                 |
 | Port-7         | STATE=OFF                                    | None                                                   |
-| Port-8         | Server-emby                                  | Native                                                 |
+| Port-8         | flex-mini-switch                             | Native                                                 |
 | Port-9         | WAN                                          | Internet                                               |
 | -------------- | -------------------------------------------- | ------------------------------------------------------ |
