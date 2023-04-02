@@ -35,8 +35,34 @@
             "id": "f3fa25c03acb6d8f",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Docker-installations/Rancher-installation.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "798f3b2e4c1e578e",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.16"
+              }
+            }
+          },
+          {
+            "id": "0459f7c224fd6a11",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Docker-installations/Caddy-server installation.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -62,7 +88,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -128,6 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Docker-installations/Caddy-server installation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,6 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Docker-installations/Caddy-server installation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +193,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Docker-installations/Caddy-server installation.md"
+              }
             }
           }
         ],
@@ -187,38 +217,38 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f3fa25c03acb6d8f",
+  "active": "0459f7c224fd6a11",
   "lastOpenFiles": [
+    "Övrigt/Caddyfile example with API endpoint.md",
+    "Docker-installations/Caddy-server installation.md",
+    "Övrigt/Övrigt.md",
+    "Docker-installations/Nginx-proxy-manager-installation.md",
+    "Docker-installations/Nextcloud-installation.md",
+    "Docker-installations/Dockerbuild-nginx-example.md",
+    "Terraform/Terraform-mongo-db.md",
+    "Terraform/Terraform-DigitalOcean-kubernetes-engine.md",
+    "Terraform/Terraform-gcp-k3s-cluster-with-tailscale.md",
+    "Terraform/Terraform-K8s-GKE-cluster.md",
+    "Docker-installations/Rancher-installation.md",
+    "Docker-installations/Docker-installations.md",
+    "Ansible-books/Unifi-APs-update-ansible-playbook.md",
+    "Ansible-books/Squid-proxy-ansible-playbook.md",
+    "Ansible-books/Shadowsocks-rust-docker-version-ansible-playbook.md",
+    "Ansible-books/Mysql-db-ansible-playbook.md",
+    "Ansible-books/ad-guard-docker-version-ansible-playbook.md",
+    "Ansible-books/Ansible-books.md",
+    "Linux/Ubuntu server with only 100gb fix.md",
+    "Linux/Linux.md",
+    "Linux/Grep-command.md",
     "Terraform/Terraform.md",
     "Terraform/Terraform-kubernetes-master-init.md",
-    "Terraform/Terraform-K8s-GKE-cluster.md",
-    "Terraform/Terraform-gcp-k3s-cluster-with-tailscale.md",
-    "Terraform/Terraform-DigitalOcean-kubernetes-engine.md",
     "Terraform/Terraform-tailscale.md",
-    "Terraform/Terraform-mongo-db.md",
     "Kubernetes/Kubectl useful commands.md",
     "Unifi/Untitled.canvas",
     "Unifi/Untitled.md",
-    "Unifi/HarusUDM-Toplogy.md",
-    "Unifi/Unifi.md",
-    "Övrigt/SSH notification for discord webhook example script.md",
-    "Övrigt/Övrigt.md",
-    "Övrigt/Create a python venv on windows.md",
     "Övrigt/Untitled.canvas",
     "Untitled.canvas",
     "Pasted image 20221205024732.png",
-    "Untitled 1.canvas",
-    "Kubernetes/Service types.md",
-    "Kubernetes/Deployment.md",
-    "Kubernetes/Kubernetes.md",
-    "Kubernetes/Install nginx-ingress-controller on Kubernetes with helm chart.md",
-    "Kubernetes/RBAC Kubernetes examples.md",
-    "Ansible-books/Unifi-APs-update-ansible-playbook.md",
-    "Linux/Bash at start up.md",
-    "Linux/Add cifs mount.md",
-    "Docker-installations/Caddy-server installation.md",
-    "Docker-installations/Rancher-installation.md",
-    "Docker-installations/Nginx-proxy-manager-installation.md",
-    "Docker-installations/Nextcloud-installation.md"
+    "Untitled 1.canvas"
   ]
 }
