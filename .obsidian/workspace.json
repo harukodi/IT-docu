@@ -59,7 +59,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker-installations/Caddy-server installation.md",
+                "file": "Linux/Linux.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "22b11da7f2c7d673",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Add user to root group.md",
                 "mode": "source",
                 "source": false
               }
@@ -88,7 +100,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -154,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker-installations/Caddy-server installation.md",
+                "file": "Linux/Add user to root group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker-installations/Caddy-server installation.md",
+                "file": "Linux/Add user to root group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker-installations/Caddy-server installation.md"
+                "file": "Linux/Add user to root group.md"
               }
             }
           }
@@ -217,10 +229,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0459f7c224fd6a11",
+  "active": "22b11da7f2c7d673",
   "lastOpenFiles": [
-    "Övrigt/Caddyfile example with API endpoint.md",
+    "Linux/Add user to root group.md",
+    "Linux/Grep-command.md",
+    "Linux/Linux.md",
     "Docker-installations/Caddy-server installation.md",
+    "Övrigt/Caddyfile example with API endpoint.md",
     "Övrigt/Övrigt.md",
     "Docker-installations/Nginx-proxy-manager-installation.md",
     "Docker-installations/Nextcloud-installation.md",
@@ -238,14 +253,11 @@
     "Ansible-books/ad-guard-docker-version-ansible-playbook.md",
     "Ansible-books/Ansible-books.md",
     "Linux/Ubuntu server with only 100gb fix.md",
-    "Linux/Linux.md",
-    "Linux/Grep-command.md",
     "Terraform/Terraform.md",
     "Terraform/Terraform-kubernetes-master-init.md",
     "Terraform/Terraform-tailscale.md",
     "Kubernetes/Kubectl useful commands.md",
     "Unifi/Untitled.canvas",
-    "Unifi/Untitled.md",
     "Övrigt/Untitled.canvas",
     "Untitled.canvas",
     "Pasted image 20221205024732.png",

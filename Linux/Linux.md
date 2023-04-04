@@ -6,3 +6,4 @@
 [[Enable unattended-upgrades]]
 [[Add cifs mount]]
 [[Ubuntu server with only 100gb fix]]
+[[Add user to root group]]
