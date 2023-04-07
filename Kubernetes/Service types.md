@@ -7,11 +7,12 @@ With Kubernetes you don't need to modify your application to use an unfamiliar s
 apiVersion: v1
 kind: Service
 metadata:
+  namespace: <NAMESPACE>
   name: service-name-for-the-app
 spec:
   type: NodePort
   selector:
-    app.kubernetes.io/name: app-name-selector
+    app: app-name-selector
   ports:
       # By default and for convenience, the `targetPort` is set to the same value as the `port` field.
     - port: 80
@@ -27,13 +28,14 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
+  namespace: <NAMESPACE>
   name: service-name-for-the-app
 spec:
   type: ClusterIP
   # Uncomment the below line to create a Headless Service
   # clusterIP: None
   selector:
-    app.kubernetes.io/name: app-name-selector
+    app: app-name-selector
   ports:
   - protocol: TCP
     port: 80
@@ -46,11 +48,12 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
+  namespace: <NAMESPACE>
   name: service-name-for-the-app
 spec:
   type: LoadBalancer
   selector:
-    app.kubernetes.io/name: app-name-selector
+    app: app-name-selector
   ports:
   - protocol: TCP
     port: 60000

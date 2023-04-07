@@ -71,8 +71,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Add user to root group.md",
-                "mode": "source",
+                "file": "Linux/Ubuntu server with only 100gb fix.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b0b3c06e4e5a7982",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kubernetes/Service types.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -100,7 +112,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -166,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Add user to root group.md",
+                "file": "Kubernetes/Service types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Add user to root group.md",
+                "file": "Kubernetes/Service types.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Add user to root group.md"
+                "file": "Kubernetes/Service types.md"
               }
             }
           }
@@ -229,13 +241,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "22b11da7f2c7d673",
+  "active": "b0b3c06e4e5a7982",
   "lastOpenFiles": [
-    "Linux/Add user to root group.md",
-    "Linux/Grep-command.md",
+    "Kubernetes/Kubectl useful commands.md",
+    "Kubernetes/Service types.md",
+    "Kubernetes/Deployment.md",
+    "Kubernetes/Install nginx-ingress-controller on Kubernetes with helm chart.md",
+    "Kubernetes/Kubernetes.md",
     "Linux/Linux.md",
-    "Docker-installations/Caddy-server installation.md",
+    "Linux/Fedora server with only 15gb fix.md",
+    "Linux/Ubuntu server with only 100gb fix.md",
+    "Linux/Add user to root group.md",
     "Övrigt/Caddyfile example with API endpoint.md",
+    "Docker-installations/Caddy-server installation.md",
+    "Linux/Grep-command.md",
     "Övrigt/Övrigt.md",
     "Docker-installations/Nginx-proxy-manager-installation.md",
     "Docker-installations/Nextcloud-installation.md",
@@ -250,13 +269,6 @@
     "Ansible-books/Squid-proxy-ansible-playbook.md",
     "Ansible-books/Shadowsocks-rust-docker-version-ansible-playbook.md",
     "Ansible-books/Mysql-db-ansible-playbook.md",
-    "Ansible-books/ad-guard-docker-version-ansible-playbook.md",
-    "Ansible-books/Ansible-books.md",
-    "Linux/Ubuntu server with only 100gb fix.md",
-    "Terraform/Terraform.md",
-    "Terraform/Terraform-kubernetes-master-init.md",
-    "Terraform/Terraform-tailscale.md",
-    "Kubernetes/Kubectl useful commands.md",
     "Unifi/Untitled.canvas",
     "Övrigt/Untitled.canvas",
     "Untitled.canvas",
