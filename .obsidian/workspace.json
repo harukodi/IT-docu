@@ -247,10 +247,10 @@
   },
   "active": "5ea7bc385d00e1f1",
   "lastOpenFiles": [
+    "Kubernetes/Kubectl useful commands.md",
     "Kubernetes/Kubernetes.md",
     "Kubernetes/Install Argocd on Kubernetes.md",
     "Kubernetes/Service types.md",
-    "Kubernetes/Kubectl useful commands.md",
     "Kubernetes/Deployment.md",
     "Kubernetes/Install nginx-ingress-controller on Kubernetes with helm chart.md",
     "Linux/Linux.md",
