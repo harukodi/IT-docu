@@ -90,6 +90,14 @@
             }
           },
           {
+            "id": "5ea7bc385d00e1f1",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
             "id": "f36185179cf6d319",
             "type": "leaf",
             "state": {
@@ -112,7 +120,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -178,7 +186,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kubernetes/Service types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +202,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kubernetes/Service types.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -217,9 +223,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Kubernetes/Service types.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -241,13 +245,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b0b3c06e4e5a7982",
+  "active": "5ea7bc385d00e1f1",
   "lastOpenFiles": [
-    "Kubernetes/Kubectl useful commands.md",
+    "Kubernetes/Kubernetes.md",
+    "Kubernetes/Install Argocd on Kubernetes.md",
     "Kubernetes/Service types.md",
+    "Kubernetes/Kubectl useful commands.md",
     "Kubernetes/Deployment.md",
     "Kubernetes/Install nginx-ingress-controller on Kubernetes with helm chart.md",
-    "Kubernetes/Kubernetes.md",
     "Linux/Linux.md",
     "Linux/Fedora server with only 15gb fix.md",
     "Linux/Ubuntu server with only 100gb fix.md",
@@ -268,7 +273,6 @@
     "Ansible-books/Unifi-APs-update-ansible-playbook.md",
     "Ansible-books/Squid-proxy-ansible-playbook.md",
     "Ansible-books/Shadowsocks-rust-docker-version-ansible-playbook.md",
-    "Ansible-books/Mysql-db-ansible-playbook.md",
     "Unifi/Untitled.canvas",
     "Övrigt/Untitled.canvas",
     "Untitled.canvas",
