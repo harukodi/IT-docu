@@ -103,8 +103,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Övrigt/Övrigt.md",
-                "mode": "source",
+                "file": "Övrigt/Install tailscale on Fedora.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -198,7 +198,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Övrigt/Övrigt.md",
+                "file": "Övrigt/Install tailscale on Fedora.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -215,7 +215,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Övrigt/Övrigt.md",
+                "file": "Övrigt/Install tailscale on Fedora.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -238,7 +238,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Övrigt/Övrigt.md"
+                "file": "Övrigt/Install tailscale on Fedora.md"
               }
             }
           }
@@ -263,36 +263,36 @@
   },
   "active": "2d913b0fa88d695a",
   "lastOpenFiles": [
+    "Övrigt/Övrigt.md",
+    "Terraform/Terraform-tailscale.md",
+    "Ansible-books/Unifi-APs-update-ansible-playbook.md",
+    "Ansible-books/Shadowsocks-rust-docker-version-ansible-playbook.md",
+    "Ansible-books/Squid-proxy-ansible-playbook.md",
+    "Kubernetes/Deployment.md",
+    "Kubernetes/Kubernetes.md",
+    "Unifi/Untitled.canvas",
+    "Pasted image 20221205024732.png",
+    "Unifi/HarusUDM-Toplogy.md",
+    "Unifi/Unifi.md",
+    "Kubernetes/Install Argocd on Kubernetes.md",
+    "Linux/Bash at start up.md",
     "Övrigt/Install tailscale on Fedora.md",
+    "Kubernetes/Service types.md",
+    "Kubernetes/Install nginx-ingress-controller on Kubernetes with helm chart.md",
     "Kubernetes/RBAC Kubernetes examples.md",
     "Docker-installations/Caddy-server installation.md",
     "Docker-installations/Dockerbuild-nginx-example.md",
     "Kubernetes/Kubectl useful commands.md",
-    "Kubernetes/Kubernetes.md",
-    "Kubernetes/Install Argocd on Kubernetes.md",
-    "Kubernetes/Service types.md",
-    "Kubernetes/Deployment.md",
-    "Kubernetes/Install nginx-ingress-controller on Kubernetes with helm chart.md",
     "Linux/Linux.md",
     "Linux/Fedora server with only 15gb fix.md",
     "Linux/Ubuntu server with only 100gb fix.md",
     "Linux/Add user to root group.md",
     "Övrigt/Caddyfile example with API endpoint.md",
     "Linux/Grep-command.md",
-    "Övrigt/Övrigt.md",
     "Docker-installations/Nginx-proxy-manager-installation.md",
     "Docker-installations/Nextcloud-installation.md",
-    "Terraform/Terraform-mongo-db.md",
-    "Terraform/Terraform-DigitalOcean-kubernetes-engine.md",
-    "Terraform/Terraform-gcp-k3s-cluster-with-tailscale.md",
-    "Terraform/Terraform-K8s-GKE-cluster.md",
-    "Docker-installations/Rancher-installation.md",
-    "Docker-installations/Docker-installations.md",
-    "Ansible-books/Unifi-APs-update-ansible-playbook.md",
-    "Unifi/Untitled.canvas",
     "Övrigt/Untitled.canvas",
     "Untitled.canvas",
-    "Pasted image 20221205024732.png",
     "Untitled 1.canvas"
   ]
 }

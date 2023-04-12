@@ -1,8 +1,8 @@
 {
 	"nodes":[
-		{"id":"20f1e2c4bc2a717b","x":-470,"y":-407,"width":250,"height":87,"type":"text","text":"PORT-2: AP"},
-		{"id":"fb7831222e27d1ed","x":89,"y":-408,"width":250,"height":88,"type":"text","text":"PORT-8: MINI-FLEX-SWITCH"},
-		{"id":"27acd87b4ccbc3ea","x":-180,"y":-660,"width":250,"height":60,"type":"text","text":"UDM-PRO"}
+		{"type":"text","text":"PORT-8: MINI-FLEX-SWITCH","id":"fb7831222e27d1ed","x":70,"y":-407,"width":250,"height":88},
+		{"type":"text","text":"PORT-2: AP","id":"20f1e2c4bc2a717b","x":-430,"y":-407,"width":250,"height":87},
+		{"type":"text","text":"UDM-PRO","id":"27acd87b4ccbc3ea","x":-180,"y":-640,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"a1dd7977385d5673","fromNode":"27acd87b4ccbc3ea","fromSide":"bottom","toNode":"20f1e2c4bc2a717b","toSide":"top"},
