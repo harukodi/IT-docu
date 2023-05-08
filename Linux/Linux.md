@@ -8,3 +8,4 @@
 [[Ubuntu server with only 100gb fix]]
 [[Add user to root group]]
 [[Fedora server with only 15gb fix]]
+[[Change global dns servers on Ubuntu]]
