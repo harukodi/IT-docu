@@ -55,6 +55,20 @@
         "a": 1,
         "rgb": 2442607
       }
+    },
+    {
+      "query": "path:Pfsense",
+      "color": {
+        "a": 1,
+        "rgb": 4260003
+      }
+    },
+    {
+      "query": "path:Saltstack",
+      "color": {
+        "a": 1,
+        "rgb": 40627
+      }
     }
   ],
   "collapse-display": false,
@@ -67,6 +81,6 @@
   "repelStrength": 15.3125,
   "linkStrength": 0.760416666666667,
   "linkDistance": 152,
-  "scale": 0.22920135941749473,
+  "scale": 0.32133638605036474,
   "close": true
 }

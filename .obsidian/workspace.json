@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker-installations/Install marzban xray with docker-compose.md",
+                "file": "Övrigt/Create a python venv on windows.md",
                 "mode": "preview",
                 "source": false
               }
             }
+          },
+          {
+            "id": "e5716267def456a8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Saltstack/How to install saltstack on ubuntu.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker-installations/Install marzban xray with docker-compose.md",
+                "file": "Saltstack/How to install saltstack on ubuntu.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker-installations/Install marzban xray with docker-compose.md",
+                "file": "Saltstack/How to install saltstack on ubuntu.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker-installations/Install marzban xray with docker-compose.md"
+                "file": "Saltstack/How to install saltstack on ubuntu.md"
               }
             }
           }
@@ -156,37 +169,39 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "befa9f4ae12977f4",
+  "active": "e5716267def456a8",
   "lastOpenFiles": [
-    "Docker-installations/Dockerbuild-nginx-example.md",
-    "Docker-installations/Docker-installations.md",
-    "Ansible-books/Mysql-db-ansible-playbook.md",
+    "Saltstack/Saltstack-root-file.md",
+    "Saltstack/How to install saltstack on ubuntu.md",
+    "Pfsense/Pfsense-root-file.md",
+    "Untitled.md",
     "Ansible-books/ad-guard-docker-version-ansible-playbook.md",
-    "Övrigt/Create a python venv on windows.md",
-    "Docker-installations/Install marzban xray with docker-compose.md",
-    "UntitledUntitled.canvas",
-    "Docker-installations/Caddy-server installation.md",
-    "Pasted image 20230603174653.png",
-    "[Configurations.md",
-    "Docker-installations/Nextcloud-installation.md",
-    "Docker-installations/Nginx-proxy-manager-installation.md",
-    "Docker-installations/Rancher-installation.md",
-    "Docker-installations/Untitled.md",
-    "Unifi/HarusUDM-Toplogy.md",
-    "Unifi/Unifi.md",
-    "Pasted image 20221205024732.png",
-    "Terraform/Terraform-gcp-k3s-cluster-with-tailscale.md",
-    "Kubernetes/RBAC Kubernetes examples.md",
-    "Terraform/Terraform-K8s-GKE-cluster.md",
-    "Terraform/Terraform-DigitalOcean-kubernetes-engine.md",
-    "Terraform/Terraform.md",
-    "Terraform/Terraform-tailscale.md",
-    "Terraform/Terraform-mongo-db.md",
-    "Terraform/Terraform-kubernetes-master-init.md",
-    "Övrigt/Install tailscale on Fedora.md",
+    "Saltstack",
     "Linux/Change global dns servers on Ubuntu.md",
-    "Linux/Linux.md",
-    "Kubernetes/Kubectl useful commands.md",
+    "Terraform/Terraform-DigitalOcean-kubernetes-engine.md",
+    "Terraform/Terraform-kubernetes-master-init.md",
+    "Terraform/Terraform-mongo-db.md",
+    "Ansible-books/Unifi-APs-update-ansible-playbook.md",
+    "Ansible-books/Squid-proxy-ansible-playbook.md",
+    "Ansible-books/Shadowsocks-rust-docker-version-ansible-playbook.md",
+    "Terraform/Terraform-gcp-k3s-cluster-with-tailscale.md",
+    "Kubernetes/Deployment.md",
+    "Docker-installations/Install marzban xray with docker-compose.md",
+    "Docker-installations/Caddy-server installation.md",
+    "Docker-installations/Rancher-installation.md",
+    "Pfsense/Add DNS over TLS In Pfsense.md",
+    "Övrigt/OpenWRT Expanding root partition and filesystem.md",
+    "Övrigt/Övrigt.md",
+    "Övrigt/Install tailscale on Fedora.md",
+    "Övrigt/Caddyfile example with API endpoint.md",
+    "Övrigt/SSH notification for discord webhook example script.md",
+    "Övrigt/Create a python venv on windows.md",
+    "Terraform/Terraform.md",
+    "Pfsense",
+    "Docker-installations/Dockerbuild-nginx-example.md",
+    "UntitledUntitled.canvas",
+    "Pasted image 20230603174653.png",
+    "Pasted image 20221205024732.png",
     "Unifi/Untitled.canvas",
     "Övrigt/Untitled.canvas",
     "Untitled 1.canvas"
