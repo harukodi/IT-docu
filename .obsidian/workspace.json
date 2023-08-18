@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Saltstack/How to install saltstack on ubuntu.md",
+                "file": "Terraform/Terraform-kubernetes-master-init.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d73b3423314541e9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Övrigt/Övrigt.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -106,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Saltstack/How to install saltstack on ubuntu.md",
+                "file": "Övrigt/Övrigt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Saltstack/How to install saltstack on ubuntu.md",
+                "file": "Övrigt/Övrigt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Saltstack/How to install saltstack on ubuntu.md"
+                "file": "Övrigt/Övrigt.md"
               }
             }
           }
@@ -169,36 +181,36 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e5716267def456a8",
+  "active": "d73b3423314541e9",
   "lastOpenFiles": [
-    "Saltstack/Saltstack-root-file.md",
+    "Övrigt/CPU temp alert netdata template.md",
+    "Övrigt/SSH notification for discord webhook example script.md",
+    "Övrigt/Caddyfile example with API endpoint.md",
+    "Övrigt/Create a python venv on windows.md",
+    "Övrigt/Install tailscale on Fedora.md",
+    "Övrigt/OpenWRT Expanding root partition and filesystem.md",
+    "Övrigt/Övrigt.md",
+    "Terraform/Terraform-gcp-k3s-cluster-with-tailscale.md",
+    "Terraform/Terraform-kubernetes-master-init.md",
+    "Terraform/Terraform-K8s-GKE-cluster.md",
     "Saltstack/How to install saltstack on ubuntu.md",
+    "Saltstack/Saltstack-root-file.md",
+    "Terraform/Terraform-mongo-db.md",
+    "Terraform/Terraform.md",
+    "Linux/Ubuntu server with only 100gb fix.md",
+    "Linux/Linux.md",
+    "Linux/Grep-command.md",
+    "Linux/Fedora server with only 15gb fix.md",
+    "Linux/Enable unattended-upgrades.md",
+    "Linux/Change global dns servers on Ubuntu.md",
+    "Linux/Bash at start up.md",
+    "Linux/Add cifs mount.md",
+    "Terraform/Terraform-tailscale.md",
     "Pfsense/Pfsense-root-file.md",
     "Untitled.md",
     "Ansible-books/ad-guard-docker-version-ansible-playbook.md",
     "Saltstack",
-    "Linux/Change global dns servers on Ubuntu.md",
-    "Terraform/Terraform-DigitalOcean-kubernetes-engine.md",
-    "Terraform/Terraform-kubernetes-master-init.md",
-    "Terraform/Terraform-mongo-db.md",
-    "Ansible-books/Unifi-APs-update-ansible-playbook.md",
-    "Ansible-books/Squid-proxy-ansible-playbook.md",
-    "Ansible-books/Shadowsocks-rust-docker-version-ansible-playbook.md",
-    "Terraform/Terraform-gcp-k3s-cluster-with-tailscale.md",
-    "Kubernetes/Deployment.md",
-    "Docker-installations/Install marzban xray with docker-compose.md",
-    "Docker-installations/Caddy-server installation.md",
-    "Docker-installations/Rancher-installation.md",
-    "Pfsense/Add DNS over TLS In Pfsense.md",
-    "Övrigt/OpenWRT Expanding root partition and filesystem.md",
-    "Övrigt/Övrigt.md",
-    "Övrigt/Install tailscale on Fedora.md",
-    "Övrigt/Caddyfile example with API endpoint.md",
-    "Övrigt/SSH notification for discord webhook example script.md",
-    "Övrigt/Create a python venv on windows.md",
-    "Terraform/Terraform.md",
     "Pfsense",
-    "Docker-installations/Dockerbuild-nginx-example.md",
     "UntitledUntitled.canvas",
     "Pasted image 20230603174653.png",
     "Pasted image 20221205024732.png",

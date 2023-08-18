@@ -3,3 +3,4 @@
 [[Caddyfile example with API endpoint]]
 [[Install tailscale on Fedora]]
 [[OpenWRT Expanding root partition and filesystem]]
+[[CPU temp alert netdata template]]
