@@ -57,7 +57,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Proxmox/User management in proxmox example commands.md",
+                "file": "Proxmox/Allow snippets on Proxmox.md",
                 "mode": "preview",
                 "source": false
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Proxmox/User management in proxmox example commands.md",
+                "file": "Proxmox/Allow snippets on Proxmox.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Proxmox/User management in proxmox example commands.md",
+                "file": "Proxmox/Allow snippets on Proxmox.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Proxmox/User management in proxmox example commands.md"
+                "file": "Proxmox/Allow snippets on Proxmox.md"
               }
             }
           },
@@ -221,8 +221,14 @@
   },
   "active": "e7d5e8ed9e71c52b",
   "lastOpenFiles": [
+    "Proxmox/Proxmox.md",
+    "Proxmox/Allow snippets on Proxmox.md",
     "Proxmox/Proxmox disk resizing.md",
+    "Proxmox/Create template on Proxmox.md",
     "Proxmox/User management in proxmox example commands.md",
+    "Saltstack/Saltstack.md",
+    "Pfsense/Pfsense.md",
+    "Linux/Linux.md",
     "Docker-installations/Rancher-installation.md",
     "Linux/Add user to root group.md",
     "Untitled.md",
@@ -230,7 +236,6 @@
     "Linux/Add cifs mount.md",
     "Kubernetes/RBAC Kubernetes examples.md",
     "Linux/Ubuntu server with only 100gb fix.md",
-    "Linux/Linux.md",
     "Linux/Grep-command.md",
     "Linux/Fedora server with only 15gb fix.md",
     "Linux/Enable unattended-upgrades.md",
@@ -238,16 +243,11 @@
     "Linux/Df-h-command.md",
     "Linux/Change global dns servers on Ubuntu.md",
     "Terraform/Terraform-DigitalOcean-kubernetes-engine.md",
-    "Saltstack/Saltstack-root-file.md",
     "Saltstack/How to install saltstack on ubuntu.md",
-    "Pfsense/Pfsense-root-file.md",
     "Pfsense/Add DNS over TLS In Pfsense.md",
     "Övrigt/Caddyfile example with API endpoint.md",
     "Övrigt/Create a python venv on windows.md",
     "Övrigt/Install tailscale on Fedora.md",
-    "Övrigt/SSH notification for discord webhook example script.md",
-    "Övrigt/Övrigt.md",
-    "Övrigt/OpenWRT Expanding root partition and filesystem.md",
     "Saltstack",
     "Pfsense",
     "UntitledUntitled.canvas",
