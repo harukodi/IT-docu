@@ -29,8 +29,8 @@ services:
     container_name: rancher
     restart: unless-stopped
     ports:
-      - '82:80'
-      - '1443:443'
+      - '80:80'
+      - '443:443'
     privileged: true
     volumes:
       - ./conf:/var/lib/rancher

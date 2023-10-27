@@ -57,14 +57,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Proxmox/Allow snippets on Proxmox.md",
+                "file": "Kubernetes/Service types.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8786af6a8e0a1de5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Övrigt/Create a python venv on windows.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "58fa06de99d5ee2f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Terraform/Terraform-Azure-Vm.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -138,7 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Proxmox/Allow snippets on Proxmox.md",
+                "file": "Terraform/Terraform-Azure-Vm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +179,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Proxmox/Allow snippets on Proxmox.md",
+                "file": "Terraform/Terraform-Azure-Vm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Proxmox/Allow snippets on Proxmox.md"
+                "file": "Terraform/Terraform-Azure-Vm.md"
               }
             }
           },
@@ -219,40 +243,42 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e7d5e8ed9e71c52b",
+  "active": "58fa06de99d5ee2f",
   "lastOpenFiles": [
-    "Proxmox/Proxmox.md",
-    "Proxmox/Allow snippets on Proxmox.md",
-    "Proxmox/Proxmox disk resizing.md",
-    "Proxmox/Create template on Proxmox.md",
-    "Proxmox/User management in proxmox example commands.md",
-    "Saltstack/Saltstack.md",
-    "Pfsense/Pfsense.md",
-    "Linux/Linux.md",
-    "Docker-installations/Rancher-installation.md",
-    "Linux/Add user to root group.md",
-    "Untitled.md",
-    "Proxmox",
-    "Linux/Add cifs mount.md",
-    "Kubernetes/RBAC Kubernetes examples.md",
-    "Linux/Ubuntu server with only 100gb fix.md",
-    "Linux/Grep-command.md",
-    "Linux/Fedora server with only 15gb fix.md",
-    "Linux/Enable unattended-upgrades.md",
+    "Terraform/Terraform-kubernetes-master-init.md",
+    "Terraform/Terraform-tailscale.md",
+    "Terraform/Terraform-Azure-Vm.md",
+    "Pasted image 20231027163429.png",
+    "Pasted image 20230603174653.png",
+    "Pasted image 20231027162734.png",
+    "Pasted image 20221205024732.png",
+    "Terraform/Terraform-gcp-k3s-cluster-with-tailscale.md",
+    "Azure-Cloud/How to create a vm with az cli and ssh with entra id login.md",
+    "Azure-Cloud/Azure-Cloud.md",
     "Linux/Create cert.pem-key.pem.md",
-    "Linux/Df-h-command.md",
-    "Linux/Change global dns servers on Ubuntu.md",
+    "Terraform/Terraform.md",
+    "Azure-Cloud",
     "Terraform/Terraform-DigitalOcean-kubernetes-engine.md",
-    "Saltstack/How to install saltstack on ubuntu.md",
-    "Pfsense/Add DNS over TLS In Pfsense.md",
-    "Övrigt/Caddyfile example with API endpoint.md",
+    "Terraform/Terraform-K8s-GKE-cluster.md",
+    "Terraform/Terraform-mongo-db.md",
+    "Proxmox/Create template on Proxmox.md",
+    "Proxmox/Proxmox disk resizing.md",
+    "Proxmox/User management in proxmox example commands.md",
+    "Proxmox/Allow snippets on Proxmox.md",
     "Övrigt/Create a python venv on windows.md",
-    "Övrigt/Install tailscale on Fedora.md",
+    "Kubernetes/Service types.md",
+    "Kubernetes/Kubectl useful commands.md",
+    "Docker-installations/Rancher-installation.md",
+    "Docker-installations/Caddy-server installation.md",
+    "Docker-installations/Nginx-proxy-manager-installation.md",
+    "Docker-installations/Nextcloud-installation.md",
+    "Docker-installations/Dockerbuild-nginx-example.md",
+    "Docker-installations/Install marzban xray with docker-compose.md",
+    "Docker-installations/Docker-installations.md",
+    "Proxmox",
     "Saltstack",
     "Pfsense",
     "UntitledUntitled.canvas",
-    "Pasted image 20230603174653.png",
-    "Pasted image 20221205024732.png",
     "Unifi/Untitled.canvas",
     "Övrigt/Untitled.canvas",
     "Untitled 1.canvas"
