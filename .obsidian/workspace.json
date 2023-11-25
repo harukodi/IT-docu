@@ -176,6 +176,7 @@
   },
   "active": "f97274b886739993",
   "lastOpenFiles": [
+    "Övrigt/Using authentik OICD nextcloud template.md",
     "Övrigt/Install tailscale on Fedora.md",
     "Övrigt/Create a python venv on windows.md",
     "Övrigt/Caddyfile example with API endpoint.md",
@@ -206,7 +207,6 @@
     "Linux/Create cert.pem-key.pem.md",
     "Terraform/Terraform.md",
     "Azure-Cloud",
-    "Terraform/Terraform-K8s-GKE-cluster.md",
     "Proxmox",
     "Saltstack",
     "Pfsense",
