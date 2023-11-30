@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "450fd33a42681062",
+        "id": "c46688985eb138b6",
         "type": "tabs",
         "children": [
           {
-            "id": "c93fe95feab8aa71",
+            "id": "25998fc6ad35bae2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Unifi/Unifi.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Unifi/Unifi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Unifi/Unifi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.canvas"
+                "file": "Unifi/Unifi.md"
               }
             }
           },
@@ -168,8 +174,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "bd8c2fc44659f929",
+  "active": "25998fc6ad35bae2",
   "lastOpenFiles": [
+    "Unifi/Untitled.canvas",
+    "Unifi/Unifi.md",
+    "Unifi/HarusUDM-Toplogy.md",
+    "Pasted image 20221205024732.png",
+    "Pasted image 20230603174653.png",
+    "Pasted image 20231027163429.png",
     "Linux/Bash at start up.md",
     "Docker-installations/Caddy-server installation.md",
     "Övrigt/Caddyfile example with API endpoint.md",
@@ -194,19 +206,12 @@
     "Kubernetes/Kubectl useful commands.md",
     "Kubernetes/Kubernetes.md",
     "Kubernetes/RBAC Kubernetes examples.md",
-    "Azure-Cloud/Create a webapp with az cli - git repo.md",
-    "Azure-Cloud/Azure-Cloud.md",
-    "Azure-Cloud/Az useful links.md",
-    "Pasted image 20231027163429.png",
-    "Pasted image 20230603174653.png",
     "Pasted image 20231027162734.png",
-    "Pasted image 20221205024732.png",
     "Azure-Cloud",
     "Proxmox",
     "Saltstack",
     "Pfsense",
     "UntitledUntitled.canvas",
-    "Unifi/Untitled.canvas",
     "Övrigt/Untitled.canvas",
     "Untitled 1.canvas"
   ]
