@@ -8,6 +8,7 @@
   'oidc_login_client_secret' => 'client-secret-goes-here',
   'oidc_login_auto_redirect' => false,
   'oidc_login_end_session_redirect' => false,
+  'oidc_login_logout_url' => 'https://sub.domain.tld/logout',
   'oidc_login_button_text' => 'Använd Authentik',
   'oidc_login_hide_password_form' => false,
   'oidc_login_use_id_token' => true,

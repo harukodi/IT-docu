@@ -46,3 +46,4 @@ docker-compose up -d
 ```
 
 ### Now you have finished installing **nextcloud**
+[[Using authentik OICD nextcloud template]]

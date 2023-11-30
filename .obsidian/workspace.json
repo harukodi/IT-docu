@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "3e947f529339f3a6",
+        "id": "450fd33a42681062",
         "type": "tabs",
         "children": [
           {
-            "id": "f97274b886739993",
+            "id": "c93fe95feab8aa71",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/Usefull commands for disk managment.md",
-                "mode": "preview",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -93,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Usefull commands for disk managment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Usefull commands for disk managment.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Usefull commands for disk managment.md"
+                "file": "Untitled.canvas"
               }
             }
           },
@@ -174,17 +168,26 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f97274b886739993",
+  "active": "bd8c2fc44659f929",
   "lastOpenFiles": [
+    "Linux/Bash at start up.md",
+    "Docker-installations/Caddy-server installation.md",
+    "Övrigt/Caddyfile example with API endpoint.md",
+    "Docker-installations/Dockerbuild-nginx-example.md",
+    "Övrigt/OpenWRT Expanding root partition and filesystem.md",
+    "Linux/Ubuntu server with only 100gb fix.md",
     "Övrigt/Using authentik OICD nextcloud template.md",
+    "Docker-installations/Install marzban xray with docker-compose.md",
+    "Docker-installations/Nginx-proxy-manager-installation.md",
+    "Docker-installations/Rancher-installation.md",
+    "Docker-installations/Nextcloud-installation.md",
+    "Untitled.canvas",
+    "Linux/Usefull commands for disk managment.md",
     "Övrigt/Install tailscale on Fedora.md",
     "Övrigt/Create a python venv on windows.md",
-    "Övrigt/Caddyfile example with API endpoint.md",
     "Övrigt/SSH notification for discord webhook example script.md",
     "Övrigt/Övrigt.md",
     "Övrigt/CPU temp alert netdata template.md",
-    "Docker-installations/Dockerbuild-nginx-example.md",
-    "Linux/Usefull commands for disk managment.md",
     "Kubernetes/Service types.md",
     "Kubernetes/Install Argocd on Kubernetes.md",
     "Kubernetes/Install nginx-ingress-controller on Kubernetes with helm chart.md",
@@ -194,18 +197,10 @@
     "Azure-Cloud/Create a webapp with az cli - git repo.md",
     "Azure-Cloud/Azure-Cloud.md",
     "Azure-Cloud/Az useful links.md",
-    "Azure-Cloud/How to create a vm with az cli and ssh with entra id login.md",
-    "Terraform/Terraform-DigitalOcean-kubernetes-engine.md",
-    "Terraform/Terraform-kubernetes-master-init.md",
-    "Terraform/Terraform-Azure-Vm.md",
-    "Terraform/Terraform-tailscale.md",
     "Pasted image 20231027163429.png",
     "Pasted image 20230603174653.png",
     "Pasted image 20231027162734.png",
     "Pasted image 20221205024732.png",
-    "Terraform/Terraform-gcp-k3s-cluster-with-tailscale.md",
-    "Linux/Create cert.pem-key.pem.md",
-    "Terraform/Terraform.md",
     "Azure-Cloud",
     "Proxmox",
     "Saltstack",
