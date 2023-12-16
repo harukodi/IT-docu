@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unifi/Unifi.md",
-                "mode": "source",
+                "file": "Linux/Enable unattended-upgrades.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "unat",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +73,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Unifi/Unifi.md",
+                "file": "Linux/Enable unattended-upgrades.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Unifi/Unifi.md",
+                "file": "Linux/Enable unattended-upgrades.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Unifi/Unifi.md"
+                "file": "Linux/Enable unattended-upgrades.md"
               }
             }
           },
@@ -176,36 +177,37 @@
   },
   "active": "25998fc6ad35bae2",
   "lastOpenFiles": [
-    "Unifi/Untitled.canvas",
-    "Unifi/Unifi.md",
-    "Unifi/HarusUDM-Toplogy.md",
-    "Pasted image 20221205024732.png",
-    "Pasted image 20230603174653.png",
-    "Pasted image 20231027163429.png",
-    "Linux/Bash at start up.md",
-    "Docker-installations/Caddy-server installation.md",
-    "Övrigt/Caddyfile example with API endpoint.md",
-    "Docker-installations/Dockerbuild-nginx-example.md",
-    "Övrigt/OpenWRT Expanding root partition and filesystem.md",
-    "Linux/Ubuntu server with only 100gb fix.md",
-    "Övrigt/Using authentik OICD nextcloud template.md",
     "Docker-installations/Install marzban xray with docker-compose.md",
+    "Untitled.canvas",
+    "marz.png",
+    "Pasted image 20221205024732.png",
+    "Pasted image 20231027163429.png",
+    "Pasted image 20230603174653.png",
+    "Linux/Create cert.pem-key.pem.md",
+    "Docker-installations/Dockerbuild-nginx-example.md",
+    "Docker-installations/Nextcloud-installation.md",
+    "Docker-installations/Docker-installations.md",
+    "Docker-installations/Caddy-server installation.md",
+    "Linux/Add user to root group.md",
+    "Linux/Encrypt a drive with LUKS-Cryptsetup.md",
+    "Linux/Ubuntu server with only 100gb fix.md",
+    "Linux/Usefull commands for disk managment.md",
+    "Linux/Linux.md",
+    "Unifi/Unifi.md",
+    "Unifi/Untitled.canvas",
+    "Unifi/HarusUDM-Toplogy.md",
+    "Linux/Bash at start up.md",
+    "Övrigt/Caddyfile example with API endpoint.md",
+    "Övrigt/OpenWRT Expanding root partition and filesystem.md",
+    "Övrigt/Using authentik OICD nextcloud template.md",
     "Docker-installations/Nginx-proxy-manager-installation.md",
     "Docker-installations/Rancher-installation.md",
-    "Docker-installations/Nextcloud-installation.md",
-    "Untitled.canvas",
-    "Linux/Usefull commands for disk managment.md",
     "Övrigt/Install tailscale on Fedora.md",
     "Övrigt/Create a python venv on windows.md",
     "Övrigt/SSH notification for discord webhook example script.md",
     "Övrigt/Övrigt.md",
     "Övrigt/CPU temp alert netdata template.md",
     "Kubernetes/Service types.md",
-    "Kubernetes/Install Argocd on Kubernetes.md",
-    "Kubernetes/Install nginx-ingress-controller on Kubernetes with helm chart.md",
-    "Kubernetes/Kubectl useful commands.md",
-    "Kubernetes/Kubernetes.md",
-    "Kubernetes/RBAC Kubernetes examples.md",
     "Pasted image 20231027162734.png",
     "Azure-Cloud",
     "Proxmox",

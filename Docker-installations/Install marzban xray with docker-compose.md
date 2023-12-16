@@ -1,9 +1,16 @@
 # Create the folders for marzban xray
 ```bash
-mkdir -p marzban/{config} && cd marzban
+cd /home/$USER/ && mkdir -p marzban/config/certs && cd marzban/config/certs
 ```
 
-
+# Create the fullchain.pem / key.pem files for marzban
+```bash
+openssl req -newkey rsa:2048 -new -nodes -x509 -days 3650 -keyout key.pem -out fullchain.pem -subj "/C=/ST=/L=/O=/OU=/CN="
+```
+# Cd back to the marzban folder
+```bash
+cd /home/$USER/marzban/
+```
 # Touch the docker-compose.yaml file
 ```bash
 touch docker-compose.yaml
@@ -18,22 +25,22 @@ nano docker-compose.yaml
 
 # Paste the following content in the docker-compose.yaml file
 ```yaml
-services:  
-marzban:  
-image: gozargah/marzban:latest  
-restart: always  
-env_file: env  
-ports:  
-- "8880:8880"  
-- "8443:8443"  
-  
-environment:  
-SQLALCHEMY_DATABASE_URL: "sqlite:////var/lib/marzban/db.sqlite3"  
-XRAY_JSON: "/xray_config.json"  
-  
-volumes:  
-- ./xray_config.json:/xray_config.json  
-- ./config:/var/lib/marzban/
+services:
+  marzban:
+    image: gozargah/marzban:latest
+    restart: always
+    env_file: env
+    ports:
+      - "8880:8880"
+      - "8443:8443"
+
+    environment:
+      SQLALCHEMY_DATABASE_URL: "sqlite:////var/lib/marzban/db.sqlite3"
+      XRAY_JSON: "/xray_config.json"
+
+    volumes:
+      - ./xray_config.json:/xray_config.json
+      - ./config:/var/lib/marzban/
 ```
 
 
@@ -56,9 +63,8 @@ SUDO_USERNAME = "YOUR_USERNAME"
 SUDO_PASSWORD = "YOUR_PASSWORD"
 
 UVICORN_PORT = 8880
-# UVICORN_SSL_CERTFILE = "/var/lib/marzban/certs/fullchain.pem" # Uncomment if you plan to use this with TLS
-# UVICORN_SSL_KEYFILE = "/var/lib/marzban/certs/key.pem" # Uncomment if you plan to use this with TLS
-# Read the note at the end before enabling the two lines above
+UVICORN_SSL_CERTFILE = "/var/lib/marzban/certs/fullchain.pem"
+UVICORN_SSL_KEYFILE = "/var/lib/marzban/certs/key.pem"
 ```
 
 
@@ -211,7 +217,7 @@ nano xray_config.json
 
 
 # File structure should look like this
-![[Pasted image 20230603174653.png]]
+![[marz.png]]
 
 
 # Bring up the project with docker-compose command
@@ -220,5 +226,4 @@ docker-compose up -d
 ```
 
 
-**NOTE** 
-*If you want to use this with TLS you will have to add a key.pem and fullchain.pem in the /config/certs directory, only do this after you have run the docker-compose up -d command. You may also need to recrate the container after you have added your certs to your /config/certs directory. Use "docker-compose up -d --force-recreate"* That's it :)
+# Now you are done ;)
