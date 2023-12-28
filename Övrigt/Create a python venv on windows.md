@@ -13,3 +13,8 @@ python.exe -m venv name-of-env-folder
 ```bash
 .\name-of-env-folder\Scripts\activate
 ```
+
+## Generate a requirements.txt file
+```bash
+pip freeze > requirements.txt
+```
