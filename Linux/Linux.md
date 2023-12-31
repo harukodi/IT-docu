@@ -10,3 +10,6 @@
 [[Fedora server with only 15gb fix]]
 [[Change global dns servers on Ubuntu]]
 [[Usefull commands for disk managment]]
+[[Encrypt a drive with LUKS-Cryptsetup]]
+[[Useful iptables commands]]
+[[Set time-zone cli ubuntu]]

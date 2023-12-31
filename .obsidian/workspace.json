@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Enable unattended-upgrades.md",
+                "file": "Övrigt/Create a python venv on windows.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fa6eeed56f436d77",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Set time-zone cli ubuntu.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "unat",
+                "query": "venv",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,8 +86,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -94,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Enable unattended-upgrades.md",
+                "file": "Linux/Set time-zone cli ubuntu.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Enable unattended-upgrades.md",
+                "file": "Linux/Set time-zone cli ubuntu.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Enable unattended-upgrades.md"
+                "file": "Linux/Set time-zone cli ubuntu.md"
               }
             }
           },
@@ -152,7 +164,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -175,39 +189,40 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "25998fc6ad35bae2",
+  "active": "fa6eeed56f436d77",
   "lastOpenFiles": [
+    "Linux/Linux.md",
+    "Linux/Set time-zone cli ubuntu.md",
+    "Övrigt/Create a python venv on windows.md",
+    "Övrigt/Caddyfile example with API endpoint.md",
+    "Docker-installations/Caddy-server installation.md",
+    "Linux/Enable unattended-upgrades.md",
+    "Linux/Df-h-command.md",
+    "Linux/Create cert.pem-key.pem.md",
+    "Linux/Change global dns servers on Ubuntu.md",
+    "Linux/Bash at start up.md",
+    "Linux/Encrypt a drive with LUKS-Cryptsetup.md",
+    "Linux/Useful iptables commands.md",
+    "Linux/Add user to root group.md",
+    "Docker-installations/Nginx-proxy-manager-installation.md",
+    "Docker-installations/Docker-installations.md",
+    "Docker-installations/Dockerbuild-nginx-example.md",
+    "Övrigt/How to install suricata.md",
+    "Övrigt/Using authentik OICD nextcloud template.md",
     "Docker-installations/Install marzban xray with docker-compose.md",
     "Untitled.canvas",
     "marz.png",
     "Pasted image 20221205024732.png",
     "Pasted image 20231027163429.png",
     "Pasted image 20230603174653.png",
-    "Linux/Create cert.pem-key.pem.md",
-    "Docker-installations/Dockerbuild-nginx-example.md",
     "Docker-installations/Nextcloud-installation.md",
-    "Docker-installations/Docker-installations.md",
-    "Docker-installations/Caddy-server installation.md",
-    "Linux/Add user to root group.md",
-    "Linux/Encrypt a drive with LUKS-Cryptsetup.md",
     "Linux/Ubuntu server with only 100gb fix.md",
     "Linux/Usefull commands for disk managment.md",
-    "Linux/Linux.md",
     "Unifi/Unifi.md",
     "Unifi/Untitled.canvas",
     "Unifi/HarusUDM-Toplogy.md",
-    "Linux/Bash at start up.md",
-    "Övrigt/Caddyfile example with API endpoint.md",
     "Övrigt/OpenWRT Expanding root partition and filesystem.md",
-    "Övrigt/Using authentik OICD nextcloud template.md",
-    "Docker-installations/Nginx-proxy-manager-installation.md",
     "Docker-installations/Rancher-installation.md",
-    "Övrigt/Install tailscale on Fedora.md",
-    "Övrigt/Create a python venv on windows.md",
-    "Övrigt/SSH notification for discord webhook example script.md",
-    "Övrigt/Övrigt.md",
-    "Övrigt/CPU temp alert netdata template.md",
-    "Kubernetes/Service types.md",
     "Pasted image 20231027162734.png",
     "Azure-Cloud",
     "Proxmox",

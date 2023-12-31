@@ -68,7 +68,7 @@ touch caddy/Caddyfile
     # Global options block. Entirely optional, https is on by default
     # Optional email key for lets encrypt
     email yourmail@example.com
-    # Optional staging lets encrypt for testing. Comment out for production.
+    # Optional staging lets encrypt for testing. Comment out for testing.
     # acme_ca https://acme-staging-v02.api.letsencrypt.org/directory
 }
 subdomain.domain.tld {
