@@ -12,3 +12,4 @@
 [[Usefull commands for disk managment]]
 [[Encrypt a drive with LUKS-Cryptsetup]]
 [[Useful iptables commands]]
+[[Set time-zone cli ubuntu]]
