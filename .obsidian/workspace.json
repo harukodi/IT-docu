@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Add cifs mount.md",
+                "file": "Linux/Set time-zone cli ubuntu.md",
                 "mode": "preview",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cifs",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,8 +86,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -107,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Add cifs mount.md",
+                "file": "Linux/Set time-zone cli ubuntu.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Add cifs mount.md",
+                "file": "Linux/Set time-zone cli ubuntu.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Add cifs mount.md"
+                "file": "Linux/Set time-zone cli ubuntu.md"
               }
             }
           },
@@ -193,20 +192,20 @@
   "active": "1221f03cde864b79",
   "lastOpenFiles": [
     "Linux/Useful iptables commands.md",
+    "Övrigt/Create a python venv on windows.md",
+    "Ansible-books/ad-guard-docker-version-ansible-playbook.md",
+    "Linux/Add cifs mount.md",
     "Linux/Linux.md",
     "Linux/Usefull commands for disk managment.md",
-    "Övrigt/Create a python venv on windows.md",
     "Övrigt/CPU temp alert netdata template.md",
     "Övrigt/Using authentik OICD nextcloud template.md",
     "Övrigt/How to install suricata.md",
     "Terraform/Terraform-gcp-k3s-cluster-with-tailscale.md",
     "Terraform/Terraform-DigitalOcean-kubernetes-engine.md",
-    "Linux/Add cifs mount.md",
     "Kubernetes/Deployment.md",
     "Linux/Ubuntu server with only 100gb fix.md",
     "Terraform/Terraform-Azure-Vm.md",
     "marz.png",
-    "Ansible-books/ad-guard-docker-version-ansible-playbook.md",
     "Docker-installations/Nextcloud-installation.md",
     "Docker-installations/Dockerbuild-nginx-example.md",
     "Docker-installations/Install marzban xray with docker-compose.md",
