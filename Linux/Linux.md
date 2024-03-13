@@ -13,3 +13,4 @@
 [[Encrypt a drive with LUKS-Cryptsetup]]
 [[Useful iptables commands]]
 [[Set time-zone cli ubuntu]]
+[[Troubleshooting network issues after motherboard replacement in Ubuntu!]]
