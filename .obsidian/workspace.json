@@ -11,9 +11,17 @@
             "id": "25998fc6ad35bae2",
             "type": "leaf",
             "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "d0004734087d309c",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Linux.md",
+                "file": "Pfsense/Pfsense.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,7 +51,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -117,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Linux.md",
+                "file": "Pfsense/Pfsense.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Linux.md",
+                "file": "Pfsense/Pfsense.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Linux.md"
+                "file": "Pfsense/Pfsense.md"
               }
             }
           },
@@ -200,37 +209,37 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "25998fc6ad35bae2",
+  "active": "d0004734087d309c",
   "lastOpenFiles": [
-    "Linux/Install or upgrade the kernel on ubuntu.md",
-    "Övrigt/Using authentik OICD nextcloud template.md",
-    "Docker-installations/Nextcloud-installation.md",
-    "Linux/Usefull commands for disk managment.md",
-    "Linux/Troubleshooting network issues after motherboard replacement in Ubuntu!.md",
-    "Linux/Linux.md",
-    "Övrigt/Create a python venv on windows.md",
-    "Linux/Set time-zone cli ubuntu.md",
-    "Docker-installations/Docker buildx commands.md",
-    "Docker-installations/Docker-installations.md",
-    "Docker-installations/Rancher installation.md",
-    "Docker-installations/Caddy server installation.md",
-    "Docker-installations/Nginx proxy manager installation.md",
-    "Docker-installations/Dockerbuild nginx example.md",
-    "Docker-installations/Install marzban xray with docker-compose.md",
-    "Övrigt/Caddyfile example with API endpoint.md",
-    "Ansible-books/ad-guard-docker-version-ansible-playbook.md",
+    "Pfsense/Add DNS over TLS In Pfsense.md",
+    "Proxmox/User management in proxmox example commands.md",
     "Saltstack/How to install saltstack on ubuntu.md",
     "Saltstack/Saltstack.md",
-    "Terraform/Terraform-K8s-GKE-cluster.md",
+    "Terraform/Terraform-Azure-Vm.md",
+    "Terraform/Terraform.md",
+    "Terraform/Terraform-tailscale.md",
+    "Terraform/Terraform-DigitalOcean-kubernetes-engine.md",
+    "Övrigt/Övrigt.md",
+    "Övrigt/Jellyfin LDAP filters.md",
+    "Docker-installations/Docker buildx commands.md",
+    "Linux/Troubleshooting network issues after motherboard replacement in Ubuntu!.md",
+    "Linux/Set time-zone cli ubuntu.md",
+    "Linux/Add user to root group.md",
+    "Linux/Bash at start up.md",
+    "Linux/Usefull commands for disk managment.md",
+    "Linux/Ubuntu server with only 100gb fix.md",
+    "Linux/Useful iptables commands.md",
+    "Linux/Install or upgrade the kernel on ubuntu.md",
+    "Linux/Add cifs mount.md",
+    "Linux/Linux.md",
+    "Övrigt/Using authentik OICD nextcloud template.md",
+    "Docker-installations/Nextcloud-installation.md",
+    "Övrigt/Create a python venv on windows.md",
+    "Docker-installations/Docker-installations.md",
+    "Docker-installations/Rancher installation.md",
     "Pasted image 20221205024732.png",
     "Pasted image 20231027163429.png",
     "marz.png",
-    "Linux/Useful iptables commands.md",
-    "Linux/Add cifs mount.md",
-    "Övrigt/CPU temp alert netdata template.md",
-    "Övrigt/How to install suricata.md",
-    "Terraform/Terraform-gcp-k3s-cluster-with-tailscale.md",
-    "Terraform/Terraform-DigitalOcean-kubernetes-engine.md",
     "Untitled.canvas",
     "Pasted image 20230603174653.png",
     "Unifi/Untitled.canvas",

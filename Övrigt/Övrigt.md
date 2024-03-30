@@ -5,3 +5,4 @@
 [[OpenWRT Expanding root partition and filesystem]]
 [[CPU temp alert netdata template]]
 [[Using authentik OICD nextcloud template]]
+[[Jellyfin LDAP filters]]
