@@ -88,3 +88,5 @@ nano caddy/Caddyfile
 ```bash
 docker-compose up -d
 ```
+[[Caddyfile example with API endpoint]]
+[[Caddy example with more routes and redirection]]

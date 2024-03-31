@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pfsense/Pfsense.md",
+                "file": "Övrigt/Caddy example with more routes and redirection.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "nextcloud",
+                "query": "caddy",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pfsense/Pfsense.md",
+                "file": "Övrigt/Caddy example with more routes and redirection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pfsense/Pfsense.md",
+                "file": "Övrigt/Caddy example with more routes and redirection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pfsense/Pfsense.md"
+                "file": "Övrigt/Caddy example with more routes and redirection.md"
               }
             }
           },
@@ -211,35 +211,35 @@
   },
   "active": "d0004734087d309c",
   "lastOpenFiles": [
+    "Övrigt/Caddy example with more routes and redirection.md",
+    "Övrigt/Övrigt.md",
+    "Docker-installations/Caddy server installation.md",
+    "Övrigt/Caddyfile example with API endpoint.md",
+    "Docker-installations/Docker-installations.md",
+    "Docker-installations/Dockerbuild nginx example.md",
+    "Docker-installations/Rancher installation.md",
+    "Docker-installations/Docker buildx commands.md",
+    "Linux/Set time-zone cli ubuntu.md",
+    "Linux/Linux.md",
+    "Unifi/Unifi.md",
+    "marz.png",
+    "Pasted image 20231027163429.png",
+    "Pasted image 20221205024732.png",
+    "HarusUDM-Toplogy.md",
+    "Terraform/Terraform-mongo-db.md",
+    "Terraform/Terraform-gcp-k3s-cluster-with-tailscale.md",
+    "Terraform/Terraform-K8s-GKE-cluster.md",
+    "Azure-Cloud/Create a webapp with az cli - git repo.md",
+    "Azure-Cloud/Az useful links.md",
+    "Azure-Cloud/Azure-Cloud.md",
+    "Azure-Cloud/How to create a vm with az cli and ssh with entra id login.md",
+    "Pfsense/Pfsense.md",
     "Pfsense/Add DNS over TLS In Pfsense.md",
     "Proxmox/User management in proxmox example commands.md",
     "Saltstack/How to install saltstack on ubuntu.md",
     "Saltstack/Saltstack.md",
     "Terraform/Terraform-Azure-Vm.md",
     "Terraform/Terraform.md",
-    "Terraform/Terraform-tailscale.md",
-    "Terraform/Terraform-DigitalOcean-kubernetes-engine.md",
-    "Övrigt/Övrigt.md",
-    "Övrigt/Jellyfin LDAP filters.md",
-    "Docker-installations/Docker buildx commands.md",
-    "Linux/Troubleshooting network issues after motherboard replacement in Ubuntu!.md",
-    "Linux/Set time-zone cli ubuntu.md",
-    "Linux/Add user to root group.md",
-    "Linux/Bash at start up.md",
-    "Linux/Usefull commands for disk managment.md",
-    "Linux/Ubuntu server with only 100gb fix.md",
-    "Linux/Useful iptables commands.md",
-    "Linux/Install or upgrade the kernel on ubuntu.md",
-    "Linux/Add cifs mount.md",
-    "Linux/Linux.md",
-    "Övrigt/Using authentik OICD nextcloud template.md",
-    "Docker-installations/Nextcloud-installation.md",
-    "Övrigt/Create a python venv on windows.md",
-    "Docker-installations/Docker-installations.md",
-    "Docker-installations/Rancher installation.md",
-    "Pasted image 20221205024732.png",
-    "Pasted image 20231027163429.png",
-    "marz.png",
     "Untitled.canvas",
     "Pasted image 20230603174653.png",
     "Unifi/Untitled.canvas",

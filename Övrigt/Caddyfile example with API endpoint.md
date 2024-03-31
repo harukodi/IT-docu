@@ -36,4 +36,3 @@ api.example.com {
   respond "Not found" 404
 }
 ```
-[[Caddy server installation]]
