@@ -144,6 +144,44 @@ nano xray_config.json
             }
         },
         {
+            "tag": "VLESS GRPC REALITY",
+            "listen": "0.0.0.0",
+            "port": 2095,
+            "protocol": "vless",
+            "settings": {
+                "clients": [],
+                "decryption": "none"
+            },
+            "streamSettings": {
+                "network": "grpc",
+                "grpcSettings": {
+                    "serviceName": "your-service-name-goes-here" 
+                },
+                "security": "reality",
+                "realitySettings": {
+                    "show": false,
+                    "dest": "discordapp.com:443",
+                    "xver": 0,
+                    "serverNames": [
+                        "cdn.discordapp.com",
+                        "discordapp.com"
+                    ],
+                    "privateKey": "your-private-key-goes-here",
+                    "shortIds": [
+                        "",
+                        "your-shortid-goes-here"
+                    ]
+                }
+            },
+            "sniffing": {
+                "enabled": true,
+                "destOverride": [
+                    "http",
+                    "tls"
+                ]
+            }
+        },
+        {
             "tag": "TROJAN_INBOUND",
             "listen": "0.0.0.0",
             "port": 2087,
@@ -215,7 +253,10 @@ nano xray_config.json
 }
 ```
 
-
+**NOTE:** `To generate a shortID for the XRAY Reality protocol, you can run the following command:`
+```bash
+openssl rand -hex 8
+```
 # File structure should look like this
 ![[marz.png]]
 

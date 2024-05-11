@@ -15,3 +15,4 @@
 [[Set time-zone cli ubuntu]]
 [[Troubleshooting network issues after motherboard replacement in Ubuntu!]]
 [[Install or upgrade the kernel on ubuntu]]
+[[Create a short ID ubuntu command]]
