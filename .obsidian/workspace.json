@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c46688985eb138b6",
+        "id": "4429d74b23db2fda",
         "type": "tabs",
         "children": [
           {
-            "id": "56f7987bb643ff2c",
+            "id": "31123396755bd9d3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker-installations/Install marzban xray with docker-compose.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4fb5ad0b3bb0384f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/Create a short ID ubuntu command.md",
+                "file": "Linux/Encrypt a drive with LUKS-Cryptsetup.md",
                 "mode": "source",
                 "source": false
               }
@@ -89,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "1f8adcce93b82cf9",
@@ -106,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker-installations/Install marzban xray with docker-compose.md",
+                "file": "Linux/Encrypt a drive with LUKS-Cryptsetup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker-installations/Install marzban xray with docker-compose.md",
+                "file": "Linux/Encrypt a drive with LUKS-Cryptsetup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker-installations/Install marzban xray with docker-compose.md"
+                "file": "Linux/Encrypt a drive with LUKS-Cryptsetup.md"
               }
             }
           },
@@ -189,8 +176,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "56f7987bb643ff2c",
+  "active": "31123396755bd9d3",
   "lastOpenFiles": [
+    "Docker-installations/Docker buildx commands.md",
+    "Docker-installations/Dockerbuild nginx example.md",
+    "Docker-installations/Useful docker commands.md",
+    "Docker-installations/Docker-installations.md",
+    "Linux/Usefull commands for disk managment.md",
+    "Linux/Encrypt a drive with LUKS-Cryptsetup.md",
     "Linux/Create a short ID ubuntu command.md",
     "Docker-installations/Install marzban xray with docker-compose.md",
     "Övrigt/Create a python venv on windows.md",
@@ -205,19 +198,13 @@
     "Ansible-books/Shadowsocks-rust-docker-version-ansible-playbook.md",
     "Ansible-books/Squid-proxy-ansible-playbook.md",
     "Docker-installations/Nextcloud-installation.md",
-    "Docker-installations/Dockerbuild nginx example.md",
-    "Docker-installations/Docker-installations.md",
     "Docker-installations/Caddy server installation.md",
     "Linux/Linux.md",
     "Flutter",
-    "Linux/Encrypt a drive with LUKS-Cryptsetup.md",
-    "Linux/Usefull commands for disk managment.md",
     "Ansible-books/ad-guard-docker-version-ansible-playbook.md",
-    "Docker-installations/Docker buildx commands.md",
     "Linux/Add user to root group.md",
     "Kubernetes/RBAC Kubernetes examples.md",
     "Kubernetes/Install Argocd on Kubernetes.md",
-    "Kubernetes/Deployment.md",
     "marz.png",
     "Pasted image 20231027163429.png",
     "Pasted image 20221205024732.png",

@@ -17,8 +17,13 @@ sudo cryptsetup luksOpen /dev/sdX sdX
 sudo mkfs.ext4 /dev/mapper/sdX
 ```
 
-## Mount/unmount the encrypted partition
+## Open/mount the encrypted drive/partition
 #### Use the following command to open the encrypted partition
 ```bash
 sudo cryptsetup luksOpen /dev/sdX sdX
+```
+
+#### Use the following to mount the encrypted partition
+```bash
+mkdir sdX; mount /dev/mapper/sdX sdX
 ```
