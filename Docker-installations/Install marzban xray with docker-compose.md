@@ -258,8 +258,17 @@ nano xray_config.json
 openssl rand -hex 8
 ```
 # File structure should look like this
-![[marz.png]]
-
+```
+📦marzban  
+ ┣ 📂config  
+ ┃ ┣ 📂certs  
+ ┃ ┃ ┣ 📜fullchain.pem  
+ ┃ ┃ ┗ 📜key.pem  
+ ┃ ┗ 📜db.sqlite3  
+ ┣ 📜docker-compose.yaml  
+ ┣ 📜env  
+ ┗ 📜xray_config.json
+```
 
 # Bring up the project with docker-compose command
 ```bash

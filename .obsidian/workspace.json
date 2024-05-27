@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Encrypt a drive with LUKS-Cryptsetup.md",
+                "file": "Docker-installations/Install marzban xray with docker-compose.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "freeze",
+                "query": "buildx",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Encrypt a drive with LUKS-Cryptsetup.md",
+                "file": "Docker-installations/Install marzban xray with docker-compose.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Encrypt a drive with LUKS-Cryptsetup.md",
+                "file": "Docker-installations/Install marzban xray with docker-compose.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Encrypt a drive with LUKS-Cryptsetup.md"
+                "file": "Docker-installations/Install marzban xray with docker-compose.md"
               }
             }
           },
@@ -178,36 +178,35 @@
   },
   "active": "31123396755bd9d3",
   "lastOpenFiles": [
-    "Docker-installations/Docker buildx commands.md",
-    "Docker-installations/Dockerbuild nginx example.md",
-    "Docker-installations/Useful docker commands.md",
     "Docker-installations/Docker-installations.md",
-    "Linux/Usefull commands for disk managment.md",
-    "Linux/Encrypt a drive with LUKS-Cryptsetup.md",
-    "Linux/Create a short ID ubuntu command.md",
+    "Docker-installations/Caddy server installation.md",
+    "Docker-installations/Dockerbuild nginx example.md",
     "Docker-installations/Install marzban xray with docker-compose.md",
+    "Docker-installations/Nextcloud-installation.md",
+    "Docker-installations/Nginx proxy manager installation.md",
+    "Docker-installations/Useful docker commands.md",
+    "Docker-installations/Docker buildx commands.md",
+    "Docker-installations/Rancher installation.md",
+    "Pasted image 20231027163429.png",
+    "Pasted image 20221205024732.png",
+    "marz.png",
     "Övrigt/Create a python venv on windows.md",
+    "Ansible-books/Shadowsocks-rust-docker-version-ansible-playbook.md",
+    "Ansible-books/ad-guard-docker-version-ansible-playbook.md",
+    "Linux/Encrypt a drive with LUKS-Cryptsetup.md",
+    "Linux/Usefull commands for disk managment.md",
+    "Linux/Create a short ID ubuntu command.md",
     "Linux/Troubleshooting network issues after motherboard replacement in Ubuntu!.md",
     "Linux/Set time-zone cli ubuntu.md",
     "Linux/Install or upgrade the kernel on ubuntu.md",
     "Flutter/Flutter-example-without-statless-widget.md",
     "Flutter/Flutter-example-with-statless-widget.md",
     "Flutter/Flutter.md",
-    "Docker-installations/Rancher installation.md",
-    "Docker-installations/Nginx proxy manager installation.md",
-    "Ansible-books/Shadowsocks-rust-docker-version-ansible-playbook.md",
     "Ansible-books/Squid-proxy-ansible-playbook.md",
-    "Docker-installations/Nextcloud-installation.md",
-    "Docker-installations/Caddy server installation.md",
     "Linux/Linux.md",
     "Flutter",
-    "Ansible-books/ad-guard-docker-version-ansible-playbook.md",
     "Linux/Add user to root group.md",
     "Kubernetes/RBAC Kubernetes examples.md",
-    "Kubernetes/Install Argocd on Kubernetes.md",
-    "marz.png",
-    "Pasted image 20231027163429.png",
-    "Pasted image 20221205024732.png",
     "Untitled.canvas",
     "Pasted image 20230603174653.png",
     "Unifi/Untitled.canvas",
