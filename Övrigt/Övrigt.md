@@ -7,3 +7,4 @@
 [[Using authentik OICD nextcloud template]]
 [[Jellyfin LDAP filters]]
 [[Caddy example with more routes and redirection]]
+[[caddy + vless + ws example]]

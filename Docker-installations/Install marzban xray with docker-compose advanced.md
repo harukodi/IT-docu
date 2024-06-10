@@ -1,27 +1,42 @@
 # Create the folders for marzban xray
 ```bash
-cd /home/$USER/ && mkdir -p marzban/config/certs && cd marzban/config/certs
+cd /home/$USER/; mkdir -p marzban/config/{certs,xray-core}; cd marzban/config/certs
 ```
 
 # Create the fullchain.pem / key.pem files for marzban
 ```bash
 openssl req -newkey rsa:2048 -new -nodes -x509 -days 3650 -keyout key.pem -out fullchain.pem -subj "/C=/ST=/L=/O=/OU=/CN="
 ```
-# Cd back to the marzban folder
+# Cd to the xray folder
+```bash
+cd /home/$USER/marzban/config/xray-core
+```
+
+# Fetch the xray-core
+```bash
+wget "https://github.com/XTLS/Xray-core/releases/download/v1.8.13/Xray-linux-64.zip"
+```
+
+# Unzip the xray-core zip file
+**NOTE**: If you dont have unzip install it with `sudo apt install unzip -y`
+```bash
+sudo unzip Xray-linux-64.zip; sudo rm Xray-linux-64.zip
+```
+
+# Cd back to root of the marzban folder
 ```bash
 cd /home/$USER/marzban/
 ```
+
 # Touch the docker-compose.yaml file
 ```bash
 touch docker-compose.yaml
 ```
 
-
 # Open the docker-compoe.yaml file with nano
 ```bash
 nano docker-compose.yaml
 ```
-
 
 # Paste the following content in the docker-compose.yaml file
 ```yaml
@@ -34,27 +49,20 @@ services:
       - "8880:8880"
       - "8443:8443"
 
-    environment:
-      SQLALCHEMY_DATABASE_URL: "sqlite:////var/lib/marzban/db.sqlite3"
-      XRAY_JSON: "/xray_config.json"
-
     volumes:
       - ./xray_config.json:/xray_config.json
       - ./config:/var/lib/marzban/
 ```
-
 
 # Touch the env file
 ```bash
 touch env
 ```
 
-
 # Open the env file with nano
 ```bash
 nano env
 ```
-
 
 # Paste the following content to the env file
 *Change the SUDO_USERNAME and the SUDO_PASSWORD to your own NAME/PASSWORD*
@@ -63,10 +71,12 @@ SUDO_USERNAME = "YOUR_USERNAME"
 SUDO_PASSWORD = "YOUR_PASSWORD"
 
 UVICORN_PORT = 8880
+SQLALCHEMY_DATABASE_URL: "sqlite:////var/lib/marzban/db.sqlite3"
+XRAY_JSON: "/xray_config.json"
 UVICORN_SSL_CERTFILE = "/var/lib/marzban/certs/fullchain.pem"
 UVICORN_SSL_KEYFILE = "/var/lib/marzban/certs/key.pem"
+XRAY_EXECUTABLE_PATH = "/var/lib/marzban/xray-core/xray"
 ```
-
 
 # Touch the xray_config.json file
 ```bash
@@ -144,44 +154,6 @@ nano xray_config.json
             }
         },
         {
-            "tag": "VLESS GRPC REALITY",
-            "listen": "0.0.0.0",
-            "port": 2095,
-            "protocol": "vless",
-            "settings": {
-                "clients": [],
-                "decryption": "none"
-            },
-            "streamSettings": {
-                "network": "grpc",
-                "grpcSettings": {
-                    "serviceName": "your-service-name-goes-here" 
-                },
-                "security": "reality",
-                "realitySettings": {
-                    "show": false,
-                    "dest": "discordapp.com:443",
-                    "xver": 0,
-                    "serverNames": [
-                        "cdn.discordapp.com",
-                        "discordapp.com"
-                    ],
-                    "privateKey": "your-private-key-goes-here",
-                    "shortIds": [
-                        "",
-                        "your-shortid-goes-here"
-                    ]
-                }
-            },
-            "sniffing": {
-                "enabled": true,
-                "destOverride": [
-                    "http",
-                    "tls"
-                ]
-            }
-        },
-        {
             "tag": "TROJAN_INBOUND",
             "listen": "0.0.0.0",
             "port": 2087,
@@ -252,11 +224,6 @@ nano xray_config.json
     }
 }
 ```
-
-**NOTE:** `To generate a shortID for the XRAY Reality protocol, you can run the following command:`
-```bash
-openssl rand -hex 8
-```
 # File structure should look like this
 ```
 📦marzban  
@@ -264,7 +231,12 @@ openssl rand -hex 8
  ┃ ┣ 📂certs  
  ┃ ┃ ┣ 📜fullchain.pem  
  ┃ ┃ ┗ 📜key.pem  
- ┃ ┗ 📜db.sqlite3  
+ ┃ ┗ 📂xray-core  
+ ┃ ┃ ┣ 📜LICENSE  
+ ┃ ┃ ┣ 📜README.md  
+ ┃ ┃ ┣ 📜geoip.dat  
+ ┃ ┃ ┣ 📜geosite.dat  
+ ┃ ┃ ┗ 📜xray  
  ┣ 📜docker-compose.yaml  
  ┣ 📜env  
  ┗ 📜xray_config.json
@@ -274,6 +246,7 @@ openssl rand -hex 8
 ```bash
 docker-compose up -d
 ```
-
-
 # Now you are done ;)
+
+#### caddy + vless + ws example
+[[caddy + vless + ws example]]

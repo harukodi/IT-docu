@@ -6,6 +6,6 @@
 [[Dockerbuild nginx example]]
 [[Rancher installation]]
 [[Caddy server installation]]
-[[Install marzban xray with docker-compose]]
+[[Install marzban xray with docker-compose advanced]]
 [[Docker buildx commands]]
 [[Useful docker commands]]
