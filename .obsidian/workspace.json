@@ -37,8 +37,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker-installations/Install marzban xray with docker-compose advanced.md",
-                "mode": "source",
+                "file": "Ansible-books/Unifi-APs-update-ansible-playbook.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker-installations/Install marzban xray with docker-compose advanced.md",
+                "file": "Ansible-books/Unifi-APs-update-ansible-playbook.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker-installations/Install marzban xray with docker-compose advanced.md",
+                "file": "Ansible-books/Unifi-APs-update-ansible-playbook.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker-installations/Install marzban xray with docker-compose advanced.md"
+                "file": "Ansible-books/Unifi-APs-update-ansible-playbook.md"
               }
             }
           },
@@ -203,32 +203,32 @@
   },
   "active": "24c6d06946ec04fd",
   "lastOpenFiles": [
-    "Övrigt/Caddy example with more routes and redirection.md",
+    "Ansible-books/Squid-proxy-ansible-playbook.md",
+    "Ansible-books/Unifi-APs-update-ansible-playbook.md",
+    "Ansible-books/ad-guard-docker-version-ansible-playbook.md",
+    "Ansible-books/Shadowsocks-rust-docker-version-ansible-playbook.md",
+    "Ansible-books/Mysql-db-ansible-playbook.md",
+    "Linux/Fedora server with only 15gb fix.md",
+    "Linux/Enable unattended-upgrades.md",
+    "Linux/Df-h-command.md",
+    "Linux/Create cert.pem-key.pem.md",
+    "Linux/Change global dns servers on Ubuntu.md",
+    "Linux/Bash at start up.md",
+    "Linux/Add user to root group.md",
+    "Linux/Add cifs mount.md",
+    "Övrigt/caddy + vless + ws example.md",
     "Docker-installations/Caddy server installation.md",
+    "Docker-installations/ELK stack docker installation.md",
+    "Docker-installations/Rancher installation.md",
     "Docker-installations/Docker buildx commands.md",
     "Docker-installations/Dockerbuild nginx example.md",
     "Docker-installations/Useful docker commands.md",
-    "Terraform/Terraform-K8s-GKE-cluster.md",
-    "Terraform/Terraform-gcp-k3s-cluster-with-tailscale.md",
-    "Terraform/Terraform-DigitalOcean-kubernetes-engine.md",
-    "Saltstack/How to install saltstack on ubuntu.md",
-    "Terraform/Terraform-tailscale.md",
-    "Terraform/Terraform-mongo-db.md",
-    "Terraform/Terraform-kubernetes-master-init.md",
+    "Docker-installations/Docker-installations.md",
     "Docker-installations/Install marzban xray with docker-compose advanced.md",
     "Docker-installations/Nextcloud-installation.md",
-    "Docker-installations/Nginx proxy manager installation.md",
-    "Övrigt/Caddyfile example with API endpoint.md",
-    "Linux/Troubleshooting network issues after motherboard replacement in Ubuntu!.md",
-    "Övrigt/caddy + vless + ws example.md",
-    "Linux/Useful iptables commands.md",
-    "Linux/Usefull commands for disk managment.md",
-    "Kubernetes/Deployment.md",
-    "Linux/Linux.md",
-    "Linux/Unsorted Linux commands..md",
-    "Övrigt/Övrigt.md",
-    "Terraform/Terraform-Azure-Vm.md",
-    "Docker-installations/Docker-installations.md",
+    "Övrigt/Caddy example with more routes and redirection.md",
+    "Terraform/Terraform-K8s-GKE-cluster.md",
+    "Terraform/Terraform-gcp-k3s-cluster-with-tailscale.md",
     "Pasted image 20231027163429.png",
     "Pasted image 20221205024732.png",
     "marz.png",

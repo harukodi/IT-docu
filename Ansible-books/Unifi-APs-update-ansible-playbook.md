@@ -7,7 +7,7 @@
   hosts: <hosts or host of where the playbook is meant to be executed at>
   vars_prompt:
     - name: updateURL # Update URL for the .bin file
-      prompt: Sir/Mrs please Enter URL # Input URL to .bin file for the update
+      prompt: Please Enter URL # Input URL to .bin file for the update
       unsafe: yes # Allows unsafe characters example /
       private: no
   tasks:
