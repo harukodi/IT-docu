@@ -45,7 +45,7 @@ services:
   marzban:
     image: gozargah/marzban:latest
     restart: always
-    env_file: env
+    env_file: .env
     ports:
       - "8880:8880"
       - "8443:8443"
@@ -57,12 +57,12 @@ services:
 
 # Touch the env file
 ```bash
-touch env
+touch .env
 ```
 
 # Open the env file with nano
 ```bash
-nano env
+nano .env
 ```
 
 # Paste the following content to the env file
