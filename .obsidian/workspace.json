@@ -49,8 +49,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker-installations/Install marzban xray with docker-compose advanced.md",
-                "mode": "preview",
+                "file": "Docker-installations/Install custom Xray version with Marzban and Docker Compose Advanced..md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker-installations/Install marzban xray with docker-compose advanced.md",
+                "file": "Docker-installations/Install custom Xray version with Marzban and Docker Compose Advanced..md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker-installations/Install marzban xray with docker-compose advanced.md",
+                "file": "Docker-installations/Install custom Xray version with Marzban and Docker Compose Advanced..md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker-installations/Install marzban xray with docker-compose advanced.md"
+                "file": "Docker-installations/Install custom Xray version with Marzban and Docker Compose Advanced..md"
               }
             }
           },
@@ -216,6 +216,7 @@
   "active": "e1e624ecf4d4ef6f",
   "lastOpenFiles": [
     "Docker-installations/Docker-installations.md",
+    "Docker-installations/Install custom Xray version with Marzban and Docker Compose Advanced..md",
     "Docker-installations/Dockerbuild nginx example.md",
     "Docker-installations/Nginx proxy manager installation.md",
     "Docker-installations/Useful docker commands.md",
@@ -237,7 +238,6 @@
     "Docker-installations/Caddy server installation.md",
     "Docker-installations/ELK stack docker installation.md",
     "Docker-installations/Rancher installation.md",
-    "Docker-installations/Install marzban xray with docker-compose advanced.md",
     "Docker-installations/Nextcloud-installation.md",
     "Övrigt/Caddy example with more routes and redirection.md",
     "Terraform/Terraform-K8s-GKE-cluster.md",
