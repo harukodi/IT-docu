@@ -6,6 +6,6 @@
 [[Dockerbuild nginx example]]
 [[Rancher installation]]
 [[Caddy server installation]]
-[[Install custom Xray version with Marzban and Docker Compose Advanced.]]
+[[Install custom Xray version with Marzban and Docker Compose Advanced]]
 [[Docker buildx commands]]
 [[Useful docker commands]]
