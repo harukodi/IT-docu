@@ -13,6 +13,7 @@ cd /home/$USER/marzban/config/xray-core
 ```
 
 # Fetch the xray-core
+**NOTE**: At the time of writing, the latest Xray version is `v1.8.13`. To view all the current and previous Xray versions, visit the [Releases · Xray-core (github.com)](https://github.com/XTLS/Xray-core/releases)
 ```bash
 wget "https://github.com/XTLS/Xray-core/releases/download/v1.8.13/Xray-linux-64.zip"
 ```
