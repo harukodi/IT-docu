@@ -17,3 +17,4 @@
 [[Install or upgrade the kernel on ubuntu]]
 [[Create a short ID ubuntu command]]
 [[Unsorted Linux commands.]]
+[[Run sudo command without a password]]

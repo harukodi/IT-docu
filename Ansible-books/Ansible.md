@@ -1,0 +1,5 @@
+[[Mysql-db-ansible-playbook]]
+[[Shadowsocks-rust-docker-version-ansible-playbook]]
+[[ad-guard-docker-version-ansible-playbook]]
+[[Squid-proxy-ansible-playbook]]
+[[Unifi-APs-update-ansible-playbook]]

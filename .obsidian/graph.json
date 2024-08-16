@@ -8,13 +8,6 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:Docker-installations",
-      "color": {
-        "a": 1,
-        "rgb": 6591981
-      }
-    },
-    {
       "query": "path:Terraform",
       "color": {
         "a": 1,
@@ -22,24 +15,10 @@
       }
     },
     {
-      "query": "path:Ansible-books",
-      "color": {
-        "a": 1,
-        "rgb": 16711680
-      }
-    },
-    {
       "query": "path:Linux",
       "color": {
         "a": 1,
         "rgb": 16753973
-      }
-    },
-    {
-      "query": "path:Unifi",
-      "color": {
-        "a": 1,
-        "rgb": 16777215
       }
     },
     {
@@ -90,6 +69,34 @@
         "a": 1,
         "rgb": 6306133
       }
+    },
+    {
+      "query": "path:Python  ",
+      "color": {
+        "a": 1,
+        "rgb": 1428257
+      }
+    },
+    {
+      "query": "path:incus  ",
+      "color": {
+        "a": 1,
+        "rgb": 6084269
+      }
+    },
+    {
+      "query": "path:Ansible ",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
+    },
+    {
+      "query": "path:Docker ",
+      "color": {
+        "a": 1,
+        "rgb": 2303
+      }
     }
   ],
   "collapse-display": false,
@@ -102,6 +109,6 @@
   "repelStrength": 13.5416666666667,
   "linkStrength": 1,
   "linkDistance": 145,
-  "scale": 0.8417374409898878,
+  "scale": 0.4450817287393869,
   "close": true
 }

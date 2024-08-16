@@ -37,26 +37,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Övrigt/caddy + vless + ws example.md",
+                "file": "incus/Incus container-vm commands.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "e1e624ecf4d4ef6f",
+            "id": "62e058b271705482",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker-installations/Install custom Xray version with Marzban and Docker Compose Advanced.md",
+                "file": "Docker/Containerize Python Application Using Docker.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b5490e9c3acab992",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Övrigt/SSH custom command to build docker image on remote.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -85,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tcpdum",
+                "query": "emby",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -130,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker-installations/Install custom Xray version with Marzban and Docker Compose Advanced.md",
+                "file": "Övrigt/SSH custom command to build docker image on remote.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker-installations/Install custom Xray version with Marzban and Docker Compose Advanced.md",
+                "file": "Övrigt/SSH custom command to build docker image on remote.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker-installations/Install custom Xray version with Marzban and Docker Compose Advanced.md"
+                "file": "Övrigt/SSH custom command to build docker image on remote.md"
               }
             }
           },
@@ -204,6 +216,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "publish:Publish changes...": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -213,36 +226,38 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e1e624ecf4d4ef6f",
+  "active": "b5490e9c3acab992",
   "lastOpenFiles": [
-    "Docker-installations/Nextcloud-installation.md",
-    "Docker-installations/Install custom Xray version with Marzban and Docker Compose Advanced.md",
-    "Docker-installations/Docker-installations.md",
-    "Docker-installations/Dockerbuild nginx example.md",
-    "Docker-installations/Nginx proxy manager installation.md",
-    "Docker-installations/Useful docker commands.md",
-    "Docker-installations/Docker buildx commands.md",
-    "Ansible-books/Unifi-APs-update-ansible-playbook.md",
-    "Ansible-books/Squid-proxy-ansible-playbook.md",
-    "Ansible-books/ad-guard-docker-version-ansible-playbook.md",
-    "Ansible-books/Shadowsocks-rust-docker-version-ansible-playbook.md",
-    "Ansible-books/Mysql-db-ansible-playbook.md",
-    "Linux/Fedora server with only 15gb fix.md",
-    "Linux/Enable unattended-upgrades.md",
-    "Linux/Df-h-command.md",
-    "Linux/Create cert.pem-key.pem.md",
-    "Linux/Change global dns servers on Ubuntu.md",
-    "Linux/Bash at start up.md",
-    "Linux/Add user to root group.md",
-    "Linux/Add cifs mount.md",
-    "Övrigt/caddy + vless + ws example.md",
-    "Docker-installations/Caddy server installation.md",
-    "Docker-installations/ELK stack docker installation.md",
-    "Docker-installations/Rancher installation.md",
-    "Övrigt/Caddy example with more routes and redirection.md",
-    "Terraform/Terraform-K8s-GKE-cluster.md",
-    "Pasted image 20231027163429.png",
+    "Övrigt/SSH notification for discord webhook example script.md",
+    "Övrigt/Jellyfin LDAP filters.md",
+    "HarusUDM-Toplogy.md",
+    "Unifi/Unifi.md",
     "Pasted image 20221205024732.png",
+    "Pasted image 20231027163429.png",
+    "Ansible-books/Ansible.md",
+    "Ansible-books/Unifi-APs-update-ansible-playbook.md",
+    "Ansible-books/Mysql-db-ansible-playbook.md",
+    "Ansible-books/Shadowsocks-rust-docker-version-ansible-playbook.md",
+    "Linux/Linux.md",
+    "Ansible-books/ad-guard-docker-version-ansible-playbook.md",
+    "Ansible-books/Squid-proxy-ansible-playbook.md",
+    "Saltstack/Saltstack.md",
+    "Linux/Unsorted Linux commands..md",
+    "Linux/Run sudo command without a password.md",
+    "Docker/Containerize Python Application Using Docker.md",
+    "Övrigt/Setup LDAP on Emby example.md",
+    "Övrigt/Övrigt.md",
+    "Övrigt/Caddy example with more routes and redirection.md",
+    "Övrigt/caddy + vless + ws example.md",
+    "Övrigt/SSH custom command to build docker image on remote.md",
+    "Linux/Encrypt a drive with LUKS-Cryptsetup.md",
+    "Linux/Useful iptables commands.md",
+    "Linux/Set time-zone cli ubuntu.md",
+    "Linux/Troubleshooting network issues after motherboard replacement in Ubuntu!.md",
+    "Linux/Install or upgrade the kernel on ubuntu.md",
+    "Linux/Create a short ID ubuntu command.md",
+    "incus",
+    "Python",
     "marz.png",
     "Flutter",
     "Untitled.canvas",

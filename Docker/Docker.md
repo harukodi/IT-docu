@@ -1,6 +1,3 @@
-# Docker-installations-root-file
-
-
 [[Nextcloud-installation]]
 [[Nginx proxy manager installation]]
 [[Dockerbuild nginx example]]
@@ -9,3 +6,5 @@
 [[Install custom Xray version with Marzban and Docker Compose Advanced]]
 [[Docker buildx commands]]
 [[Useful docker commands]]
+[[Fix time drift in docker container]]
+[[Containerize Python Application Using Docker]]
