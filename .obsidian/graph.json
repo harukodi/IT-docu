@@ -92,23 +92,30 @@
       }
     },
     {
-      "query": "path:Docker ",
+      "query": "path:Docker  ",
       "color": {
         "a": 1,
         "rgb": 2303
+      }
+    },
+    {
+      "query": "path:Pulumi  ",
+      "color": {
+        "a": 1,
+        "rgb": 65450
       }
     }
   ],
   "collapse-display": false,
   "showArrow": true,
   "textFadeMultiplier": -3,
-  "nodeSizeMultiplier": 1.27395833333333,
-  "lineSizeMultiplier": 1.7078125,
+  "nodeSizeMultiplier": 1.60454761595988,
+  "lineSizeMultiplier": 1.02162278995375,
   "collapse-forces": false,
   "centerStrength": 0.53125,
   "repelStrength": 13.5416666666667,
   "linkStrength": 1,
   "linkDistance": 145,
-  "scale": 0.4450817287393869,
+  "scale": 1.1658871252809921,
   "close": true
 }

@@ -2,3 +2,4 @@
 [[Incus container-vm commands]]
 [[Incuse network commands]]
 [[Incus snapshot commands]]
+[[Create vm or container in incus]]

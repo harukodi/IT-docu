@@ -4,71 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "4429d74b23db2fda",
+        "id": "79687afc17e3dbc7",
         "type": "tabs",
         "children": [
           {
-            "id": "31123396755bd9d3",
+            "id": "a2d203a21384e040",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Övrigt/Caddyfile example with API endpoint.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "05981a8fdb652629",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/Unsorted Linux commands..md",
+                "file": "Linux/Bash at start up.md",
                 "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "24c6d06946ec04fd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "incus/Incus container-vm commands.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "62e058b271705482",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Docker/Containerize Python Application Using Docker.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b5490e9c3acab992",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Övrigt/SSH custom command to build docker image on remote.md",
-                "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -97,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "emby",
+                "query": "ExecStartPre",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -122,7 +73,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -142,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Övrigt/SSH custom command to build docker image on remote.md",
+                "file": "Linux/Bash at start up.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Övrigt/SSH custom command to build docker image on remote.md",
+                "file": "Linux/Bash at start up.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Övrigt/SSH custom command to build docker image on remote.md"
+                "file": "Linux/Bash at start up.md"
               }
             }
           },
@@ -226,36 +178,37 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b5490e9c3acab992",
+  "active": "f95a7e683d3f4253",
   "lastOpenFiles": [
-    "Övrigt/SSH notification for discord webhook example script.md",
-    "Övrigt/Jellyfin LDAP filters.md",
-    "HarusUDM-Toplogy.md",
-    "Unifi/Unifi.md",
-    "Pasted image 20221205024732.png",
-    "Pasted image 20231027163429.png",
-    "Ansible-books/Ansible.md",
-    "Ansible-books/Unifi-APs-update-ansible-playbook.md",
-    "Ansible-books/Mysql-db-ansible-playbook.md",
-    "Ansible-books/Shadowsocks-rust-docker-version-ansible-playbook.md",
-    "Linux/Linux.md",
-    "Ansible-books/ad-guard-docker-version-ansible-playbook.md",
-    "Ansible-books/Squid-proxy-ansible-playbook.md",
-    "Saltstack/Saltstack.md",
-    "Linux/Unsorted Linux commands..md",
-    "Linux/Run sudo command without a password.md",
-    "Docker/Containerize Python Application Using Docker.md",
-    "Övrigt/Setup LDAP on Emby example.md",
-    "Övrigt/Övrigt.md",
-    "Övrigt/Caddy example with more routes and redirection.md",
-    "Övrigt/caddy + vless + ws example.md",
     "Övrigt/SSH custom command to build docker image on remote.md",
-    "Linux/Encrypt a drive with LUKS-Cryptsetup.md",
-    "Linux/Useful iptables commands.md",
-    "Linux/Set time-zone cli ubuntu.md",
+    "Docker/Containerize Python Application.md",
+    "Linux/Unsorted Linux commands..md",
+    "Kubernetes/Install Argocd on Kubernetes.md",
+    "Linux/Add nofail disk to fstab.md",
+    "Linux/Linux.md",
+    "Övrigt/Minecraft-server-docker-compose.md",
+    "incus/incus.md",
+    "incus/Create vm or container in incus.md",
+    "Linux/Run sudo command without a password.md",
+    "Linux/Generate an SSH key non-interactively.md",
+    "Linux/Create cert.pem-key.pem.md",
+    "Linux/Bash at start up.md",
+    "Linux/Add user to root group.md",
+    "Linux/Add cifs mount.md",
+    "Linux/Usefull commands for disk managment.md",
     "Linux/Troubleshooting network issues after motherboard replacement in Ubuntu!.md",
+    "Linux/Grep-command.md",
+    "Linux/Fedora server with only 15gb fix.md",
+    "Linux/Enable unattended-upgrades.md",
+    "Linux/Df-h-command.md",
+    "Linux/Change global dns servers on Ubuntu.md",
+    "Linux/Set time-zone cli ubuntu.md",
     "Linux/Install or upgrade the kernel on ubuntu.md",
     "Linux/Create a short ID ubuntu command.md",
+    "Pulumi/Pulumi.md",
+    "Pulumi",
+    "Pasted image 20221205024732.png",
+    "Pasted image 20231027163429.png",
     "incus",
     "Python",
     "marz.png",

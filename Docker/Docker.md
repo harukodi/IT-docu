@@ -7,4 +7,4 @@
 [[Docker buildx commands]]
 [[Useful docker commands]]
 [[Fix time drift in docker container]]
-[[Containerize Python Application Using Docker]]
+[[Containerize Python Application]]

@@ -27,3 +27,9 @@ sudo hdparm -Tt /dev/sdX
 ```bash
 sync; dd if=/dev/zero of=tempfile bs=1M count=1024; sync
 ```
+
+#### The following command creates a file system on your drive
+#### **NOTE:** initializes a storage device or partition with a specified file system
+```bash
+sudo mkfs -t ext4 /dev/sdX
+```

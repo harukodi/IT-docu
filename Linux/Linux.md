@@ -18,3 +18,5 @@
 [[Create a short ID ubuntu command]]
 [[Unsorted Linux commands.]]
 [[Run sudo command without a password]]
+[[Generate an SSH key non-interactively]]
+[[Add nofail disk to fstab]]
