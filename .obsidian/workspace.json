@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Övrigt/Caddy + vless + grpc example.md",
+                "file": "Övrigt/caddy + vless + ws example.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Caddy + vless + grpc example"
+              "title": "caddy + vless + ws example"
             }
           }
         ],
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Övrigt/Caddy + vless + grpc example.md",
+                "file": "Docker/Install custom Xray version with Marzban and Docker Compose Advanced.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +128,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Caddy + vless + grpc example"
+              "title": "Backlinks for Install custom Xray version with Marzban and Docker Compose Advanced"
             }
           },
           {
@@ -137,12 +137,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Övrigt/Caddy + vless + grpc example.md",
+                "file": "Docker/Install custom Xray version with Marzban and Docker Compose Advanced.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Caddy + vless + grpc example"
+              "title": "Outgoing links from Install custom Xray version with Marzban and Docker Compose Advanced"
             }
           },
           {
@@ -164,10 +164,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Övrigt/Caddy + vless + grpc example.md"
+                "file": "Docker/Install custom Xray version with Marzban and Docker Compose Advanced.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Caddy + vless + grpc example"
+              "title": "Outline of Install custom Xray version with Marzban and Docker Compose Advanced"
             }
           },
           {
@@ -216,14 +216,22 @@
   },
   "active": "bcffc3746731a668",
   "lastOpenFiles": [
-    "Övrigt/Vless config WIP.md",
     "Övrigt/Caddy + vless + grpc example.md",
+    "Övrigt/Xray config example with tedysuns docker image.md",
+    "Övrigt/caddy + vless + ws example.md",
+    "Docker/Install custom Xray version with Marzban and Docker Compose Advanced.md",
+    "Docker/Nextcloud-installation.md",
+    "Docker/Nginx proxy manager installation.md",
+    "Docker/Rancher installation.md",
+    "Linux/Useful iptables commands.md",
+    "Övrigt/Setup LDAP on Emby example.md",
+    "Övrigt/Minecraft-server-docker-compose.md",
+    "Övrigt/Vless config WIP.md",
     "Övrigt/Delay systemd service start up.md",
     "Övrigt/Create a python venv on windows.md",
     "Övrigt/Caddyfile example with API endpoint.md",
     "github-git/git commands.md",
     "github-git/docker-build-workflow-example.md",
-    "Docker/Nextcloud-installation.md",
     "Docker/Fix time drift in docker container.md",
     "Docker/Useful docker commands.md",
     "Docker/Docker buildx commands.md",
@@ -237,15 +245,7 @@
     "Linux/Bash at start up.md",
     "github-git",
     "Docker/Caddy server installation.md",
-    "Docker/Install custom Xray version with Marzban and Docker Compose Advanced.md",
-    "Docker/Nginx proxy manager installation.md",
-    "Docker/Rancher installation.md",
     "Övrigt/Caddy example with more routes and redirection with cloudflare.md",
-    "Övrigt/caddy + vless + ws example.md",
-    "Linux/Add cifs mount.md",
-    "Linux/Add user to root group.md",
-    "Linux/Useful iptables commands.md",
-    "Linux/DNAT dns with iptables.md",
     "Pulumi",
     "incus",
     "Python",

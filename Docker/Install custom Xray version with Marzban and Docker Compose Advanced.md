@@ -249,3 +249,6 @@ docker-compose up -d
 
 #### caddy + vless + ws example
 [[caddy + vless + ws example]]
+
+
+# OUTDATED! UNABLE TO BIND TO 0.0.0.0 DUE TO SSL ENFORCEMENT!

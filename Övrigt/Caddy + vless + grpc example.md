@@ -20,6 +20,9 @@ subdomain.domain.tld {
 		transport http {
 			versions h2c
 		}
+        header_up X-Real-IP {http.request.header.CF-Connecting-IP}
+        header_up X-Forwarded-For {http.request.header.CF-Connecting-IP}
+        header_up X-Forwarded-Proto {http.request.scheme}
 	}
     @nongrpc {
         not {

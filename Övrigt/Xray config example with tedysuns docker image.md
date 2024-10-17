@@ -1,5 +1,3 @@
-## Xray config example
-**NOTE** you will have to change the `path` parameter
 ```json
 {
     "log": {
@@ -12,14 +10,14 @@
             "port": 8443,
             "protocol": "vless",
             "settings": {
-                "clients": [],
+                "clients": [{"id": "UUID-goes-here"}],
                 "decryption": "none"
             },
             "streamSettings": {
                 "network": "ws",
                 "security": "none",
                 "wsSettings": {
-                    "path": "/your-custom-path-goes-here"
+                    "path": "/path-goes-here"
                 }
             }
         }
@@ -56,30 +54,3 @@
     }
 }
 ```
-## Caddyfile example
-```Caddyfile
-sub.domain.tld {
-      tls {
-          protocols tls1.2 tls1.3
-          ciphers TLS_AES_256_GCM_SHA384 TLS_CHACHA20_POLY1305_SHA256
-          curves x25519
-      }
-      handle /same-path-as-in-ws-xray-config {
-        @v2ray_websocket {
-            path /same-path-as-in-ws-xray-config
-            header Connection Upgrade
-            header Upgrade websocket
-        }
-        reverse_proxy @v2ray_websocket 0.0.0.0:8443 {
-        header_up X-Real-IP {http.request.header.CF-Connecting-IP}
-        header_up X-Forwarded-For {http.request.header.CF-Connecting-IP}
-        header_up X-Forwarded-Proto {http.request.scheme}
-        }
-      }
-      handle {
-        redir https://svt.se 302
-      }
-}
-```
-**NOTE:** The `redir` parameter can be changed to any URL you want for obfuscation.
-
