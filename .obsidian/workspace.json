@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "github-git/git commands.md",
+                "file": "Övrigt/Caddy + vless + grpc example.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "git commands"
+              "title": "Caddy + vless + grpc example"
             }
           }
         ],
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "github-git/git commands.md",
+                "file": "Övrigt/Caddy + vless + grpc example.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +128,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for git commands"
+              "title": "Backlinks for Caddy + vless + grpc example"
             }
           },
           {
@@ -137,12 +137,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "github-git/git commands.md",
+                "file": "Övrigt/Caddy + vless + grpc example.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from git commands"
+              "title": "Outgoing links from Caddy + vless + grpc example"
             }
           },
           {
@@ -164,10 +164,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "github-git/git commands.md"
+                "file": "Övrigt/Caddy + vless + grpc example.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of git commands"
+              "title": "Outline of Caddy + vless + grpc example"
             }
           },
           {
@@ -216,36 +216,36 @@
   },
   "active": "bcffc3746731a668",
   "lastOpenFiles": [
+    "Övrigt/Vless config WIP.md",
+    "Övrigt/Caddy + vless + grpc example.md",
+    "Övrigt/Delay systemd service start up.md",
+    "Övrigt/Create a python venv on windows.md",
+    "Övrigt/Caddyfile example with API endpoint.md",
+    "github-git/git commands.md",
     "github-git/docker-build-workflow-example.md",
     "Docker/Nextcloud-installation.md",
     "Docker/Fix time drift in docker container.md",
     "Docker/Useful docker commands.md",
     "Docker/Docker buildx commands.md",
-    "github-git/git commands.md",
     "Pasted image 20231027163429.png",
     "Pasted image 20241007142848.png",
     "Pasted image 20221205024732.png",
     "Linux/Change dns server with resolved.conf.md",
-    "Övrigt/Delay systemd service start up.md",
     "Linux/Unsorted Linux commands..md",
     "Linux/Run sudo command without a password.md",
     "Linux/Add nofail disk to fstab.md",
     "Linux/Bash at start up.md",
     "github-git",
-    "Övrigt/Caddyfile example with API endpoint.md",
-    "Övrigt/Caddy + vless + grpc example.md",
     "Docker/Caddy server installation.md",
     "Docker/Install custom Xray version with Marzban and Docker Compose Advanced.md",
     "Docker/Nginx proxy manager installation.md",
     "Docker/Rancher installation.md",
     "Övrigt/Caddy example with more routes and redirection with cloudflare.md",
     "Övrigt/caddy + vless + ws example.md",
-    "Övrigt/Vless config WIP.md",
     "Linux/Add cifs mount.md",
     "Linux/Add user to root group.md",
     "Linux/Useful iptables commands.md",
     "Linux/DNAT dns with iptables.md",
-    "Linux/Change only dns netplan when using dhcp.md",
     "Pulumi",
     "incus",
     "Python",
