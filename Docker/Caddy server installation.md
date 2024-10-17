@@ -12,7 +12,7 @@ cd caddy-server/
 
 ## Create the docker volumes for the Caddy-server installation with the following command
 ```bash
-docker volume create caddy_data; docker volume create caddy_config
+sudo docker volume create caddy_data; sudo docker volume create caddy_config
 ```
 
 
@@ -30,17 +30,12 @@ nano docker-compose.yml
 
 ## Input the following content to your docker-compose.yml file
 ```yaml
-version: "3.7"
-
 services:
   caddy:
     image: caddy:latest
     container_name: caddy-server
     restart: unless-stopped
-    ports:
-      - "80:80"
-      - "443:443"
-      - "443:443/udp"
+	network_mode: host
     volumes:
       - ./caddy/Caddyfile:/etc/caddy/Caddyfile
       - ./caddy_site/site:/srv
@@ -50,9 +45,6 @@ volumes:
   caddy_data:
     external: true
   caddy_config:
-networks:
-  caddy-server_default:
-    driver: bridge
 ```
 
 
@@ -89,4 +81,4 @@ nano caddy/Caddyfile
 docker-compose up -d
 ```
 [[Caddyfile example with API endpoint]]
-[[Caddy example with more routes and redirection]]
+[[Caddy example with more routes and redirection with cloudflare]]

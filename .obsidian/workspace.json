@@ -13,13 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Bash at start up.md",
+                "file": "Docker/Install custom Xray version with Marzban and Docker Compose Advanced.md",
                 "mode": "preview",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Install custom Xray version with Marzban and Docker Compose Advanced"
+            }
+          },
+          {
+            "id": "bcffc3746731a668",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "github-git/git commands.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "git commands"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -39,7 +56,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "byCreatedTimeReverse"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -48,13 +67,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ExecStartPre",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabeticalReverse"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,7 +83,9 @@
             "type": "leaf",
             "state": {
               "type": "starred",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -70,11 +93,12 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -94,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Bash at start up.md",
+                "file": "github-git/git commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +126,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for git commands"
             }
           },
           {
@@ -111,10 +137,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Bash at start up.md",
+                "file": "github-git/git commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from git commands"
             }
           },
           {
@@ -125,7 +153,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -134,8 +164,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Bash at start up.md"
-              }
+                "file": "github-git/git commands.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of git commands"
             }
           },
           {
@@ -143,7 +175,9 @@
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
-              "state": {}
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           },
           {
@@ -155,7 +189,9 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           }
         ],
@@ -178,37 +214,39 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f95a7e683d3f4253",
+  "active": "bcffc3746731a668",
   "lastOpenFiles": [
-    "Övrigt/SSH custom command to build docker image on remote.md",
-    "Docker/Containerize Python Application.md",
-    "Linux/Unsorted Linux commands..md",
-    "Kubernetes/Install Argocd on Kubernetes.md",
-    "Linux/Add nofail disk to fstab.md",
-    "Linux/Linux.md",
-    "Övrigt/Minecraft-server-docker-compose.md",
-    "incus/incus.md",
-    "incus/Create vm or container in incus.md",
-    "Linux/Run sudo command without a password.md",
-    "Linux/Generate an SSH key non-interactively.md",
-    "Linux/Create cert.pem-key.pem.md",
-    "Linux/Bash at start up.md",
-    "Linux/Add user to root group.md",
-    "Linux/Add cifs mount.md",
-    "Linux/Usefull commands for disk managment.md",
-    "Linux/Troubleshooting network issues after motherboard replacement in Ubuntu!.md",
-    "Linux/Grep-command.md",
-    "Linux/Fedora server with only 15gb fix.md",
-    "Linux/Enable unattended-upgrades.md",
-    "Linux/Df-h-command.md",
-    "Linux/Change global dns servers on Ubuntu.md",
-    "Linux/Set time-zone cli ubuntu.md",
-    "Linux/Install or upgrade the kernel on ubuntu.md",
-    "Linux/Create a short ID ubuntu command.md",
-    "Pulumi/Pulumi.md",
-    "Pulumi",
-    "Pasted image 20221205024732.png",
+    "github-git/docker-build-workflow-example.md",
+    "Docker/Nextcloud-installation.md",
+    "Docker/Fix time drift in docker container.md",
+    "Docker/Useful docker commands.md",
+    "Docker/Docker buildx commands.md",
+    "github-git/git commands.md",
     "Pasted image 20231027163429.png",
+    "Pasted image 20241007142848.png",
+    "Pasted image 20221205024732.png",
+    "Linux/Change dns server with resolved.conf.md",
+    "Övrigt/Delay systemd service start up.md",
+    "Linux/Unsorted Linux commands..md",
+    "Linux/Run sudo command without a password.md",
+    "Linux/Add nofail disk to fstab.md",
+    "Linux/Bash at start up.md",
+    "github-git",
+    "Övrigt/Caddyfile example with API endpoint.md",
+    "Övrigt/Caddy + vless + grpc example.md",
+    "Docker/Caddy server installation.md",
+    "Docker/Install custom Xray version with Marzban and Docker Compose Advanced.md",
+    "Docker/Nginx proxy manager installation.md",
+    "Docker/Rancher installation.md",
+    "Övrigt/Caddy example with more routes and redirection with cloudflare.md",
+    "Övrigt/caddy + vless + ws example.md",
+    "Övrigt/Vless config WIP.md",
+    "Linux/Add cifs mount.md",
+    "Linux/Add user to root group.md",
+    "Linux/Useful iptables commands.md",
+    "Linux/DNAT dns with iptables.md",
+    "Linux/Change only dns netplan when using dhcp.md",
+    "Pulumi",
     "incus",
     "Python",
     "marz.png",

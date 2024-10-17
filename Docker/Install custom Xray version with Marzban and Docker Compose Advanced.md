@@ -49,7 +49,6 @@ services:
     ports:
       - "8880:8880"
       - "8443:8443"
-
     volumes:
       - ./xray_config.json:/xray_config.json
       - ./config:/var/lib/marzban/
@@ -68,12 +67,11 @@ nano .env
 # Paste the following content to the env file
 *Change the SUDO_USERNAME and the SUDO_PASSWORD to your own NAME/PASSWORD*
 ```env
-SUDO_USERNAME = "YOUR_USERNAME"
-SUDO_PASSWORD = "YOUR_PASSWORD"
-
+SUDO_USERNAME = "SUDO_USERNAME"
+SUDO_PASSWORD = "SUDO_PASSWORD"
 UVICORN_PORT = 8880
-SQLALCHEMY_DATABASE_URL: "sqlite:////var/lib/marzban/db.sqlite3"
-XRAY_JSON: "/xray_config.json"
+SQLALCHEMY_DATABASE_URL = "sqlite:////var/lib/marzban/db.sqlite3"
+XRAY_JSON = "/xray_config.json"
 UVICORN_SSL_CERTFILE = "/var/lib/marzban/certs/fullchain.pem"
 UVICORN_SSL_KEYFILE = "/var/lib/marzban/certs/key.pem"
 XRAY_EXECUTABLE_PATH = "/var/lib/marzban/xray-core/xray"

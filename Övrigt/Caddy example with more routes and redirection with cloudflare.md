@@ -1,4 +1,8 @@
 ```Caddyfile
+{
+  acme_dns cloudflare {env.CLOUDFLARE_AUTH_TOKEN}
+}
+
 subdomain.example.tld {
   redir / /status/ 302
 

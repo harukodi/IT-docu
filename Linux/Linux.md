@@ -20,3 +20,4 @@
 [[Run sudo command without a password]]
 [[Generate an SSH key non-interactively]]
 [[Add nofail disk to fstab]]
+[[Change only dns netplan when using dhcp]]
