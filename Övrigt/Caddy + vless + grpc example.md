@@ -48,7 +48,7 @@ subdomain.domain.tld {
             "port": 8444,
             "protocol": "vless",
             "settings": {
-                "clients": [],
+                "clients": [{"id": "UUID-goes-here"}],
                 "decryption": "none"
             },
             "streamSettings": {

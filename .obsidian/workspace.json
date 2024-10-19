@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Övrigt/caddy + vless + ws example.md",
+                "file": "Övrigt/Caddy + vless + grpc example.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "caddy + vless + ws example"
+              "title": "Caddy + vless + grpc example"
             }
           }
         ],
@@ -216,18 +216,23 @@
   },
   "active": "bcffc3746731a668",
   "lastOpenFiles": [
-    "Övrigt/Caddy + vless + grpc example.md",
     "Övrigt/Xray config example with tedysuns docker image.md",
+    "Övrigt/Caddy + vless + grpc example.md",
     "Övrigt/caddy + vless + ws example.md",
+    "Övrigt/Delay systemd service start up.md",
+    "Övrigt/How to install suricata.md",
+    "Övrigt/attach usb to WSL ubuntu.md",
+    "Övrigt/Jellyfin LDAP filters.md",
+    "Övrigt/Caddy example with more routes and redirection with cloudflare.md",
+    "Linux/Useful iptables commands.md",
+    "Linux/Unsorted Linux commands..md",
     "Docker/Install custom Xray version with Marzban and Docker Compose Advanced.md",
     "Docker/Nextcloud-installation.md",
     "Docker/Nginx proxy manager installation.md",
     "Docker/Rancher installation.md",
-    "Linux/Useful iptables commands.md",
     "Övrigt/Setup LDAP on Emby example.md",
     "Övrigt/Minecraft-server-docker-compose.md",
     "Övrigt/Vless config WIP.md",
-    "Övrigt/Delay systemd service start up.md",
     "Övrigt/Create a python venv on windows.md",
     "Övrigt/Caddyfile example with API endpoint.md",
     "github-git/git commands.md",
@@ -239,13 +244,8 @@
     "Pasted image 20241007142848.png",
     "Pasted image 20221205024732.png",
     "Linux/Change dns server with resolved.conf.md",
-    "Linux/Unsorted Linux commands..md",
     "Linux/Run sudo command without a password.md",
-    "Linux/Add nofail disk to fstab.md",
-    "Linux/Bash at start up.md",
     "github-git",
-    "Docker/Caddy server installation.md",
-    "Övrigt/Caddy example with more routes and redirection with cloudflare.md",
     "Pulumi",
     "incus",
     "Python",

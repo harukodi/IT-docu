@@ -12,7 +12,7 @@
             "port": 8443,
             "protocol": "vless",
             "settings": {
-                "clients": [],
+                "clients": [{"id": "UUID-goes-here"}],
                 "decryption": "none"
             },
             "streamSettings": {
