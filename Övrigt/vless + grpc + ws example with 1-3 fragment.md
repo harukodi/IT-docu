@@ -50,13 +50,13 @@
             "settings": {
                 "fragment": {
                   "packets": "1-3",
-                  "length": "50-100",
+                  "length": "100-200",
                   "interval": "10-20"
                 },
                 "noises":[
                     {
                       "type":"rand",
-                      "packet":"50-100",
+                      "packet":"100-200",
                       "delay":"10-20"
                     }
                 ]
