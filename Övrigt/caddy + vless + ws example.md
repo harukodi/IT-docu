@@ -77,9 +77,9 @@ sub.domain.tld {
         }
       }
       handle {
-        redir https://svt.se 302
+        redir https://subdomain.domain.tld 302
       }
 }
 ```
-**NOTE:** The `redir` parameter can be changed to any URL you want for obfuscation.
+**NOTE:** The `redir` parameter can be changed to any URL you want for obfuscation in the Caddyfile.
 

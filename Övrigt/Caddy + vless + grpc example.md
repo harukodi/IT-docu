@@ -95,4 +95,5 @@ subdomain.domain.tld {
     }
 }
 ```
-## **NOTE:** in the serviceName field dont use "/" in your serviceName
+## **NOTE:** in the serviceName field dont use "/" in your serviceName 
+The `redir` parameter can be changed to any URL you want for obfuscation in the Caddyfile.
