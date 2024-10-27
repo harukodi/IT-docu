@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Övrigt/caddy + vless + ws example.md",
+                "file": "Övrigt/vless + grpc + ws example with 1-3 fragment.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "caddy + vless + ws example"
+              "title": "vless + grpc + ws example with 1-3 fragment"
             }
           }
         ],
@@ -216,9 +216,9 @@
   },
   "active": "bcffc3746731a668",
   "lastOpenFiles": [
+    "Övrigt/caddy + vless + ws example.md",
     "Övrigt/Caddy + vless + grpc example.md",
     "Övrigt/vless + grpc + ws example with 1-3 fragment.md",
-    "Övrigt/caddy + vless + ws example.md",
     "Övrigt/Minecraft-server-docker-compose.md",
     "Övrigt/Setup LDAP on Emby example.md",
     "Övrigt/SSH custom command to build docker image on remote.md",

@@ -49,7 +49,7 @@
             "protocol": "freedom",
             "settings": {
                 "fragment": {
-                  "packets": "1-3",
+                  "packets": "tlshello",
                   "length": "50-100",
                   "interval": "10-20"
                 },
