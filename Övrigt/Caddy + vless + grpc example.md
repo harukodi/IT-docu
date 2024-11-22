@@ -67,20 +67,20 @@ subdomain.domain.tld {
     ciphers TLS_AES_256_GCM_SHA384 TLS_CHACHA20_POLY1305_SHA256
     curves x25519
   }
-	@xray_grpc {
-		protocol grpc
-		path /serviceName/*
-	}
+  @xray_grpc {
+    protocol grpc
+    path /serviceName/*
+  }
   handle @xray_grpc {
-	  reverse_proxy @xray_grpc 0.0.0.0:8444 {
+    reverse_proxy @xray_grpc 0.0.0.0:8444 {
       header_up X-Real-IP {http.request.header.CF-Connecting-IP}
       header_up X-Forwarded-For {http.request.header.CF-Connecting-IP}
       header_up X-Forwarded-Proto {http.request.scheme}
-	  	flush_interval -1
-	  	transport http {
-	  		versions h2c
-	  	}
-	  }
+      flush_interval -1
+      transport http {
+        versions h2c
+      }
+    }
   }
   handle {
     redir https://subdomain.domain.tld 302
