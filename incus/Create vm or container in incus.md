@@ -6,7 +6,8 @@ incus launch images:ubuntu/22.04 container-name
 ```bash
 incus launch images:ubuntu/22.04 vm-name --vm
 ```
-## Get a shell in your vm/container
-```
-incus exec container-name/vm-name -- bash
+
+## Create a vm with custom size for disk
+```bash
+incus launch images:ubuntu/22.04 vm-name --vm --device root,size=30GiB
 ```

@@ -6,7 +6,7 @@
     },
     "inbounds": [
         {
-            "tag": "VLESS_INBOUND",
+            "tag": "VLESS_INBOUND_WS",
             "listen": "0.0.0.0",
             "port": 8443,
             "protocol": "vless",
@@ -89,62 +89,48 @@
     }
 }
 ```
-## **NOTE:** in the serviceName field dont use "/" in your serviceName
+## **NOTE:** in the `serviceName` field dont use "/" in your serviceName
 
 ## Caddyfile
 ```Caddyfile
 subdomain.domain.tld {
-      tls {
-          protocols tls1.3
-          ciphers TLS_AES_256_GCM_SHA384 TLS_CHACHA20_POLY1305_SHA256
-          curves x25519
-      }
-      handle /same-path-as-in-ws-xray-config {
-        @v2ray_websocket {
-            path /same-path-as-in-ws-xray-config
-            header Connection Upgrade
-            header Upgrade websocket
-        }
-        reverse_proxy @v2ray_websocket 0.0.0.0:8443 {
-        header_up X-Real-IP {http.request.header.CF-Connecting-IP}
-        header_up X-Forwarded-For {http.request.header.CF-Connecting-IP}
-        header_up X-Forwarded-Proto {http.request.scheme}
-        }
-      }
-      handle {
-        redir https://subdomain.domain.tld 302
-      }
-}
-
-subdomain.domain.tld {
   tls {
-      protocols tls1.3
-      ciphers TLS_AES_256_GCM_SHA384 TLS_CHACHA20_POLY1305_SHA256
-      curves x25519
+    protocols tls1.3 tls1.3
+    ciphers TLS_AES_256_GCM_SHA384 TLS_CHACHA20_POLY1305_SHA256
+    curves x25519
   }
-	@grpc {
-		protocol grpc
-		path /serviceName/*
-	}
-	reverse_proxy @grpc 0.0.0.0:8444 {
-		flush_interval -1
-		transport http {
-			versions h2c
-		}
-        header_up X-Real-IP {http.request.header.CF-Connecting-IP}
-        header_up X-Forwarded-For {http.request.header.CF-Connecting-IP}
-        header_up X-Forwarded-Proto {http.request.scheme}
-	}
-  @nongrpc {
-      not {
-          protocol grpc
-      }
+  @xray_grpc {
+    protocol grpc
+    path /serviceName/*
   }
-  handle @nongrpc {
-      redir https://subdomain.domain.tld 302
+  @xray_websocket {
+    path /same-path-as-in-the-xray-config
+    header Connection Upgrade
+    header Upgrade websocket
+  }
+  handle @xray_grpc {
+    reverse_proxy @xray_grpc 0.0.0.0:8444 {
+      header_up X-Real-IP {http.request.header.CF-Connecting-IP}
+      header_up X-Forwarded-For {http.request.header.CF-Connecting-IP}
+      header_up X-Forwarded-Proto {http.request.scheme}
+	  	flush_interval -1
+	  	transport http {
+	  		versions h2c
+	  	}
+    }
+  }
+  handle @xray_websocket {
+    reverse_proxy @xray_websocket 0.0.0.0:8443 {
+      header_up X-Real-IP {http.request.header.CF-Connecting-IP}
+      header_up X-Forwarded-For {http.request.header.CF-Connecting-IP}
+      header_up X-Forwarded-Proto {http.request.scheme}
+    }
+  }
+  handle {
+    redir https://subdomain.domain.tld 302
   }
 }
 ```
 
-## **NOTE:** grpc cant be under the same domain. Subdomain usage is required. Also the service name must be the same as the one in the xray config
+## **NOTE:** Ensure that the `serviceName` and `path` exactly match those specified in your Xray configuration file
 The `redir` parameter can be changed to any URL you want for obfuscation in the Caddyfile.

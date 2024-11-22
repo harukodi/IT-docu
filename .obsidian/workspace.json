@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "79687afc17e3dbc7",
+        "id": "284324272c3890bf",
         "type": "tabs",
         "children": [
           {
-            "id": "a2d203a21384e040",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Docker/Install custom Xray version with Marzban and Docker Compose Advanced.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Install custom Xray version with Marzban and Docker Compose Advanced"
-            }
-          },
-          {
-            "id": "bcffc3746731a668",
+            "id": "6ba38f853873599e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Övrigt/vless + grpc + ws example with 1-3 fragment.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "vless + grpc + ws example with 1-3 fragment"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -67,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "time docker",
+                "query": "vless",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -98,7 +83,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -214,34 +200,38 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "bcffc3746731a668",
+  "active": "6ba38f853873599e",
   "lastOpenFiles": [
     "Övrigt/caddy + vless + ws example.md",
     "Övrigt/Caddy + vless + grpc example.md",
     "Övrigt/vless + grpc + ws example with 1-3 fragment.md",
-    "Övrigt/Minecraft-server-docker-compose.md",
-    "Övrigt/Setup LDAP on Emby example.md",
-    "Övrigt/SSH custom command to build docker image on remote.md",
-    "Övrigt/Caddy example with more routes and redirection with cloudflare.md",
-    "Övrigt/Övrigt.md",
-    "Docker/Fix time drift in docker container.md",
-    "Övrigt/Xray config example with tedysuns docker image.md",
-    "Övrigt/Delay systemd service start up.md",
-    "Övrigt/How to install suricata.md",
-    "Övrigt/attach usb to WSL ubuntu.md",
-    "Övrigt/Jellyfin LDAP filters.md",
-    "Linux/Useful iptables commands.md",
-    "Linux/Unsorted Linux commands..md",
     "Docker/Install custom Xray version with Marzban and Docker Compose Advanced.md",
-    "Docker/Nextcloud-installation.md",
-    "Docker/Nginx proxy manager installation.md",
-    "Docker/Rancher installation.md",
-    "Övrigt/Vless config WIP.md",
-    "Övrigt/Create a python venv on windows.md",
-    "Övrigt/Caddyfile example with API endpoint.md",
-    "github-git/git commands.md",
-    "github-git/docker-build-workflow-example.md",
-    "Docker/Useful docker commands.md",
+    "Linux/Run sudo command without a password.md",
+    "Linux/Unsorted Linux commands..md",
+    "Linux/DNAT dns with iptables.md",
+    "emby-ldap-setup-perms.png",
+    "incus/Incus container-vm commands.md",
+    "incus/Create vm or container in incus.md",
+    "incus/Incuse network commands.md",
+    "Linux/Add user to root group.md",
+    "Untitled.md",
+    "incus/incus.md",
+    "incus/Incus mics.md",
+    "Kubernetes/Service types.md",
+    "Kubernetes/RBAC Kubernetes examples.md",
+    "Kubernetes/Kubernetes.md",
+    "Kubernetes/Kubectl useful commands.md",
+    "Kubernetes/Install nginx-ingress-controller on Kubernetes with helm chart.md",
+    "Kubernetes/Install Argocd on Kubernetes.md",
+    "Övrigt/Setup LDAP on Emby example.md",
+    "emby-ldap-image.png",
+    "emby-ldap-image-2.png",
+    "{FD079C19-3568-4DD2-895C-A97BCFA7D0A5}.png",
+    "incus/Incus snapshot commands.md",
+    "Linux/Usefull commands for disk managment.md",
+    "Linux/Encrypt a drive with LUKS-Cryptsetup.md",
+    "Linux/Useful iptables commands.md",
+    "Linux/Set time-zone cli ubuntu.md",
     "Pasted image 20231027163429.png",
     "Pasted image 20241007142848.png",
     "Pasted image 20221205024732.png",

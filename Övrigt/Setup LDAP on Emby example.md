@@ -17,3 +17,12 @@ DC=ldap,DC=DC,DC=DC
 ```
 (cn={0})
 ```
+
+
+## **NOTE:** Make sure the ldap service account have the following permissions in your provider
+
+**Providers > your-ldap-provider > Permissions > User Object Permissions > Assign to new user**
+
+![[emby-ldap-setup-perms.png]]**NOTE:** Then add these two Permissions
+
+**TIP:** Make sure the ldap-service account is added to a group of the application that uses the ldap provider

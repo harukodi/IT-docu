@@ -7,7 +7,7 @@
     },
     "inbounds": [
         {
-            "tag": "VLESS_INBOUND",
+            "tag": "VLESS_INBOUND_WS",
             "listen": "0.0.0.0",
             "port": 8443,
             "protocol": "vless",
@@ -58,27 +58,27 @@
 ```
 ## Caddyfile example
 ```Caddyfile
-sub.domain.tld {
-      tls {
-          protocols tls1.2 tls1.3
-          ciphers TLS_AES_256_GCM_SHA384 TLS_CHACHA20_POLY1305_SHA256
-          curves x25519
-      }
-      handle /same-path-as-in-ws-xray-config {
-        @v2ray_websocket {
-            path /same-path-as-in-ws-xray-config
-            header Connection Upgrade
-            header Upgrade websocket
-        }
-        reverse_proxy @v2ray_websocket 0.0.0.0:8443 {
-        header_up X-Real-IP {http.request.header.CF-Connecting-IP}
-        header_up X-Forwarded-For {http.request.header.CF-Connecting-IP}
-        header_up X-Forwarded-Proto {http.request.scheme}
-        }
-      }
-      handle {
-        redir https://subdomain.domain.tld 302
-      }
+subdomain.domain.tld {
+  tls {
+    protocols tls1.3 tls1.3
+    ciphers TLS_AES_256_GCM_SHA384 TLS_CHACHA20_POLY1305_SHA256
+    curves x25519
+  }
+  @xray_websocket {
+    path /same-path-as-in-the-xray-config-file
+    header Connection Upgrade
+    header Upgrade websocket
+  }
+  handle @xray_websocket {
+    reverse_proxy @xray_websocket 0.0.0.0:8443 {
+      header_up X-Real-IP {http.request.header.CF-Connecting-IP}
+      header_up X-Forwarded-For {http.request.header.CF-Connecting-IP}
+      header_up X-Forwarded-Proto {http.request.scheme}
+    }
+  }
+  handle {
+    redir https://subdomain.domain.tld 302
+  }
 }
 ```
 **NOTE:** The `redir` parameter can be changed to any URL you want for obfuscation in the Caddyfile.
