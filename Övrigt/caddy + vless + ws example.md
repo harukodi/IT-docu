@@ -57,7 +57,7 @@
 }
 ```
 ## Caddyfile example
-```
+```Caddyfile
 subdomain.domain.tld {
   tls {
     protocols tls1.3 tls1.3
