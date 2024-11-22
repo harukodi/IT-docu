@@ -64,11 +64,13 @@ subdomain.domain.tld {
     ciphers TLS_AES_256_GCM_SHA384 TLS_CHACHA20_POLY1305_SHA256
     curves x25519
   }
+
   @xray_websocket {
     path /same-path-as-in-the-xray-config-file
     header Connection Upgrade
     header Upgrade websocket
   }
+
   handle @xray_websocket {
     reverse_proxy @xray_websocket 0.0.0.0:8443 {
       header_up X-Real-IP {http.request.header.CF-Connecting-IP}
@@ -76,6 +78,7 @@ subdomain.domain.tld {
       header_up X-Forwarded-Proto {http.request.scheme}
     }
   }
+
   handle {
     redir https://subdomain.domain.tld 302
   }
