@@ -116,10 +116,10 @@ subdomain.domain.tld {
       header_up X-Real-IP {http.request.header.CF-Connecting-IP}
       header_up X-Forwarded-For {http.request.header.CF-Connecting-IP}
       header_up X-Forwarded-Proto {http.request.scheme}
-	  flush_interval -1
-	  transport http {
-	  	versions h2c
-	  }
+      flush_interval -1
+      transport http {
+        versions h2c
+      }
     }
   }
 
