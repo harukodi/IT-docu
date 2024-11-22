@@ -92,7 +92,7 @@
 ## **NOTE:** in the `serviceName` field dont use "/" in your serviceName
 
 ## Caddyfile
-```Caddyfile
+```
 subdomain.domain.tld {
   tls {
     protocols tls1.3 tls1.3
