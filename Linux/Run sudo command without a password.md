@@ -12,3 +12,8 @@ username ALL=(ALL) NOPASSWD: /usr/bin/apt, /usr/bin/whoami
 ```
 username ALL=(ALL) NOPASSWD: /usr/bin/command, /usr/bin/command2
 ```
+
+## Allow everyone of group sudo to run commands without password
+```bash
+%sudo ALL=(ALL:ALL) NOPASSWD: ALL
+```

@@ -3,3 +3,4 @@
 [[Incuse network commands]]
 [[Incus snapshot commands]]
 [[Create vm or container in incus]]
+[[Incus profile example with cloud-init and tailscale]]

@@ -2,7 +2,7 @@
 ```bash
 incus network forward create network-name listening-ip
 ```
-## Remove a network forward
+## Remove a network forward with all forwarded ports
 ```bash
 incus network forward delete network-name listening-ip
 ```

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Övrigt/Caddy + vless + grpc example.md",
+                "file": "Linux/Linux.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Caddy + vless + grpc example"
+              "title": "Linux"
             }
           }
         ]
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "vless",
+                "query": "add user root",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -83,8 +83,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -202,36 +201,36 @@
   },
   "active": "6ba38f853873599e",
   "lastOpenFiles": [
-    "Övrigt/caddy + vless + ws example.md",
+    "incus/incus.md",
+    "incus/Incus profile example with cloud-init and tailscale.md",
+    "Linux/Add user to root group.md",
+    "Linux/Run sudo command without a password.md",
+    "Linux/Add user non-interactively.md",
+    "Linux/Generate an SSH key non-interactively.md",
+    "incus/Create vm or container in incus.md",
+    "incus/Incus container-vm commands.md",
+    "Övrigt/SSH custom command to build docker image on remote.md",
+    "Övrigt/SSH notification for discord webhook example script.md",
+    "Docker/Containerize Python Application.md",
+    "Docker/Docker buildx commands.md",
+    "Docker/Dockerbuild nginx example.md",
+    "Docker/Fix time drift in docker container.md",
+    "incus/Incuse network commands.md",
+    "Linux/Add cifs mount.md",
+    "Linux/bash snippets.md",
+    "incus/Incus mics.md",
     "Övrigt/vless + grpc + ws example with 1-3 fragment.md",
     "Övrigt/Caddy + vless + grpc example.md",
+    "Övrigt/caddy + vless + ws example.md",
     "Docker/Install custom Xray version with Marzban and Docker Compose Advanced.md",
-    "Linux/Run sudo command without a password.md",
     "Linux/Unsorted Linux commands..md",
     "Linux/DNAT dns with iptables.md",
     "emby-ldap-setup-perms.png",
-    "incus/Incus container-vm commands.md",
-    "incus/Create vm or container in incus.md",
-    "incus/Incuse network commands.md",
-    "Linux/Add user to root group.md",
     "Untitled.md",
-    "incus/incus.md",
-    "incus/Incus mics.md",
     "Kubernetes/Service types.md",
-    "Kubernetes/RBAC Kubernetes examples.md",
-    "Kubernetes/Kubernetes.md",
-    "Kubernetes/Kubectl useful commands.md",
-    "Kubernetes/Install nginx-ingress-controller on Kubernetes with helm chart.md",
-    "Kubernetes/Install Argocd on Kubernetes.md",
-    "Övrigt/Setup LDAP on Emby example.md",
     "emby-ldap-image.png",
     "emby-ldap-image-2.png",
     "{FD079C19-3568-4DD2-895C-A97BCFA7D0A5}.png",
-    "incus/Incus snapshot commands.md",
-    "Linux/Usefull commands for disk managment.md",
-    "Linux/Encrypt a drive with LUKS-Cryptsetup.md",
-    "Linux/Useful iptables commands.md",
-    "Linux/Set time-zone cli ubuntu.md",
     "Pasted image 20231027163429.png",
     "Pasted image 20241007142848.png",
     "Pasted image 20221205024732.png",
