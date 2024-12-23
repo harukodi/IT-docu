@@ -22,3 +22,4 @@
 [[Add nofail disk to fstab]]
 [[Change only dns netplan when using dhcp]]
 [[bash snippets]]
+[[Add user non-interactively]]

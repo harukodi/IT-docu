@@ -11,111 +11,111 @@
       "query": "path:Terraform",
       "color": {
         "a": 1,
-        "rgb": 4718674
+        "rgb": 16777215
       }
     },
     {
       "query": "path:Linux",
       "color": {
         "a": 1,
-        "rgb": 16753973
+        "rgb": 16777215
       }
     },
     {
       "query": "path:Kubernetes",
       "color": {
         "a": 1,
-        "rgb": 2183861
+        "rgb": 16777215
       }
     },
     {
       "query": "path:Övrigt",
       "color": {
         "a": 1,
-        "rgb": 2442607
+        "rgb": 16777215
       }
     },
     {
       "query": "path:Pfsense ",
       "color": {
         "a": 1,
-        "rgb": 4260003
+        "rgb": 16777215
       }
     },
     {
       "query": "path:Saltstack",
       "color": {
         "a": 1,
-        "rgb": 40627
+        "rgb": 16777215
       }
     },
     {
       "query": "path:Proxmox  ",
       "color": {
         "a": 1,
-        "rgb": 0
+        "rgb": 16777215
       }
     },
     {
       "query": "path:Azure-Cloud  ",
       "color": {
         "a": 1,
-        "rgb": 935804
+        "rgb": 16777215
       }
     },
     {
       "query": "path:Flutter  ",
       "color": {
         "a": 1,
-        "rgb": 6306133
+        "rgb": 16777215
       }
     },
     {
       "query": "path:Python  ",
       "color": {
         "a": 1,
-        "rgb": 1428257
+        "rgb": 16777215
       }
     },
     {
       "query": "path:incus  ",
       "color": {
         "a": 1,
-        "rgb": 6084269
+        "rgb": 16777215
       }
     },
     {
       "query": "path:Ansible ",
       "color": {
         "a": 1,
-        "rgb": 16711680
+        "rgb": 16777215
       }
     },
     {
       "query": "path:Docker  ",
       "color": {
         "a": 1,
-        "rgb": 2303
+        "rgb": 16777215
       }
     },
     {
       "query": "path:Pulumi  ",
       "color": {
         "a": 1,
-        "rgb": 65450
+        "rgb": 16777215
       }
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": true,
   "textFadeMultiplier": -3,
   "nodeSizeMultiplier": 1.60454761595988,
   "lineSizeMultiplier": 1.02162278995375,
-  "collapse-forces": false,
+  "collapse-forces": true,
   "centerStrength": 0.53125,
   "repelStrength": 13.5416666666667,
   "linkStrength": 1,
   "linkDistance": 145,
-  "scale": 0.4450817287393853,
+  "scale": 0.36783833776246067,
   "close": true
 }

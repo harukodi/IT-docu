@@ -14,3 +14,4 @@
 [[vless + grpc + ws example with 1-3 fragment]]
 [[caddy + vless + ws example]]
 [[Caddy + vless + grpc example]]
+[[VLESS+XHTTP+CADDY]]
