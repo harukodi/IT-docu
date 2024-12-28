@@ -11,10 +11,14 @@
             "id": "6ba38f853873599e",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Övrigt/Övrigt.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Övrigt"
             }
           }
         ]
@@ -197,11 +201,20 @@
   },
   "active": "6ba38f853873599e",
   "lastOpenFiles": [
+    "Python/Create a python venv on windows and linux.md",
+    "Övrigt/Övrigt.md",
+    "Python/Python.md",
+    "Python/Parse url params example.md",
+    "Docker/Containerize Python Application.md",
+    "incus/Incus profile example with cloud-init and tailscale.md",
+    "Linux/Generate an SSH key non-interactively.md",
+    "Linux/DNAT dns with iptables.md",
+    "Linux/Useful iptables commands.md",
+    "Linux/bash snippets.md",
+    "Linux/Add user to root group.md",
+    "Linux/Install or upgrade the kernel on ubuntu.md",
     "incus/incus.md",
     "Linux/Linux.md",
-    "Övrigt/Övrigt.md",
-    "Linux/Useful iptables commands.md",
-    "incus/Incus profile example with cloud-init and tailscale.md",
     "incus/Incus snapshot commands.md",
     "incus/Incuse network commands.md",
     "incus/Incus container-vm commands.md",
@@ -209,20 +222,11 @@
     "Övrigt/Just a school project.md",
     "Övrigt/Caddy + vless + grpc example.md",
     "github-git/git commands.md",
-    "Övrigt/Create a python venv on windows.md",
-    "Python/Parse url params example.md",
-    "Python/Python.md",
     "github-git/docker-build-workflow-example.md",
     "Övrigt/SSH custom command to build docker image on remote.md",
     "Linux/Change dns server with resolved.conf.md",
     "Linux/Troubleshooting network issues after motherboard replacement in Ubuntu!.md",
     "Linux/Change only dns netplan when using dhcp.md",
-    "Linux/Add user to root group.md",
-    "Linux/Add user non-interactively.md",
-    "Övrigt/Minecraft-server-docker-compose.md",
-    "Docker/Docker buildx commands.md",
-    "Docker/Containerize Python Application.md",
-    "Flutter/Flutter.md",
     "emby-ldap-setup-perms.png",
     "emby-ldap-image.png",
     "emby-ldap-image-2.png",

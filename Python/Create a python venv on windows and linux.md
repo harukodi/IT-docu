@@ -1,5 +1,4 @@
 
-
 ## Run the following command to create a venv folder
 ```bash
 python -m venv name-of-env-folder
