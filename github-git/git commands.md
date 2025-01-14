@@ -55,3 +55,13 @@ source /usr/share/bash-completion/completions/git
 ```bash
 git clean -f -d
 ```
+
+## Remove branch on remote
+```bash
+git push origin --delete branch-name
+```
+
+## Move files from one branch to another
+```
+git checkout branch-name -- path-or-folder
+```

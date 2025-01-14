@@ -19,3 +19,8 @@ sudo docker buildx build --platform linux/amd64 -t myapp:latest . --push
 ```bash
 sudo docker push your_docker_username/your_docker_repo:latest
 ```
+
+## Build image and store it locally
+```bash
+sudo docker buildx build --load --platform linux/amd64 -t myapp:latest .
+```
