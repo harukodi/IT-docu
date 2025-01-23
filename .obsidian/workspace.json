@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "buildx",
+                "query": "empty commit",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -83,7 +83,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -199,9 +200,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6ba38f853873599e",
+  "active": "f95a7e683d3f4253",
   "lastOpenFiles": [
     "github-git/Docker-build-workflow.md",
+    "Terraform/Terraform-gcp-k3s-cluster-with-tailscale.md",
+    "Terraform/Terraform-kubernetes-master-init.md",
+    "github-git/git commands.md",
+    "incus/Incus mics.md",
+    "Ansible-books/Unifi-APs-update-ansible-playbook.md",
+    "Ansible-books/Shadowsocks-rust-docker-version-ansible-playbook.md",
+    "Azure-Cloud/Create a webapp with az cli - git repo.md",
+    "Azure-Cloud/Az useful links.md",
+    "Azure-Cloud/How to create a vm with az cli and ssh with entra id login.md",
     "github-git/Docker-build-multiplatform-workflow.md",
     "Docker/Docker buildx commands.md",
     "Docker/Nextcloud-installation.md",
@@ -216,19 +226,10 @@
     "incus/Incus snapshot commands.md",
     "incus/Incus container-vm commands.md",
     "incus/incus.md",
-    "incus/Incus mics.md",
-    "github-git/git commands.md",
     "github-git/github-git.md",
     "Docker/Containerize Python Application.md",
     "Docker/Fix time drift in docker container.md",
-    "Docker/Useful docker commands.md",
-    "Docker/Rancher installation.md",
-    "Docker/Install custom Xray version with Marzban and Docker Compose Advanced.md",
-    "Docker/Dockerbuild nginx example.md",
     "emby-ldap-setup-perms.png",
-    "Linux/Allow program to run on ports below 1024.md",
-    "Python/Create a requirements.txt file.md",
-    "Python/Python.md",
     "emby-ldap-image.png",
     "emby-ldap-image-2.png",
     "{FD079C19-3568-4DD2-895C-A97BCFA7D0A5}.png",

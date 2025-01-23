@@ -65,3 +65,15 @@ git push origin --delete branch-name
 ```
 git checkout branch-name -- path-or-folder
 ```
+
+## Cherry-pick commits
+```bash
+git checkout branch-name
+## Select the commit-hash with the command below
+git cherry-pick branch-name commit-hash
+```
+
+## Git revert 
+```bash
+git revert commit-hash -n
+```
