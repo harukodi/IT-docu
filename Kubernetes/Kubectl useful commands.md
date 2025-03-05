@@ -5,6 +5,10 @@
 kubectl create namespace [namespace-name]
 ```
 
+## Change the default namespace for kubectl
+```bash
+kubectl config set-context --current --namespace=[namespace-name]
+```
 
 ## List all namespaces
 ```bash

@@ -1,5 +1,5 @@
 ```bash
-scp -r * emby-server:/home/xia1997x/mics/docker-image-build; ssh emby-server -t "cd mics/docker-image-build; bash"
+scp -r . emby-server:/home/xia1997x/mics/docker-image-build; ssh emby-server -t "cd mics/docker-image-build; bash"
 ```
 
 ```bash

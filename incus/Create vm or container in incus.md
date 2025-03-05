@@ -11,3 +11,8 @@ incus launch images:ubuntu/22.04 vm-name --vm
 ```bash
 incus launch images:ubuntu/22.04 vm-name --vm --device root,size=30GiB
 ```
+
+## Change memory and cpu cores on vm
+```bash
+incus config set vm-name limits.cpu=4 limits.memory=8GiB
+```
