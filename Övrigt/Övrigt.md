@@ -14,3 +14,4 @@
 [[caddy + vless + ws example]]
 [[Caddy + vless + grpc example]]
 [[VLESS+XHTTP+CADDY]]
+[[Caddyfile example homelabb]]
