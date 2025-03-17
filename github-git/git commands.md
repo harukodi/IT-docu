@@ -77,3 +77,8 @@ git cherry-pick branch-name commit-hash
 ```bash
 git revert commit-hash -n
 ```
+
+## Git rebase (Helps to avoid conflict after a long cycle of development take changes from main to your side branch to see if you got any conflicts easier when coding on your side barnch for a long time)
+```bash
+git rebase branch-name
+```
