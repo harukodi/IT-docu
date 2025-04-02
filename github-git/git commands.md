@@ -78,11 +78,7 @@ git cherry-pick branch-name commit-hash
 git revert commit-hash -n
 ```
 
-## Stash your changes
+## Git rebase (Helps to avoid conflict after a long cycle of development take changes from main to your side branch to see if you got any conflicts easier when coding on your side barnch for a long time)
 ```bash
-git stash
-```
-## Get your changes that you stashed
-```bash
-git stash pop
+git rebase branch-name
 ```
