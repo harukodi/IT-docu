@@ -1,9 +1,8 @@
 ## Example: `Dockerfile`
 ```dockerfile
 # syntax=docker/dockerfile:1
-
-ARG PYTHON_VERSION=3.11.4
-FROM python:${PYTHON_VERSION}-slim as base
+ARG PYTHON_VERSION=3.13.2-alpine3.21
+FROM python:${PYTHON_VERSION} AS base
 
 # Prevents Python from writing pyc files.
 ENV PYTHONDONTWRITEBYTECODE=1
@@ -40,7 +39,7 @@ USER appuser
 COPY . .
 
 # Run the application.
-CMD python main.py
+CMD ["python", "main.py"]
 ```
 
 ## Example `.dockerignore`

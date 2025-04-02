@@ -23,3 +23,4 @@
 [[Change only dns netplan when using dhcp]]
 [[bash snippets]]
 [[Add user non-interactively]]
+[[Allow sudo command without password]]

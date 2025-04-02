@@ -77,3 +77,12 @@ git cherry-pick branch-name commit-hash
 ```bash
 git revert commit-hash -n
 ```
+
+## Stash your changes
+```bash
+git stash
+```
+## Get your changes that you stashed
+```bash
+git stash pop
+```

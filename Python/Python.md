@@ -1,3 +1,5 @@
 [[Parse url params example]]
 [[Create a python venv on windows and linux]]
 [[Create a requirements.txt file]]
+[[Run python file as a module]]
+[[Python substitute file example]]

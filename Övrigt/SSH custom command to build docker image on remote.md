@@ -3,5 +3,5 @@ scp -r . emby-server:/home/xia1997x/mics/docker-image-build; ssh emby-server -t 
 ```
 
 ```bash
-sudo docker buildx build --platform linux/amd64 -t myapp:latest . --push; rm -rf *; exit
+sudo docker buildx build --platform linux/amd64 -t myapp:latest . --push; rm -rf *; find . -name ".*" -delete; exit
 ```
