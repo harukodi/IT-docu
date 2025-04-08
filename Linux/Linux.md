@@ -24,3 +24,4 @@
 [[bash snippets]]
 [[Add user non-interactively]]
 [[Allow sudo command without password]]
+[[Get help with commands with apropos]]

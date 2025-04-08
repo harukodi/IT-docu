@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "github-git/git commands.md",
-                "mode": "preview",
+                "file": "gitlab/Create branch workflow.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "git commands"
+              "title": "Create branch workflow"
             }
           }
         ],
@@ -82,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "git auto",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -113,12 +113,12 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "1f8adcce93b82cf9",
@@ -232,6 +232,20 @@
   },
   "active": "3feba492d8bed47a",
   "lastOpenFiles": [
+    "github-git/git commands.md",
+    "gitlab/Create branch workflow.md",
+    "gitlab",
+    "Terraform/Terraform-K8s-GKE-cluster.md",
+    "Terraform/Terraform-DigitalOcean-kubernetes-engine.md",
+    "Terraform/Terraform-gcp-k3s-cluster-with-tailscale.md",
+    "Terraform/Terraform-tailscale.md",
+    "Terraform/Terraform-mongo-db.md",
+    "Terraform/Terraform-kubernetes-master-init.md",
+    "Linux/Install or upgrade the kernel on ubuntu.md",
+    "Linux/Linux.md",
+    "Linux/Allow sudo command without password.md",
+    "Linux/Get help with commands with apropos.md",
+    "Övrigt/SSH custom command to build docker image on remote.md",
     "Övrigt/xray-warp-ct documentation.md",
     "Övrigt/Caddyfile example homelabb.md",
     "Kubernetes/wordpress-deployment-project/wordpress-deployment.md",
@@ -240,25 +254,12 @@
     "Kubernetes/wordpress-deployment-project/mysql-deployment.md",
     "Kubernetes/wordpress-deployment-project/mysql-configmap.md",
     "Kubernetes/wordpress-deployment-project",
-    "github-git/git commands.md",
     "Docker/Docker buildx commands.md",
     "github-git/github-git.md",
     "github-git/Docker-build-workflow.md",
     "github-git/Docker-build-multiplatform-workflow.md",
     "Linux/Allow program to run on ports below 1024.md",
     "Kubernetes/Deployment.md",
-    "Övrigt/SSH custom command to build docker image on remote.md",
-    "github-git/docker-build-workflow-example.md",
-    "Docker/Dockerbuild nginx example.md",
-    "Linux/Encrypt a drive with LUKS-Cryptsetup.md",
-    "incus/Incus profile example with cloud-init and tailscale.md",
-    "Linux/Add user to root group.md",
-    "Övrigt/VLESS+XHTTP+CADDY.md",
-    "Övrigt/Just a school project.md",
-    "Python/Create a requirements.txt file.md",
-    "Python/Create a python venv on windows and linux.md",
-    "Docker/Containerize Python Application.md",
-    "Övrigt/Caddy + vless + grpc example.md",
     "emby-ldap-setup-perms.png",
     "emby-ldap-image.png",
     "emby-ldap-image-2.png",
@@ -279,7 +280,6 @@
     "Azure-Cloud",
     "Proxmox",
     "Saltstack",
-    "Pfsense",
     "UntitledUntitled.canvas",
     "Övrigt/Untitled.canvas",
     "Untitled 1.canvas"
