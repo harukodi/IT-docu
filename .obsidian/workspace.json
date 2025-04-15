@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "gitlab/Create branch workflow 9source.md",
-                "mode": "source",
+                "file": "Kubernetes/k8s notes.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Create branch workflow 9source"
+              "title": "k8s notes"
             }
           }
         ],
@@ -82,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "autocom",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -117,8 +117,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "1f8adcce93b82cf9",
@@ -232,8 +231,17 @@
   },
   "active": "3feba492d8bed47a",
   "lastOpenFiles": [
-    "github-git/git commands.md",
+    "Kubernetes/Kubectl useful commands.md",
+    "Kubernetes/k8s notes.md",
+    "Kubernetes/Service types.md",
+    "Kubernetes/Deployment.md",
+    "Kubernetes/Install Argocd on Kubernetes.md",
+    "Kubernetes/Install nginx-ingress-controller on Kubernetes with helm chart.md",
+    "Kubernetes/RBAC Kubernetes examples.md",
+    "Kubernetes/Kubernetes.md",
+    "incus/Incus mics.md",
     "gitlab/Create branch workflow 9source.md",
+    "github-git/git commands.md",
     "gitlab",
     "Terraform/Terraform-K8s-GKE-cluster.md",
     "Terraform/Terraform-DigitalOcean-kubernetes-engine.md",
@@ -250,16 +258,7 @@
     "Övrigt/Caddyfile example homelabb.md",
     "Kubernetes/wordpress-deployment-project/wordpress-deployment.md",
     "Kubernetes/wordpress-deployment-project/wordpress-deployment-project.md",
-    "Kubernetes/wordpress-deployment-project/mysql-secret.md",
-    "Kubernetes/wordpress-deployment-project/mysql-deployment.md",
-    "Kubernetes/wordpress-deployment-project/mysql-configmap.md",
     "Kubernetes/wordpress-deployment-project",
-    "Docker/Docker buildx commands.md",
-    "github-git/github-git.md",
-    "github-git/Docker-build-workflow.md",
-    "github-git/Docker-build-multiplatform-workflow.md",
-    "Linux/Allow program to run on ports below 1024.md",
-    "Kubernetes/Deployment.md",
     "emby-ldap-setup-perms.png",
     "emby-ldap-image.png",
     "emby-ldap-image-2.png",
