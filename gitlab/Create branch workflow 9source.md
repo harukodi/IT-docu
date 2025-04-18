@@ -19,3 +19,10 @@ git checkout -b <issue-number>-BUG-<bug-name>
 ```bash
 git checkout -b 34-BUG-my-bug
 ```
+
+---
+## Create CI branch workflow
+## Create a new CI branch and connect to issue number
+```bash
+git checkout -b 34-CI-branch-name
+```

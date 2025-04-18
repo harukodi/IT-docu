@@ -69,3 +69,8 @@
 - Used with Kubernetes clusters in the cloud
 - Puts a cloud loadbalancer in front of your service
 - Easier to expose your services to the public
+#### Endpointslices
+- Allows your services to maintain a list of healthy pods
+- Supports IPv4, IPv6 and FQDN
+- Allows the service to scale more efficiently for example to your backends
+- Each endpointslice allows up to 100 endpoints per default

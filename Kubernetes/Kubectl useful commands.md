@@ -61,6 +61,21 @@ kubectl get svc --namespace default
 ```bash
 kubectl get replicasets
 ```
+## Show endpointslices for services
+```bash
+kubectl get endpointslices
+```
+
+---
+# Ingress
+## Show ingressclasses
+```bash
+kubectl get ingressclass
+```
+## Show ingress objects
+```bash
+kubectl get ingress
+```
 
 ---
 # Rollouts and roll backs
