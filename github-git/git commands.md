@@ -82,3 +82,8 @@ git revert commit-hash -n
 ```bash
 git rebase branch-name
 ```
+
+## Update local ref branches
+```bash
+git fetch -p
+```

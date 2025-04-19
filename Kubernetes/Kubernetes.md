@@ -6,3 +6,4 @@
 [[RBAC Kubernetes examples]]
 [[Install Argocd on Kubernetes]]
 [[wordpress-deployment-project]]
+[[small-deployment-project]]
