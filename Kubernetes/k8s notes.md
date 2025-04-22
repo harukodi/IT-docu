@@ -74,3 +74,18 @@
 - Supports IPv4, IPv6 and FQDN
 - Allows the service to scale more efficiently for example to your backends
 - Each endpointslice allows up to 100 endpoints per default
+
+---
+### Wasm VS Containers
+#### Wasm
+- Build once run everywhere
+- Application is run in a deny default manner
+- You need to specify what permissions you want.
+- Permissions are not wide open like on a docker container
+- Has its own bytecode and needed runtime to run the applications
+- Smaller faster and actually portable
+#### Containers
+- Wide open permissions
+- Images needs to be built for different archs
+- Not really portable due to the need of different arch builds
+- More images to handle than Wasm binary

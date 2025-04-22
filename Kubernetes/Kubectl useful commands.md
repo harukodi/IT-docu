@@ -35,7 +35,18 @@ kubectl apply -f config-file.yaml
 kubectl delete -f config-file.yaml
 ```
 
-
+---
+# Labeling
+## Label a node
+```bash
+kubectl label nodes [node] [label_name]=[label_value]
+```
+**NOTE:** Do not include the brackets `[]`
+## Show node labels
+```bash
+kubectl get nodes --show-labels
+```
+---
 ## Fetch your secrets
 ```bash
 kubectl get secrets

@@ -16,6 +16,8 @@ spec:
      labels:
        app: small-app
    spec:
+     #nodeSelector:
+     #  storage: "yes"
      containers:
      - name: small-app
        image: xia1997x/pub:small-app-v2
