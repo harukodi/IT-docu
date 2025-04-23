@@ -76,6 +76,7 @@ kubectl get replicasets
 ```bash
 kubectl get endpointslices
 ```
+**NOTE:** Used to show endpoints for services
 
 ---
 # Ingress
