@@ -28,6 +28,21 @@
 - How you get to your desired state is managed by kubernetes
 - Less errors easier to manage deployments and pods
 ---
+
+# Init and sidecar containers
+### Init containers
+**NOTE:** Defined under `spec.initContainers` in the yaml file
+- Are run before the main container/s
+- Multiple init containers can be defined before the main container starts
+- Init containers are run in the order they are specified in the yaml file
+- Uses cases for init containers (Waiting for a redis cluster to come up)/(DB migration)
+### Sidecar containers
+**NOTE:** Defined under `spec.containers` in the yaml file
+- Sidecar container always run alongside your main app container
+- To make it a sidecar container set the `restartPolicy: Always` on the pod-level or container-level
+- Sidecar container is like a (sidecar motorcycle)
+- Uses cases for sidecar containers, Loggin agents, Proxies, File syncers, Metric exporters
+
 ## Deployment with ReplicaSet
 - `spec.revisionHistoryLimit` Tells Kubernetes to keep a number of previous ReplicaSets so you can roll back. Keep in mind, storing too many ReplicaSets can bloat the object, especially in larger clusters with frequent releases.
 
