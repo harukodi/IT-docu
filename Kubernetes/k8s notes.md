@@ -64,6 +64,9 @@
 - Services are used becuase connecting directly to running pods is not reliable.
 - A service object sits in front of one or more identical pods to give them a reliable DNS name, IP address and a port.
 - Services also knows which pods are healthy and which ones that aren't, if pods are unhealthy the service will not forward traffic to them.
+- Service names must be unique within the same namespace for dns to work.
+- Same service name is allowed if you seperate your services in their own namespaces.
+- To access the same service name but on a different namespace you do as following when you set up your dns endpoint `<object-name>.<namespace>.svc.cluster.local`.
 
 ### Service types
 #### ClusterIP

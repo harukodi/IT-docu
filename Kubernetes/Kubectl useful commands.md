@@ -16,7 +16,10 @@ kubectl config set-context --current --namespace=[namespace-name]
 ```bash
 kubectl get pods --all-namespaces
 ```
-
+## Show all resources in a namespace
+```bash
+kubectl get all --namespace [namespace-name]
+```
 
 ## Retrieve details on your nodes
 ```bash
@@ -29,7 +32,10 @@ kubectl get nodes
 kubectl apply -f config-file.yaml
 ```
 
-
+## Launch a troubleshooting container for Kubernetes
+```bash
+kubectl run -it xia1997x-k8s-small-utils --restart=Never --rm --image=xia1997x/pub:k8s-small-utils -- /bin/bash
+```
 ## Delete a resource
 ```bash
 kubectl delete -f config-file.yaml

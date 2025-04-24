@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes/k8s notes.md",
+                "file": "Kubernetes/Kubectl useful commands.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "k8s notes"
+              "title": "Kubectl useful commands"
             }
           }
         ],
@@ -96,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "buildx",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -245,6 +245,12 @@
   },
   "active": "e041c149349037bf",
   "lastOpenFiles": [
+    "Docker/Docker buildx commands.md",
+    "Kubernetes/Kubectl useful commands.md",
+    "Kubernetes/Install nginx-ingress-controller on Kubernetes with helm chart.md",
+    "Kubernetes/Install Argocd on Kubernetes.md",
+    "Kubernetes/Kubernetes.md",
+    "Kubernetes/k8s notes.md",
     "Kubernetes/small-deployment-project/deployment.md",
     "Kubernetes/small-deployment-project/lb.md",
     "Kubernetes/small-deployment-project/What was learned with this small deployment.md",
@@ -253,24 +259,18 @@
     "github-git/git commands.md",
     "Ansible-books/Ansible.md",
     "Pfsense/Add DNS over TLS In Pfsense.md",
-    "Kubernetes/k8s notes.md",
     "Kubernetes/Service types.md",
     "Kubernetes/RBAC Kubernetes examples.md",
-    "Kubernetes/Kubectl useful commands.md",
-    "Kubernetes/Kubernetes.md",
     "Kubernetes/wordpress-deployment-project/wordpress-deployment-project.md",
     "Kubernetes/wordpress-deployment-project/mysql-secret.md",
     "Kubernetes/wordpress-deployment-project/mysql-configmap.md",
     "Kubernetes/wordpress-deployment-project/mysql-deployment.md",
     "Kubernetes/wordpress-deployment-project/wordpress-deployment.md",
-    "Docker/Docker buildx commands.md",
     "gitlab/Create branch workflow 9source.md",
     "Python/Create a requirements.txt file.md",
     "Python/Run python file as a module.md",
     "Python/Python substitute file example.md",
     "Python/Parse url params example.md",
-    "Kubernetes/Install nginx-ingress-controller on Kubernetes with helm chart.md",
-    "Kubernetes/Deployment.md",
     "Kubernetes/small-deployment-project",
     "gitlab",
     "Kubernetes/wordpress-deployment-project",
