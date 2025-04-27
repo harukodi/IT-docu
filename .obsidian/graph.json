@@ -111,6 +111,13 @@
         "a": 1,
         "rgb": 16777215
       }
+    },
+    {
+      "query": "path:gitlab  ",
+      "color": {
+        "a": 1,
+        "rgb": 16777215
+      }
     }
   ],
   "collapse-display": true,
@@ -123,6 +130,6 @@
   "repelStrength": 13.5416666666667,
   "linkStrength": 1,
   "linkDistance": 145,
-  "scale": 0.4756505027331264,
+  "scale": 0.2844631550905114,
   "close": true
 }
