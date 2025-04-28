@@ -41,6 +41,10 @@ kubectl run -it xia1997x-k8s-small-utils --restart=Never --rm --image=xia1997x/p
 kubectl delete -f config-file.yaml
 ```
 
+## Get logs for specific containers.
+```bash
+kubectl logs -f -l app=[label-selector] --all-containers=true
+```
 ---
 # Labeling
 ## Label a node

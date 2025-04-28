@@ -94,6 +94,13 @@
 - Each endpointslice allows up to 100 endpoints per default
 
 ---
+## liveness and readiness probes
+### liveness probe
+- A `liveness probe` checks if the pod is still alive. If the pod does not respond to the probe, Kubernetes will restart it to ensure the application stays available.
+### readiness probe
+- A `readiness probe` checks if the pod is ready to receive traffic. If the pod is not ready, Kubernetes will not route traffic to it, ensuring that only healthy pods receive traffic.
+
+---
 ### Wasm VS Containers
 #### Wasm
 - Build once run everywhere

@@ -53,10 +53,14 @@
             "id": "e041c149349037bf",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Kubernetes/k8s notes.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "k8s notes"
             }
           }
         ],
@@ -92,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "empty commit",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -127,7 +131,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 246.50469207763672
   },
   "right": {
     "id": "1f8adcce93b82cf9",
@@ -241,6 +245,13 @@
   },
   "active": "e041c149349037bf",
   "lastOpenFiles": [
+    "Kubernetes/small-deployment-project/What was learned with this small deployment.md",
+    "Kubernetes/small-deployment-project/deployment-test-probes example.md",
+    "Kubernetes/Kubectl useful commands.md",
+    "Kubernetes/Untitled.md",
+    "Ansible-books/Unifi-APs-update-ansible-playbook.md",
+    "Linux/Allow sudo command without password.md",
+    "Linux/Linux.md",
     "Kubernetes/small-deployment-project/small-deployment-project.md",
     "Kubernetes/small-deployment-project/deployment.md",
     "gitlab/gitlab.md",
@@ -260,13 +271,6 @@
     "github-git/git commands.md",
     "github-git/Docker-build-workflow.md",
     "github-git/Docker-build-multiplatform-workflow.md",
-    "Docker/Docker buildx commands.md",
-    "Kubernetes/Kubectl useful commands.md",
-    "Kubernetes/Install nginx-ingress-controller on Kubernetes with helm chart.md",
-    "Kubernetes/Install Argocd on Kubernetes.md",
-    "Kubernetes/Kubernetes.md",
-    "Kubernetes/k8s notes.md",
-    "Kubernetes/small-deployment-project/lb.md",
     "Kubernetes/small-deployment-project",
     "gitlab",
     "Kubernetes/wordpress-deployment-project",
