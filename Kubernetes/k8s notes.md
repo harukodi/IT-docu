@@ -114,3 +114,73 @@
 - Images needs to be built for different archs
 - Not really portable due to the need of different arch builds
 - More images to handle than Wasm binary
+
+---
+## Volume access modes
+`PVC=Persistent Volume Claim` A request from a pod for how much storage it needs. The user can also set the PVC's access mode.
+`PV=Persistent Volume` A pice of storage allocated by an admin or via a StorageClass.
+`SC=StorageClass` Represents storage tiers when creating volumes.
+### ReadWriteOnce (RWO)
+- A single PVC is allowed to bind to a volume with read-write mode (R/W). 
+- If you try to bind it from multiple PVCs the bind will fail for that volume
+### ReadWriteMany (RWM)
+- Multiple PVCs are allowed to bind to a volume, with read-write(R/W) mode.
+- File and object storage usually supports this mode.
+- block storage usually dont allow this mode
+### ReadOnlyMany (ROM)
+- Allows multiple PVCs to bind to the volume with read-only(R/O) mode.
+
+## Reclaim Policies
+### Delete
+- Is the defualt method when a PVC is released.
+- Deletes the PV and associated external storage
+- Deleting the PVC will also delete the PV and the external storage
+- Use with caution
+### Retain
+- Will keep the PV and the external storage after the PVC is deleted.
+- Safe as it wont delete the external storage and the volume when the PVC is released
+- You will need to reclaim it manually after you release the PVC
+**NOTE:** Steps to reclaim the volume according to the k8s docs
+1. Delete the PersistentVolume. The associated storage asset in external infrastructure still exists after the PV is deleted.
+2. Manually clean up the data on the associated storage asset accordingly.
+3. Manually delete the associated storage asset.
+---
+## ConfigMaps and Secrets
+### ConfigMaps
+`ConfigMaps are injected in to containers at runtime`
+- Stores non sensitive data
+- Hostnames
+- Service names and services ports
+- Account names
+- Environment variables
+- Configuration files, web server configs and database configs
+- Can be mounted as a volume
+- **DO NOT USE ConfigMaps to store certs or passwords**
+### Secrets
+- Can be used to store passawords and certs
+- Uses base64 to encode data `dataString` can be used if plain text is preferred
+- Secrets are not encrypted in the cluster store or while in flight over the network
+- `BASE64` is NOT an encryption
+- Can be mounted as a volume
+- Usually secrets are stored outside of kubernetes for example `Hashicorp Vault`
+
+---
+## StatefulSets
+**NOTES:** Has the same features as a Deployment, like self-healing, rollouts, scaling, and more. However, if you are using a Deployment, you will not have the following three features of a StatefulSet.
+
+- Allows predictable and persistent Pod names and DNS names
+- Allows predictable and persistent volume bindings
+- Allows predictable startup and shutdown order of the pods
+- When scalling down the pod with the highest index number will get terminated
+
+The three mentioned features will be kept if a pod fails, is scaled, or during other scheduling events.
+### StatefulSet and Deployment order: creation and deletion of pods
+- ``StatefulSet`` creates one pod at a time and waits for it to start up before moving on to creating and starting other pods
+- ``Deployment`` Uses a ReplicaSet controller to start all the pods at the same time, this can result in race conditions
+### StatefulSet and DNS resolution with headless service
+- ``<pod-name>.<service-name>`` You can use this method to ping the endpoint from a jump container, but it only works if the service is in the **same namespace** as the `StatefulSet`.
+- ``<object-name>.<service-name>.<namespace>.svc.cluster.local`` Use this method to ping the endpoint from a jump container when the `StatefulSet` and the service are in **different namespaces**.
+
+**SELF NOTES:** I think we use a headless service because a ClusterIP shouldn't be given to the service, as the pods in a StatefulSet already have their own IPs. Therefore, it is not feasible to have an IP on a service, as load balancing will happen — but with StatefulSets, this may not be desired. We also just want the headless service to be a governor over the DNS names created for each pod and their own IPs.
+
+---

@@ -139,3 +139,22 @@ kubectl exec -it [pod-name] -- [shell-type]
 **Extra flag:**
 - --container `This flag can be used if you are running a multi-container Pod` 
 - --it `This flag can be used to get an interactive shell to a container`
+---
+## StorageClasses, PVs and PVCs
+## Show your StorageClasses
+```bash
+kubectl get storageclasses
+```
+## Get the description of a storage class
+```bash
+kubectl describe storageclass [storage-class-name]
+```
+---
+## ConfigMaps and Secrets
+```bash
+kubectl create configmap [configmap-name] --from-literal [key=value]
+```
+
+---
+# kubectl flags
+- `--watch` start watching updates to a particular object ex pods
