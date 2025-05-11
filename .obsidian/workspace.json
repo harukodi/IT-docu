@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes/k8s notes.md",
-                "mode": "source",
+                "file": "Linux/Add nofail disk to fstab.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "k8s notes"
+              "title": "Add nofail disk to fstab"
             }
           }
         ],
@@ -96,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "nofail",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -127,7 +127,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -245,18 +246,24 @@
   },
   "active": "e041c149349037bf",
   "lastOpenFiles": [
-    "Kubernetes/Kubectl useful commands.md",
-    "Kubernetes/Kubernetes.md",
-    "Kubernetes/k8s notes.md",
-    "Docker/Containerize Python Application.md",
+    "Linux/Usefull commands for disk managment.md",
+    "Linux/Linux.md",
+    "Övrigt/Minecraft-server-docker-compose.md",
     "Python/FastAPI basic auth.md",
+    "Linux/Unsorted Linux commands..md",
+    "Kubernetes/k8s notes.md",
+    "Kubernetes/Kubectl useful commands.md",
+    "github-git/git commands.md",
+    "Övrigt/Övrigt.md",
+    "Övrigt/xray with warp config example.md",
+    "Kubernetes/Kubernetes.md",
+    "Docker/Containerize Python Application.md",
     "Övrigt/xray-warp-ct documentation.md",
     "Övrigt/vless + grpc + ws example with 1-3 fragment.md",
     "Övrigt/Caddy + vless + grpc example.md",
     "Docker/Caddy server installation.md",
     "Linux/Add user to root group.md",
     "Linux/Add user non-interactively.md",
-    "github-git/git commands.md",
     "Docker/Test build with mounted files for debug.md",
     "Docker/Docker buildx commands.md",
     "Kubernetes/small-deployment-project/small-deployment-project.md",
@@ -265,12 +272,6 @@
     "Kubernetes/small-deployment-project/lb.md",
     "Kubernetes/small-deployment-project/deployment.md",
     "Kubernetes/Install nginx-ingress-controller on Kubernetes with helm chart.md",
-    "Kubernetes/small-deployment-project/What was learned with this small deployment.md",
-    "Kubernetes/RBAC Kubernetes examples.md",
-    "Kubernetes/Service types.md",
-    "Pulumi/pulumi Digital-Ocean python example.md",
-    "Terraform/Terraform-DigitalOcean-kubernetes-engine.md",
-    "Terraform/Terraform-Azure-Vm.md",
     "Kubernetes/small-deployment-project",
     "gitlab",
     "Kubernetes/wordpress-deployment-project",

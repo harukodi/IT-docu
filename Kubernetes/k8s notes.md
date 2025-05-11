@@ -184,3 +184,29 @@ The three mentioned features will be kept if a pod fails, is scaled, or during o
 **SELF NOTES:** I think we use a headless service because a ClusterIP shouldn't be given to the service, as the pods in a StatefulSet already have their own IPs. Therefore, it is not feasible to have an IP on a service, as load balancing will happen — but with StatefulSets, this may not be desired. We also just want the headless service to be a governor over the DNS names created for each pod and their own IPs.
 
 ---
+# RBAC and Admission controller
+## Roles and RoleBindings
+### Roles
+- Defines a set of permissions within a particular namespace. Roles does nothing unless you bind them to a user.
+### RoleBindings 
+- Binds the permissions to a user, when you want to bind a ``role`` you do it with a RoleBinding. A RoleBinding grants permissions within a specific namespace.
+### Roles object
+- ``verbs`` = Actions that are allowed on a kubernetes cluster like get watch and list.
+- ``apiGroups`` = This can be seen as what groups of **API endpoints (resources)** the Role applies to. For example, ``apps`` is an API group, which contains endpoints like deployments, statefulsets, etc.
+- ``resources`` = Specific resource(s) the role should apply to within the given apiGroup(s), like deployment or pods etc.
+## ClusterRole and ClusterRoleBinding
+### ClusterRole object
+- Allows you to create a role for the whole cluster.
+- Can be reused with a RoleBinding to have this ClusterRole on multiple namespaces.
+### ClusterRoleBinding
+- Grants permissions on the whole cluster.
+- If you want to bind a ClusterRole to all the namespaces in your cluster, you use a ClusterRoleBinding.
+
+## Admission controller
+The **Admission Controller** checks the API request before it’s persisted to the cluster. Policies are evaluated before a resource is created. These checks are run after authorization.
+Admission controllers are used to enforce policies such as:
+- A policy that requires images to be pulled always with the image policy set to `AlwaysPull`
+- A policy that requires pods to have a specific label, such as `prod`
+
+**SELF NOTES:** You can use **ClusterRoles** with **RoleBindings** to define common roles once and then reuse the same permissions across multiple namespaces.  
+**Roles** are namespaced objects, meaning you can only reference them from a **RoleBinding** within the same namespace. **ClusterRoles** and **ClusterRoleBindings** are cluster-wide objects that can be applied across the entire cluster and all its namespaces.

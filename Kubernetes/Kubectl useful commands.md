@@ -156,5 +156,18 @@ kubectl create configmap [configmap-name] --from-literal [key=value]
 ```
 
 ---
+# Api resources
+## List all API resources and their supported verbs
+```bash
+kubectl api-resources --sort-by name -o wide
+```
+## Get resources of specific apiGroup
+```
+kubectl api-resources --sort-by name -o wide | grep [api-group]
+```
+### Example to get resources of specific apiGroup
+`kubectl api-resources --sort-by name -o wide | grep apps`
+
+---
 # kubectl flags
 - `--watch` start watching updates to a particular object ex pods
