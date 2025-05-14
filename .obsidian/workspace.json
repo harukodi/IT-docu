@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "incus/Incus snapshot commands.md",
+                "file": "Övrigt/Caddy example with more routes and redirection with cloudflare.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Incus snapshot commands"
+              "title": "Caddy example with more routes and redirection with cloudflare"
             }
           }
         ],
@@ -96,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "chmod",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -131,7 +131,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 246.50469207763672
+    "width": 200
   },
   "right": {
     "id": "1f8adcce93b82cf9",
@@ -245,9 +245,13 @@
   },
   "active": "e041c149349037bf",
   "lastOpenFiles": [
+    "Övrigt/Caddyfile example homelabb.md",
+    "Övrigt/xray-warp-ct documentation.md",
+    "incus/Create VM or Container on a different storage pool.md",
+    "incus/Incus profile example with cloud-init and tailscale.md",
+    "incus/Incus snapshot commands.md",
     "incus/Incuse network commands.md",
     "incus/Create vm or container in incus.md",
-    "incus/Incus profile example with cloud-init and tailscale.md",
     "incus/Incus container-vm commands.md",
     "Kubernetes/k8s notes.md",
     "Kubernetes/Service types.md",
@@ -266,11 +270,7 @@
     "Övrigt/xray with warp config example.md",
     "Kubernetes/Kubernetes.md",
     "Docker/Containerize Python Application.md",
-    "Övrigt/xray-warp-ct documentation.md",
     "Övrigt/vless + grpc + ws example with 1-3 fragment.md",
-    "Övrigt/Caddy + vless + grpc example.md",
-    "Docker/Caddy server installation.md",
-    "Linux/Add user to root group.md",
     "Kubernetes/small-deployment-project",
     "gitlab",
     "Kubernetes/wordpress-deployment-project",
