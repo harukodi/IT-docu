@@ -210,3 +210,67 @@ Admission controllers are used to enforce policies such as:
 
 **SELF NOTES:** You can use **ClusterRoles** with **RoleBindings** to define common roles once and then reuse the same permissions across multiple namespaces.  
 **Roles** are namespaced objects, meaning you can only reference them from a **RoleBinding** within the same namespace. **ClusterRoles** and **ClusterRoleBindings** are cluster-wide objects that can be applied across the entire cluster and all its namespaces.
+
+---
+
+# Threat modeling
+## STRIDE:
+- ``Spoofing`` = This attack vector involves impersonating a user to gain elevated permissions and bypass system restrictions.
+- ``Tampering`` = To change a resource in a malicious way to cause a DOS or Elevation of privilege.
+- ``Repudiation`` = Creates doubt about some action made to the Kubernets cluster. non-repudiation is a proof that an action was carried out by a specific person and their actions to the cluster.
+	- What happened
+	- When it happened
+	- Who made it happen
+	- Where it happened
+	- Why it happened
+	- How it happened
+- ``Information disclosure`` = This occurs when sensitive data is leaked — for example, through an open API endpoint that shouldn't be accessible from the public internet or one that lacks proper authentication.
+- ``Denial of service`` = This is when a service is made unavailable — for example, by repeatedly pinging the server until it crashes or becomes unresponsive.
+- ``Elevation of privilege`` = This is when you gain higher privileges than what was originally granted. The aim is to cause damage or gain unauthorized access to resources that you shouldn't have access to.
+
+## Extra tips for where to get audit logs
+- Collect logs from container runtimes.
+- Use agents with DaemonSet to collect metrics over the kubernetes nodes. This also helps to get your audit logs centralized in one place.
+- Use the Kubernetes API to get audits on event that occurred.
+- Kubelets also provides audit logs.
+- In your applications have some sort of audit logs.
+- You should also audit non-Kubernetes infrastructure, such as external components like your firewalls or CDNs.
+## Reduce tampering attempts in Kubernetes.
+- Restrict access to the server running k8s components.
+- Restrict access to repos that holds k8s configs.
+- Perform bootstrapping over SSH (Protect your SSH keys).
+- Run SHA-2 on files that you download to check their integrity.
+- Restrict access to image repos and other repos
+- Set file system to read-only on a pod, use securityContext to configure more access rules for the filesystem of a pod.
+### securityContext
+- ``readOnlyRootFilesystem`` Makes the containers root file system read-only
+- `allowedHostPaths` Is the same as the above but you can do this for other paths in the container.
+- ``runAsUser`` Can be set to run a container as a non-root user
+- `allowPrivilegeEscalation` This prevents privilege escalation within containers.
+
+## Pod Security Standards (PSS)
+Every Kubernetes cluster gets the following three PSS policies that are maintained and kept up-to-date by the community:
+- Privileged
+- Baseline
+- Restricted
+``Privileged`` is a wide-open allow-all policy. 
+
+``Baseline`` implements sensible defaults. It’s more secure than the privileged policy but less secure than restricted. 
+
+``Restricted`` is the gold standard that implements the current Pod security best practices. Be warned though, it’s highly restricted, and lots of Pods will fail to meet its strict requirements.
+
+## Pod Security Admission (PSA)
+Pod Security Admission (PSA) enforces your desired PSS policies. It works at the Namespace level and is implemented as a validating admission controller.
+
+PSA offers three enforcement modes:
+- ``Warn``: Allows violating Pods to be created but issues a user-facing warning
+- ``Audit``: Allows violating Pods to be created but logs an audit event
+- ``Enforce``: Rejects Pods if they violate the policy
+
+Apply the following label to a namespace to enable the `baseline` policy:
+```bash
+pod-security.kubernetes.io/warn: baseline
+```
+This allows pods that do not meet the policy requirements to run, but a user-facing warning will be generated. This can help identify and adjust pods or containers to comply with the policy.
+## ETC
+`automountServiceAccountToken: False` Can be used if a pod in the kubernetes cluster do not need to talk to the k8s API. 

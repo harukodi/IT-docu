@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Add nofail disk to fstab.md",
+                "file": "incus/Incus snapshot commands.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Add nofail disk to fstab"
+              "title": "Incus snapshot commands"
             }
           }
         ],
@@ -96,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "nofail",
+                "query": "chmod",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -127,8 +127,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -246,12 +245,21 @@
   },
   "active": "e041c149349037bf",
   "lastOpenFiles": [
+    "incus/Incuse network commands.md",
+    "incus/Create vm or container in incus.md",
+    "incus/Incus profile example with cloud-init and tailscale.md",
+    "incus/Incus container-vm commands.md",
+    "Kubernetes/k8s notes.md",
+    "Kubernetes/Service types.md",
+    "Kubernetes/Install Argocd on Kubernetes.md",
+    "Linux/Add cifs mount.md",
+    "Docker/Delayed starting of Docker service.md",
+    "Linux/Add nofail disk to fstab.md",
     "Linux/Usefull commands for disk managment.md",
     "Linux/Linux.md",
     "Övrigt/Minecraft-server-docker-compose.md",
     "Python/FastAPI basic auth.md",
     "Linux/Unsorted Linux commands..md",
-    "Kubernetes/k8s notes.md",
     "Kubernetes/Kubectl useful commands.md",
     "github-git/git commands.md",
     "Övrigt/Övrigt.md",
@@ -263,15 +271,6 @@
     "Övrigt/Caddy + vless + grpc example.md",
     "Docker/Caddy server installation.md",
     "Linux/Add user to root group.md",
-    "Linux/Add user non-interactively.md",
-    "Docker/Test build with mounted files for debug.md",
-    "Docker/Docker buildx commands.md",
-    "Kubernetes/small-deployment-project/small-deployment-project.md",
-    "Kubernetes/small-deployment-project/deployment-test-probes example.md",
-    "Kubernetes/small-deployment-project/deployment-svc.md",
-    "Kubernetes/small-deployment-project/lb.md",
-    "Kubernetes/small-deployment-project/deployment.md",
-    "Kubernetes/Install nginx-ingress-controller on Kubernetes with helm chart.md",
     "Kubernetes/small-deployment-project",
     "gitlab",
     "Kubernetes/wordpress-deployment-project",
