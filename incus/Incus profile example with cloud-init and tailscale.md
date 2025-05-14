@@ -38,3 +38,7 @@ project: default
 ```bash
 incus launch images:ubuntu/22.04/cloud CONTAINER-NAME < base.yaml
 ```
+## Start the incus vm with this command
+```bash
+incus launch images:ubuntu/22.04/cloud VM-NAME --vm --device root,size=30GiB < base.yaml
+```
