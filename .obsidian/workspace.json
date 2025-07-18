@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Övrigt/Caddy example with more routes and redirection with cloudflare.md",
+                "file": "Linux/Linux.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Caddy example with more routes and redirection with cloudflare"
+              "title": "Linux"
             }
           }
         ],
@@ -96,8 +96,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
-                "matchingCase": true,
+                "query": "nvidia",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
                 "extraContext": false,
@@ -127,11 +127,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 356.5046920776367
   },
   "right": {
     "id": "1f8adcce93b82cf9",
@@ -243,34 +244,34 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e041c149349037bf",
+  "active": "f95a7e683d3f4253",
   "lastOpenFiles": [
-    "Övrigt/Caddyfile example homelabb.md",
-    "Övrigt/xray-warp-ct documentation.md",
-    "incus/Create VM or Container on a different storage pool.md",
-    "incus/Incus profile example with cloud-init and tailscale.md",
-    "incus/Incus snapshot commands.md",
-    "incus/Incuse network commands.md",
-    "incus/Create vm or container in incus.md",
-    "incus/Incus container-vm commands.md",
-    "Kubernetes/k8s notes.md",
-    "Kubernetes/Service types.md",
-    "Kubernetes/Install Argocd on Kubernetes.md",
-    "Linux/Add cifs mount.md",
-    "Docker/Delayed starting of Docker service.md",
-    "Linux/Add nofail disk to fstab.md",
+    "Linux/Install nvidia drivers for ubuntu server.md",
+    "Docker/Fix time drift in docker container.md",
+    "Linux/Change interface speed and duplex with ethtool.md",
+    "Linux/Rerun command with watch.md",
+    "Linux/scp copy file from remote to source host.md",
+    "Linux/Create 1GB garbage file with dd.md",
     "Linux/Usefull commands for disk managment.md",
-    "Linux/Linux.md",
-    "Övrigt/Minecraft-server-docker-compose.md",
-    "Python/FastAPI basic auth.md",
-    "Linux/Unsorted Linux commands..md",
-    "Kubernetes/Kubectl useful commands.md",
-    "github-git/git commands.md",
-    "Övrigt/Övrigt.md",
-    "Övrigt/xray with warp config example.md",
-    "Kubernetes/Kubernetes.md",
+    "Ansible-books/Shadowsocks-rust-docker-version-ansible-playbook.md",
     "Docker/Containerize Python Application.md",
+    "Linux/Linux.md",
+    "Övrigt/xray with warp config example.md",
+    "Övrigt/Övrigt.md",
+    "Övrigt/xray-warp-ct documentation.md",
+    "Övrigt/caddy + vless + ws example.md",
+    "Övrigt/Caddy + vless + grpc example.md",
+    "Linux/Add user to root group.md",
+    "Linux/Run sudo command without a password.md",
+    "Docker/Docker buildx commands.md",
+    "Docker/Delayed starting of Docker service.md",
+    "Docker/Test build with mounted files for debug.md",
+    "Övrigt/VLESS+XHTTP+CADDY.md",
     "Övrigt/vless + grpc + ws example with 1-3 fragment.md",
+    "Övrigt/Jellyfin LDAP filters.md",
+    "Övrigt/Caddy example with more routes and redirection with cloudflare.md",
+    "Övrigt/SSH custom command to build docker image on remote.md",
+    "Övrigt/Setup LDAP on Emby example.md",
     "Kubernetes/small-deployment-project",
     "gitlab",
     "Kubernetes/wordpress-deployment-project",

@@ -253,6 +253,7 @@ Every Kubernetes cluster gets the following three PSS policies that are maintain
 - Privileged
 - Baseline
 - Restricted
+
 ``Privileged`` is a wide-open allow-all policy. 
 
 ``Baseline`` implements sensible defaults. It’s more secure than the privileged policy but less secure than restricted. 
@@ -267,10 +268,28 @@ PSA offers three enforcement modes:
 - ``Audit``: Allows violating Pods to be created but logs an audit event
 - ``Enforce``: Rejects Pods if they violate the policy
 
-Apply the following label to a namespace to enable the `baseline` policy:
+### Apply the following labels to a namespace to enable the desired policy:
+#### Restricted with warn
+```bash
+pod-security.kubernetes.io/warn: restricted
+```
+#### Restricted with enforce
+```bash
+pod-security.kubernetes.io/enforce: restricted
+```
+#### Baseline with warn
 ```bash
 pod-security.kubernetes.io/warn: baseline
 ```
-This allows pods that do not meet the policy requirements to run, but a user-facing warning will be generated. This can help identify and adjust pods or containers to comply with the policy.
+#### Baseline with enforce
+```bash
+pod-security.kubernetes.io/enforce: baseline
+```
+When using warn it allows pods that do not meet the policy requirements to run, but a user-facing warning will be generated. This can help identify and adjust pods or containers to comply with the policy.
+### Some alternatives to Kubernetes' own Pod Security Admission (PSA):
+- Kubewarden
+- OPA Gatekeeper
+- Kyverno
+
 ## ETC
 `automountServiceAccountToken: False` Can be used if a pod in the kubernetes cluster do not need to talk to the k8s API. 

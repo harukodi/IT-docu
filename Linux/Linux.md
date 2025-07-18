@@ -25,3 +25,6 @@
 [[Add user non-interactively]]
 [[Allow sudo command without password]]
 [[Get help with commands with apropos]]
+[[Change interface speed and duplex with ethtool]]
+[[Install nvidia drivers for ubuntu server]]
+[[scp copy file from remote to source host]]
